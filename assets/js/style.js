@@ -8,5 +8,27 @@ $(document).ready(function() {
     //     gutter: 0, // Spacing from edge
     //     belowOrigin: false // Displays dropdown below the button
     // });
-    $(".dropdown-button").dropdown();
+    $('.dropdown-button').dropdown({
+        hover: true,
+        gutter: 0, // Spacing from edge
+        belowOrigin: true
+    });
 });
+
+// sticky navigation bar
+if ($('body').has('navbar')) {
+    var targetPos = $('#navigation').offset().top;
+
+    $(window).scroll(function() {
+        var scrollPos = $(this).scrollTop();
+        if (scrollPos > targetPos) {
+            $('#navigation').addClass('fixed-nav');
+        } else {
+            $('#navigation').removeClass('fixed-nav');
+        }
+    });
+
+    $(window).resize(function() {
+        targetPos = $('#navigation').offset().top;
+    });
+}

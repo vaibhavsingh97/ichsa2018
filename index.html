@@ -9,11 +9,12 @@
     <!-- <meta name="theme-color" content="#6284F3"> -->
     <link rel="shortcut icon" href="#!">
     <title>ICHSA 2018 | BML Munjal University</title>
-
+    <!-- <meta name="alexaVerifyID" content="#!"/> -->
     <!-- Meta content -->
     <meta itemprop="name" content="ICHSA 2018">
     <meta itemprop="inLanguage" content="en">
     <meta itemprop="description" content="ICHSA is a four year old international conference. ICHSA was first held in 2014 at Korea University, Seoul, South Korea and attracted a large number of researchers from different part of the world.">
+    <meta name="keywords" content="conference, BML Munjal University, ICHSA 2018, Korea">
     <meta itemprop="startDate" content="2018-02-07">
     <meta itemprop="endDate" content="2018-02-09">
     <meta itemprop="url" content="#!">
@@ -44,6 +45,39 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Event",
+            "name": "International Conference on Harmony search, Soft Computing and Applications (ICHSA 2018).",
+            "url": "#!",
+            "logo": "#!",
+            "startDate": "2018-02-07T00:00",
+            "endDate": "2018-02-09T00:00",
+            "sameAs": [
+                "https://www.facebook.com/ICHSA",
+                "https://twitter.com/ICHSA",
+                "https://plus.google.com/ICHSA",
+                "https://instagram.com/ICHSA",
+                "https://www.pinterest.com/ICHSA"
+            ],
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "BML Munjal Univeristy",
+                    "addressRegion": "Gurgaon, India",
+                    "postalCode": "122413",
+                    "streetAddress": "National Highway 8, 67 KM Milestone"
+                },
+                "contactPoint": [{
+                    "@type": "ContactPoint",
+                    "telephone": "1800-198-1345",
+                    "contactType": "customer service"
+                }]
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -70,51 +104,140 @@
         }(document, 'script', 'facebook-jssdk'));
     </script> -->
     <!-- End Facebook -->
-
-    <!-- Navbar -->
+    <!-- <header> -->
     <header>
-        <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper teal z-depth-2">
-                    <div class="container">
-                        <a href="#!" class="brand-logo">ICHSA 2018</a>
-                        <ul class="right hide-on-med-and-down">
-                            <li><a href="#!">Link 1</a></li>
-                            <li><a href="#!">Link 2</a></li>
-                            <li><a href="#!">Link 3</a></li>
-                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 4<i class="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a href="#!">Link 5</a></li>
-                            <li><a href="#!">Link 6</a></li>
-                            <li><a href="#!">Link 7</a></li>
-                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 8<i class="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a href="#!">Link 9</a></li>
-                        </ul>
-                        <!-- Mobile navigation -->
-                        <ul id="slide-out" class="side-nav">
-                            <li><a href="#!">Link 1</a></li>
-                            <li><a href="#!">Link 2</a></li>
-                            <li><a href="#!">Link 3</a></li>
-                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 4<i class="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a href="#!">Link 5</a></li>
-                            <li><a href="#!">Link 6</a></li>
-                            <li><a href="#!">Link 7</a></li>
-                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 8<i class="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a href="#!">Link 9</a></li>
-                        </ul>
-                        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-                    </div>
-                </div>
-            </nav>
-            <!-- Dropdown Structure -->
-            <ul id="dropdown1" class="dropdown-content">
-                <li><a href="#!">Link 1</a></li>
-                <li class="divider"></li>
-                <li><a href="#!">Link 2</a></li>
-                <li class="divider"></li>
-                <li><a href="#!">Link 3</a></li>
-            </ul>
-        </div>
+        <h6 style="font-family: Roboto,sans-serif;text-transform: uppercase;font-style: normal;line-height: 1.9rem;margin-bottom: 1.5rem;font-size:1.1rem;"><span class="bold">I</span>nternational   <span class="bold">C</span>onference<span style="text-align:center;"> on</span><br /><span class="bold">H</span>armony search,<span class="bold"> S</span>oft Computing and <span class="bold">A</span>pplication</h6>
     </header>
+
+    <div class="navbar" id="navigation">
+        <nav>
+            <div class="nav-wrapper teal z-depth-2">
+                <div class="container">
+                    <a href="#!" class="brand-logo">ICHSA 2018</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <!-- <li><a class='dropdown-button' href='#!' data-activates='dropdown1'>Drop Me!</a></li> -->
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 4<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="#!">Link 5</a></li>
+                        <li><a href="#!">Link 6</a></li>
+                        <li><a href="#!">Link 7</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 8<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="#!">Link 9</a></li>
+                    </ul>
+                    <!-- Mobile navigation -->
+                    <ul id="slide-out" class="side-nav">
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 4<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="#!">Link 5</a></li>
+                        <li><a href="#!">Link 6</a></li>
+                        <li><a href="#!">Link 7</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 8<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="#!">Link 9</a></li>
+
+
+                        <li class="no-padding">
+                            <ul class="collapsible collapsible-accordion">
+                                <li>
+                                    <a class="collapsible-header waves-effect waves-teal">Dropdown <i class="material-icons right">arrow_drop_down</i></a>
+                                    <div class="collapsible-body">
+                                        <ul>
+                                            <li><a href="#!">First</a></li>
+                                            <li><a href="#!">Second</a></li>
+                                            <li><a href="#!">Third</a></li>
+                                            <li><a href="#!">Fourth</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Dropdown Structure -->
+        <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">three</a></li>
+            <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+        </ul>
+    </div>
+    <!-- </header> -->
+    <div class="container-fluid">
+        <div class="parallax-container">
+            <div class="parallax"><img src="assets/images/countdown-bg.jpg"></div>
+        </div>
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Parallax</h2>
+                <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img src="assets/images/countdown-bg.jpg"></div>
+        </div>
+    </div>
+    <div class="container">
+        <p>Made with &hearts; in Fargo Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    #243743 #121c22
+
+
+    <!-- Footer -->
+    <footer class="page-footer teal darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright teal darken-2">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">Made with &hearts; by BML Munjal University</a>
+            </div>
+        </div>
+    </footer>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
@@ -126,11 +249,13 @@
             closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
             draggable: true, // Choose whether you can drag to open on touch screens
         });
+        $('.collapsible').collapsible();
         $('.dropdown-button').dropdown({
             hover: true,
             gutter: 0, // Spacing from edge
             belowOrigin: true
         });
+        $('.parallax').parallax();
 
         // Toast Notification'
 
@@ -144,7 +269,7 @@
             }, 5000);
 
             setTimeout(function() {
-                Materialize.toast('<span>Join the conference </span><a class="btn-flat yellow-text" href="#">Join<a>', 55000);
+                Materialize.toast('<span>Join the conference </span><a class="btn-flat yellow-text" href="#">Join<a>', 5000);
             }, 10000);
         });
         // $(document).on('click', '#toast-container .toast', function() {
