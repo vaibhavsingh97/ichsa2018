@@ -71,93 +71,87 @@
     </script> -->
     <!-- End Facebook -->
 
-    <header id="header-top">
-        <!--Start: "Header Area"-->
-        <div class="container">
-            <div class="row">
-                <div class="top-contact col m12 s12 right">
-                    <span style="color:white;"><i class="material-icons md-dark">email</i> <a href="mailto:" >help@example.com</a></span>
-                    <span style="color:white;"><i class="material-icons md-dark">phone</i> <a href="tel:">1800-200-1998</a></span>
-                </div>
-            </div>
-        </div>
-
-        <!-- =========================================
-                           NAVIGATION
-            ==========================================-->
-        <div id="header-bottom" class="z-depth-3">
-            <!--Start: "Header Area"-->
-            <div id="sticky-nav">
-                <div class="container">
-                    <div class="row">
-                        <nav class="nav-wrap">
-                            <ul class="hide-on-med-and-down group" id="portfolio-example">
-                                <li class="current_page_item"><a href="#header-top">Home</a></li>
-                                <li><a href="#link1">Link 1</a></li>
-                                <li><a href="#link2">Link 2</a></li>
-                                <li><a href="#link3">Link 3</a></li>
-                                <li><a href="#link4">Link 4</a></li>
-                                <li><a href="#link5">Link 5</a></li>
-                                <li><a href="#link6">Link 6</a></li>
-                                <li><a href="#link7">Link 7</a></li>
-                                <li><a href="#link8">Link 8</a></li>
-                                <li><a href="#link9">Link 9</a></li>
-                            </ul>
-                            <ul class="side-nav" id="slide-out">
-                                <li><a href="#header-bottom" class="active">Home</a></li>
-                                <li><a href="#link1">Link 1</a></li>
-                                <li><a href="#link2">Link 2</a></li>
-                                <li><a href="#link3">Link 3</a></li>
-                                <li><a href="#link4">Link 4</a></li>
-                                <li><a href="#link5">Link 5</a></li>
-                                <li><a href="#link6">Link 6</a></li>
-                                <li><a href="#link7">Link 7</a></li>
-                                <li><a href="#link8">Link 8</a></li>
-                                <li><a href="#link9">Link 6</a></li>
-                            </ul>
-                            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons dp48">menu</i></a>
-                        </nav>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper teal z-depth-2">
+                    <div class="container">
+                        <a href="#!" class="brand-logo">ICHSA 2018</a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#!">Link 1</a></li>
+                            <li><a href="#!">Link 2</a></li>
+                            <li><a href="#!">Link 3</a></li>
+                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 4<i class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a href="#!">Link 5</a></li>
+                            <li><a href="#!">Link 6</a></li>
+                            <li><a href="#!">Link 7</a></li>
+                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 8<i class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a href="#!">Link 9</a></li>
+                        </ul>
+                        <!-- Mobile navigation -->
+                        <ul id="slide-out" class="side-nav">
+                            <li><a href="#!">Link 1</a></li>
+                            <li><a href="#!">Link 2</a></li>
+                            <li><a href="#!">Link 3</a></li>
+                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 4<i class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a href="#!">Link 5</a></li>
+                            <li><a href="#!">Link 6</a></li>
+                            <li><a href="#!">Link 7</a></li>
+                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Link 8<i class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a href="#!">Link 9</a></li>
+                        </ul>
+                        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
                     </div>
                 </div>
-            </div>
+            </nav>
+            <!-- Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">Link 1</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">Link 2</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">Link 3</a></li>
+            </ul>
         </div>
-        <!--End: Header Area-->
     </header>
-    <!--End: Header Area-->
-    <!-- Navbar -->
-    <!-- <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">ICHSA 2018</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div> -->
     <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/style.js"></script>
     <script type="text/javascript">
         $('.button-collapse').sideNav({
             // menuWidth: 300, // Default is 300
             // edge: 'right', // Choose the horizontal origin
             closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-            draggable: true // Choose whether you can drag to open on touch screens
+            draggable: true, // Choose whether you can drag to open on touch screens
         });
-        // Toast Notification
+        $('.dropdown-button').dropdown({
+            hover: true,
+            gutter: 0, // Spacing from edge
+            belowOrigin: true
+        });
+
+        // Toast Notification'
+
         $(window).load(function() {
             setTimeout(function() {
-                Materialize.toast('<span>Hiya! Welcome to this template.</span>', 1500);
+                Materialize.toast('<span>Announcement: Welcome to the 4th International Conference.</span>', 4500);
             }, 1500);
+
             setTimeout(function() {
-                Materialize.toast('<span>You can download this template too!</span>', 3000);
+                Materialize.toast('<span>Announcement: Some text!</span>', 3000);
             }, 5000);
+
             setTimeout(function() {
-                Materialize.toast('<span>Last updated: 12 March 2017 </span><a class="btn-flat yellow-text" href="#">Read<a>', 3000);
+                Materialize.toast('<span>Join the conference </span><a class="btn-flat yellow-text" href="#">Join<a>', 55000);
             }, 10000);
         });
+        // $(document).on('click', '#toast-container .toast', function() {
+        //     $(this).fadeOut(function() {
+        //         $(this).remove();
+        //     });
+        // });
     </script>
 </body>
 
