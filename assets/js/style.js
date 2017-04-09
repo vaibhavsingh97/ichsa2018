@@ -89,9 +89,9 @@ if (document.cookie && document.cookie.match('myClock')) {
 else {
     // create deadline 10 minutes from now
     var now = new Date();
-    var eventDate = new Date(2018, 02, 07);
+    var eventDate = new Date(2018, 01, 07);
     var deadline = new Date(Date.parse(new Date()) + 304 * 24 * 60 * 60 * 1000);
-    initializeClock('clockdiv', deadline);
+    initializeClock('clockdiv', eventDate);
     // store deadline in cookie for future reference
     document.cookie = 'myClock=' + deadline + '; path=/; domain=.yourdomain.com';
 }

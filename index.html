@@ -175,8 +175,8 @@
         <div class="parallax-container">
             <div class="parallax"><img src="assets/images/countdown-bg.jpg"></div>
             <div class="white-text">
-                <h2 class="Main-title">First Panel</h2>
-                <p class="Main-sub-title">This is your first panel</p>
+                <h2 class="Main_title">Heading</h2>
+                <p class="Main_sub_title">This is your first panel</p>
             </div>
         </div>
     </div>
@@ -186,25 +186,25 @@
                 <div class="row">
                     <div class="col s3">
                       <div class="card-content grey-text darken-4" style="width:auto;">
-                          <h3 class="days" style="text-align:center;">01</h3>
+                          <h3 class="days" style="text-align:center;font-weight:300;">01</h3>
                           <p style="text-align:center;">DAYS</p>
                       </div>
                     </div>
                     <div class="col s3">
                         <div class="card-content grey-text darken-4" style="width:auto;">
-                            <h3 class="hours" style="text-align:center;">01</h3>
+                            <h3 class="hours" style="text-align:center;font-weight:300;">01</h3>
                               <p style="text-align:center;">HOURS</p>
                         </div>
                     </div>
                     <div class="col s3">
                         <div class="card-content grey-text darken-4">
-                            <h3 class="minutes" style="text-align:center;">01</h3>
+                            <h3 class="minutes" style="text-align:center;font-weight:300;">01</h3>
                               <p style="text-align:center;">MINUTES</p>
                         </div>
                     </div>
                     <div class="col s3">
                         <div class="card-content grey-text darken-4">
-                            <h3 class="seconds" style="text-align:center;">01</h3>
+                            <h3 class="seconds" style="text-align:center;font-weight:300;">01</h3>
                               <p style="text-align:center;">SECONDS</p>
                         </div>
                     </div>
@@ -218,6 +218,15 @@
         <p class="flow-text" style="text-align:justify;">ICHSA is a four year old international conference. ICHSA was first held in 2014 at Korea University, Seoul, South Korea and attracted a large number of researchers from different part of the world. The second and third series of ICHSA were then
             organized in South Korea and Spain, respectively with a grand success. Fourth edition of ICHSA is proposed be held at the BML Munjal University, Gurgaon, India (approval pending) in collaboration with Korea University and Soft Computing Research
             Society, New Delhi India.</p>
+            <div class="container-fluid">
+                <div class="parallax-container">
+                    <div class="parallax"><img src="assets/images/countdown-bg.jpg"></div>
+                    <div class="white-text">
+                        <h2 class="Main_title">Heading</h2>
+                        <p class="Main_sub_title">This is your first panel</p>
+                    </div>
+                </div>
+            </div>
         <h1 style="text-align:center; color:teal;">About ThemeA</h1>
         <p class="flow-text" style="text-align:justify;">Optimization problems are ubiquitous in all areas of science, engineering, mathematics, economics and medicine. The term soft computing refers to the collection of computational techniques which are developed to provide solutions to real world
             problems, which are not modelled or too difficult to model mathematically. In contrast to analytical methods, soft computing methodologies mimic consciousness and cognition in several important aspects: they can learn from experience; they
@@ -320,7 +329,7 @@
     </footer>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.js"></script>
     <script type="text/javascript" src="assets/js/style.js"></script>
     <script type="text/javascript">
         $('.button-collapse').sideNav({
@@ -329,7 +338,7 @@
             closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
             draggable: true, // Choose whether you can drag to open on touch screens
         });
-        $('.collapsible').collapsible('open', 0);
+        $('.collapsible').collapsible();
         $('.dropdown-button').dropdown({
             hover: true,
             gutter: 0, // Spacing from edge
@@ -357,7 +366,7 @@
         //         $(this).remove();
         //     });
         // });
-        
+
     </script>
 </body>
 
