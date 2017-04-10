@@ -69,7 +69,7 @@ body {
     font-weight: 900;
 }
 
-header {
+.header-top {
     height: 180px;
     padding-top: 50px;
     background: #fffff;
@@ -102,19 +102,30 @@ header {
 }
 
 .Nav-menu-links {
-  text-transform: uppercase;
-}
-
-.dropdown-content li>a{
     text-transform: uppercase;
 }
 
-#Home-slider{
-  z-index: 100;
+.dropdown-content li>a {
+    text-transform: uppercase;
 }
-#clockDic{
-  z-index: 300;
+
+.side-nav li>a {
+    text-transform: uppercase;
+    padding: 0 18px;
 }
+
+#Home-slider {
+    z-index: 100;
+}
+
+#clockDic {
+    z-index: 300;
+}
+
+
+.side-nav .userView {
+    padding: 20px 20px 20px 0 !Important;
+
 
 /*.clockDiv-wrapper {
   position: absolute;
@@ -138,7 +149,8 @@ header {
   margin-top: 1rem;
 }*/
 
-.clockDiv-wrapper {
+
+/*.clockDiv-wrapper {
   position: absolute;
   margin-top: 544px;
   display: flex;
@@ -153,4 +165,41 @@ header {
 .buttons-wrapper a {
   pointer-events: auto;
 }
+*/
 
+
+/*@media screen and (min-width: 500px) {
+   body {
+      width:420px;
+   }
+}
+
+@media screen and (min-width: 800px) {
+   body {
+      width:720px;
+   }
+}*/
+
+
+/* TABLET LAYOUT
+----------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/* GO TO ONE COLUMN LAYOUT
+----------------------------------------------- */
+
+@media screen and (max-width: 750px) {}
+
+
+/* MOBILE LAYOUT (PORTRAIT/320PX)
+----------------------------------------------- */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* WIDE MOBILE LAYOUT (LANDSCAPE/480PX)
+----------------------------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
