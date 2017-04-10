@@ -7,3 +7,4 @@ Conference Website
 - [ ] Timer in the center
 - [ ] Add media queries
 - [ ] Fix Font
+- [ ] Fix top header
