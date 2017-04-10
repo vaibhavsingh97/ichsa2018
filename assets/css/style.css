@@ -100,3 +100,57 @@ header {
     top: 50%;
     left: 50%;
 }
+
+.Nav-menu-links {
+  text-transform: uppercase;
+}
+
+.dropdown-content li>a{
+    text-transform: uppercase;
+}
+
+#Home-slider{
+  z-index: 100;
+}
+#clockDic{
+  z-index: 300;
+}
+
+/*.clockDiv-wrapper {
+  position: absolute;
+  height: calc(100vh);
+  margin-top: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 997;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+}
+.buttons-wrapper a {
+  pointer-events: auto;
+}
+.mg-rg {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}*/
+
+.clockDiv-wrapper {
+  position: absolute;
+  margin-top: 544px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1998;
+  top: 0;
+  left: 35%;
+}
+
+.buttons-wrapper a {
+  pointer-events: auto;
+}
+
