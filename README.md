@@ -8,3 +8,4 @@ Conference Website
 - [ ] Add media queries
 - [ ] Fix Font
 - [ ] Fix top header
+- [ ] Fix OrganizingCommitte.html view in mobile

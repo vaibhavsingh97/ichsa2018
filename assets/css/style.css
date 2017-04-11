@@ -315,17 +315,19 @@ nav.nav-center ul li a {
     }
 }
 
-#page-not-found #animation{
-  width:100%;
-  height:100%;
-  overflow:auto;
-  margin:auto;
-  align:middle;
-  opacity:1.0;
+#page-not-found #animation {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin: auto;
+    align: middle;
+    opacity: 1.0;
 }
-#page-not-found div{
-  font-size:0;
+
+#page-not-found div {
+    font-size: 0;
 }
+
 
 /*
  * ========================
@@ -340,6 +342,7 @@ nav.nav-center ul li a {
     width: 150px;
 }
 
+
 /*#Organizing-commitee .content{
 
 }
@@ -348,5 +351,6 @@ nav.nav-center ul li a {
 }*/
 
 .card-small {
-     width:400px;
-    }
+    width: 400px;
+}
+
