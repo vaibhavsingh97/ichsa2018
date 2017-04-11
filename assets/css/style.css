@@ -180,7 +180,6 @@ nav.nav-center ul li a {
 }*/
 
 
-
 /*@media screen and (min-width: 500px) {
    body {
       width:420px;
@@ -218,47 +217,28 @@ nav.nav-center ul li a {
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 
+/*
+ * =====================
+ * Important Dates page
+ * =====================
+ */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .timeline {
+#important-dates .timeline {
     position: relative;
-  }
+}
 
-  .timeline .timeline-event {
+#important-dates .timeline .timeline-event {
     position: relative;
     padding-top: 5px;
     padding-bottom: 5px;
-  }
+}
 
-  .timeline .timeline-event .timeline-content {
+#important-dates .timeline .timeline-event .timeline-content {
     position: relative;
     width: calc(50% - 50px);
-  }
+}
 
-  .timeline .timeline-event::before {
+#important-dates .timeline .timeline-event::before {
     display: block;
     content: "";
     width: 2px;
@@ -267,9 +247,9 @@ nav.nav-center ul li a {
     background: #d2d2d2;
     left: calc(50% - 1px);
     top: 0;
-  }
+}
 
-  .timeline .timeline-event::after {
+#important-dates .timeline .timeline-event::after {
     display: block;
     content: "";
     width: 2px;
@@ -278,25 +258,25 @@ nav.nav-center ul li a {
     background: #d2d2d2;
     left: calc(50% - 1px);
     top: calc(50% + 30px);
-  }
+}
 
-  .timeline .timeline-event:first-child::before {
+#important-dates .timeline .timeline-event:first-child::before {
     display: none;
-  }
+}
 
-  .timeline .timeline-event:last-child::after {
+#important-dates .timeline .timeline-event:last-child::after {
     display: none;
-  }
+}
 
-  .timeline .timeline-event:nth-child(even) .timeline-content {
+#important-dates .timeline .timeline-event:nth-child(even) .timeline-content {
     margin-left: calc(50% + 50px);
-  }
+}
 
-  .timeline .timeline-event:nth-child(odd) .timeline-content {
+#important-dates .timeline .timeline-event:nth-child(odd) .timeline-content {
     margin-left: 0;
-  }
+}
 
-  .timeline .timeline-badge {
+#important-dates .timeline .timeline-badge {
     display: block;
     position: absolute;
     width: 40px;
@@ -307,30 +287,66 @@ nav.nav-center ul li a {
     border-radius: 50%;
     text-align: center;
     cursor: default;
-  }
+}
 
-  .timeline .timeline-badge i {
+#important-dates .timeline .timeline-badge i {
     font-size: 25px;
     line-height: 40px;
-  }
+}
 
-  @media (max-width: 600px) {
-    .timeline .timeline-event .timeline-content {
-      width: calc(100% - 70px);
+@media (max-width: 600px) {
+    #important-dates .timeline .timeline-event .timeline-content {
+        width: calc(100% - 70px);
     }
-    .timeline .timeline-event::before {
-      left: 19px;
+    #important-dates .timeline .timeline-event::before {
+        left: 19px;
     }
-    .timeline .timeline-event::after {
-      left: 19px;
+    #important-dates .timeline .timeline-event::after {
+        left: 19px;
     }
-    .timeline .timeline-event:nth-child(even) .timeline-content {
-      margin-left: 70px;
+    #important-dates .timeline .timeline-event:nth-child(even) .timeline-content {
+        margin-left: 70px;
     }
-    .timeline .timeline-event:nth-child(odd) .timeline-content {
-      margin-left: 70px;
+    #important-dates .timeline .timeline-event:nth-child(odd) .timeline-content {
+        margin-left: 70px;
     }
-    .timeline .timeline-badge {
-      left: 0;
+    #important-dates .timeline .timeline-badge {
+        left: 0;
     }
-  }
+}
+
+#page-not-found #animation{
+  width:100%;
+  height:100%;
+  overflow:auto;
+  margin:auto;
+  align:middle;
+  opacity:1.0;
+}
+#page-not-found div{
+  font-size:0;
+}
+
+/*
+ * ========================
+ * Organizing Commitee page
+ * ========================
+ */
+
+#organizing-commitee .image-card {
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
+
+/*#Organizing-commitee .content{
+
+}
+#Organizing-commitee .content .heading{
+
+}*/
+
+.card-small {
+     width:400px;
+    }
