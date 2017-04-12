@@ -19,6 +19,7 @@ $(document).ready(function() {
         stopPropagation: false // Stops event propagation
     });
     $('.slider').slider();
+    $('.materialboxed').materialbox();
 });
 
 // sticky navigation bar

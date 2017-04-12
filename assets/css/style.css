@@ -354,3 +354,111 @@ nav.nav-center ul li a {
     width: 400px;
 }
 
+#blog-post-full .blog-post-full-cat {
+    padding: 5px;
+    margin: 25px;
+    right: 0;
+    left: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+
+#blog-post-full .blog-post-full-cat a {
+    color: #fff;
+    text-shadow: none
+}
+
+
+/*
+ * ========================
+ * Sponsor page
+ * ========================
+ */
+
+#sponsor-page .sponsor-1 {
+    padding: 15px 15px 15px 15px;
+}
+
+#sponsor-page main {
+    flex: 1 0 auto;
+}
+
+#sponsor-page .container {
+    margin-top: 30px;
+}
+
+#sponsor-page .sponsor-title {
+    font-weight: 200;
+    font-size: 20px;
+    justify-content: center;
+    text-align: left;
+}
+
+
+/*
+ * ========================
+ * Accomodation page
+ * ========================
+ */
+
+#accomodation-page main {
+    flex: 1 0 auto;
+}
+
+#accomodation-page .accomodation-title {
+    text-align: center;
+    font-weight: 300;
+}
+
+#accomodation-page .accomodation-content {
+    font-size: 25px;
+    text-align: center;
+}
+
+#accomodation-page svg {
+    margin-top: 100px;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*
+ * ========================
+ * Call for paper page
+ * ========================
+ */
+
+#call-for-paper-page main {
+    flex: 1 0 auto;
+}
+
+#call-for-paper-page .container {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#call-for-paper-page .title {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#call-for-paper-page .collection-header {
+    color: #fff;
+    background-color: #009688;
+}
+
+#call-for-paper-page .collection-item {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+#call-for-paper-page .collection-item:hover{
+  color: #fff;
+  background-color: #009688;
+}
