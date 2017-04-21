@@ -567,16 +567,12 @@ nav.nav-center ul li a {
     left: 0px;
 }
 
-/*#online-registrations-page .select {
-    top: 0px;
-    left: 0px;
-    opacity: 1;
-    background-color: #fff;
-    margin: 0;
-    min-width: 100px;
-    max-height: 650px;
-    overflow-y: auto;
-    opacity: 0;
-    z-index: 999;
-    will-change: width, height;
-}*/
+#online-registrations-page select {
+  font-family: inherit;
+  background-color: transparent;
+  width: 100%;
+  padding: 4px 0;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid;
+}
