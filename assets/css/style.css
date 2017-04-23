@@ -618,3 +618,9 @@ nav.nav-center ul li a {
   font-weight: 300;
   text-align: center;
 }
+
+@media only screen and (min-width: 970px) and (max-width: 1390px) {
+  img{
+    height: 20px;
+  }
+}
