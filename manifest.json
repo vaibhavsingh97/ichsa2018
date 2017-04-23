@@ -5,7 +5,7 @@
   "start_url": "/index.html",
   "background_color": "#ffffff",
   "theme_color": "#0f4a73",
-  "orientation": "landscape",
+  "orientation": "fullscreen",
   "description": "ICHSA is a four year old international conference. ICHSA was first held in 2014 at Korea University, Seoul, South Korea and attracted a large number of researchers from different part of the world.",
   "icons": [{
     "src": "icon-256.png",
