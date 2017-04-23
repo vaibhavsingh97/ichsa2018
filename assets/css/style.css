@@ -603,6 +603,7 @@ nav.nav-center ul li a {
   text-align: center;
 }
 
+
 /*
  * =============================
  * Special Journal issue page
@@ -619,8 +620,30 @@ nav.nav-center ul li a {
   text-align: center;
 }
 
-@media only screen and (min-width: 970px) and (max-width: 1390px) {
-  img{
-    height: 20px;
-  }
+#conference-proceedings-page img {
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+#conference-proceedings-page .image-caption {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+/*
+ * =============================
+ * Nearby Tourist Attraction page
+ * =============================
+ */
+
+#nearby-tourist-page main {
+  flex: 1 0 auto;
+}
+
+#nearby-tourist-page .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
 }
