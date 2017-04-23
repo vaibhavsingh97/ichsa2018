@@ -585,3 +585,36 @@ nav.nav-center ul li a {
   border: none;
   border-bottom: 1px solid;
 }
+
+
+/*
+ * =============================
+ * Special Journal issue page
+ * =============================
+ */
+
+#special-journal-issue-page main {
+  flex: 1 0 auto;
+}
+
+#special-journal-issue-page .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/*
+ * =============================
+ * Special Journal issue page
+ * =============================
+ */
+
+#conference-proceedings-page main {
+  flex: 1 0 auto;
+}
+
+#conference-proceedings-page .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}

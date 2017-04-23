@@ -9,3 +9,5 @@ Conference Website
 - [ ] Fix Font
 - [ ] Fix top header
 - [x] Fix OrganizingCommitte.html view in mobile
+
+<!-- Reference: http://socpros16.scrs.in/ -->
