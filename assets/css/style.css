@@ -620,7 +620,7 @@ nav.nav-center ul li a {
   text-align: center;
 }
 
-#conference-proceedings-page img {
+#conference-proceedings-page .image-fix {
   height: 100px;
   margin: 0 auto;
   display: block;
