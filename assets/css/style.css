@@ -647,3 +647,35 @@ nav.nav-center ul li a {
   font-weight: 300;
   text-align: center;
 }
+
+
+/*
+ * =============================
+ * Registartion page
+ * =============================
+ */
+
+#registration-page main {
+  flex: 1 0 auto;
+}
+
+#registration-page .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#registration-page table {
+  font-size: 1.1em;
+}
+
+#registration-page th {
+  font-size: 1.3em;
+}
+
+#registration-page .note-text {
+  text-align: justify;
+  /*font-weight: 400;*/
+  font-style: italic;
+  /*font-size: 1em;*/
+}
