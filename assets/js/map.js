@@ -1,53 +1,226 @@
-$(function() {
-      // Google Maps
-      $('#map-canvas').addClass('loading');
-      var latlng = new google.maps.LatLng(40.6700, -73.9400); // Set your Lat. Log. New York
-      var settings = {
-          zoom: 10,
-          center: latlng,
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
-          mapTypeControl: false,
-          scrollwheel: false,
-          draggable: true,
-          styles: [{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#e0efef"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"hue":"#1900ff"},{"color":"#c0e8e8"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":100},{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"on"},{"lightness":700}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#7dcdcd"}]}],
-          mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
-          navigationControl: false,
-          navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
-      };
-      var map = new google.maps.Map(document.getElementById("map-canvas"), settings);
-
-      google.maps.event.addDomListener(window, "resize", function() {
-          var center = map.getCenter();
-          google.maps.event.trigger(map, "resize");
-          map.setCenter(center);
-          $('#map-canvas').removeClass('loading');
-      });
-
-      var contentString =
-          '<div id="info-window">'+
-          '<p>18 McLuice Road, Vellyon Hills,<br /> New York, NY 10010<br /><a href="https://plus.google.com/102896039836143247306/about?gl=za&hl=en" target="_blank">Get directions</a></p>'+
-          '</div>';
-      var infowindow = new google.maps.InfoWindow({
-          content: contentString
-      });
-
-      var companyImage = new google.maps.MarkerImage('images/map-marker.png',
-          new google.maps.Size(36,62),// Width and height of the marker
-          new google.maps.Point(0,0),
-          new google.maps.Point(18,52)// Position of the marker
-      );
-
-      var companyPos = new google.maps.LatLng(40.6700, -73.9400);
-
-      var companyMarker = new google.maps.Marker({
-          position: companyPos,
-          map: map,
-          icon: companyImage,
-          title:"Shapeshift Interactive",
-          zIndex: 3});
-
-      google.maps.event.addListener(companyMarker, 'click', function() {
-          infowindow.open(map,companyMarker);
-          pageView('/#address');
-      });
+function initMap() {
+  var styledMapType = new google.maps.StyledMapType(
+    [{
+        elementType: 'geometry',
+        stylers: [{
+          color: '#ebe3cd'
+        }]
+      },
+      {
+        elementType: 'labels.text.fill',
+        stylers: [{
+          color: '#523735'
+        }]
+      },
+      {
+        elementType: 'labels.text.stroke',
+        stylers: [{
+          color: '#f5f1e6'
+        }]
+      },
+      {
+        featureType: 'administrative',
+        elementType: 'geometry.stroke',
+        stylers: [{
+          color: '#c9b2a6'
+        }]
+      },
+      {
+        featureType: 'administrative.land_parcel',
+        elementType: 'geometry.stroke',
+        stylers: [{
+          color: '#dcd2be'
+        }]
+      },
+      {
+        featureType: 'administrative.land_parcel',
+        elementType: 'labels.text.fill',
+        stylers: [{
+          color: '#ae9e90'
+        }]
+      },
+      {
+        featureType: 'landscape.natural',
+        elementType: 'geometry',
+        stylers: [{
+          color: '#dfd2ae'
+        }]
+      },
+      {
+        featureType: 'poi',
+        elementType: 'geometry',
+        stylers: [{
+          color: '#dfd2ae'
+        }]
+      },
+      {
+        featureType: 'poi',
+        elementType: 'labels.text.fill',
+        stylers: [{
+          color: '#93817c'
+        }]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'geometry.fill',
+        stylers: [{
+          color: '#a5b076'
+        }]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'labels.text.fill',
+        stylers: [{
+          color: '#447530'
+        }]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry',
+        stylers: [{
+          color: '#f5f1e6'
+        }]
+      },
+      {
+        featureType: 'road.arterial',
+        elementType: 'geometry',
+        stylers: [{
+          color: '#fdfcf8'
+        }]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry',
+        stylers: [{
+          color: '#f8c967'
+        }]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry.stroke',
+        stylers: [{
+          color: '#e9bc62'
+        }]
+      },
+      {
+        featureType: 'road.highway.controlled_access',
+        elementType: 'geometry',
+        stylers: [{
+          color: '#e98d58'
+        }]
+      },
+      {
+        featureType: 'road.highway.controlled_access',
+        elementType: 'geometry.stroke',
+        stylers: [{
+          color: '#db8555'
+        }]
+      },
+      {
+        featureType: 'road.local',
+        elementType: 'labels.text.fill',
+        stylers: [{
+          color: '#806b63'
+        }]
+      },
+      {
+        featureType: 'transit.line',
+        elementType: 'geometry',
+        stylers: [{
+          color: '#dfd2ae'
+        }]
+      },
+      {
+        featureType: 'transit.line',
+        elementType: 'labels.text.fill',
+        stylers: [{
+          color: '#8f7d77'
+        }]
+      },
+      {
+        featureType: 'transit.line',
+        elementType: 'labels.text.stroke',
+        stylers: [{
+          color: '#ebe3cd'
+        }]
+      },
+      {
+        featureType: 'transit.station',
+        elementType: 'geometry',
+        stylers: [{
+          color: '#dfd2ae'
+        }]
+      },
+      {
+        featureType: 'water',
+        elementType: 'geometry.fill',
+        stylers: [{
+          color: '#b9d3c2'
+        }]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.fill',
+        stylers: [{
+          color: '#92998d'
+        }]
+      }
+    ], {
+      name: 'Styled Map'
     });
+  var uluru = {
+    lat: 28.246831,
+    lng: 76.815140
+  };
+  // var map = new google.maps.Map(document.getElementById('map'), {
+  //   zoom: 17,
+  //   center:
+  // });
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: uluru,
+    zoom: 17,
+    mapTypeControlOptions: {
+      mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+        'styled_map'
+      ]
+    }
+  });
+
+  var trafficLayer = new google.maps.TrafficLayer();
+  trafficLayer.setMap(map);
+
+  map.mapTypes.set('styled_map', styledMapType);
+  map.setMapTypeId('styled_map');
+
+
+  var contentString = '<div id="container">' +
+    '<h5 class="" style="text-align:center;">BML Munjal Univeristy</h5>' +
+    '<p>National Highway 8, 67 KM Milestone, Gurgaon, Haryana 122413, India</p>'+
+    '</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+  infowindow.open(map,marker);
+  var image = 'assets/images/location.png';
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+    icon: image,
+    animation: google.maps.Animation.DROP,
+    title: 'BML Munjal Univeristy'
+  });
+
+  function toggleBounce() {
+    if (marker.getAnimation() !== null) {
+      marker.setAnimation(null);
+    } else {
+      marker.setAnimation(google.maps.Animation.BOUNCE);
+    }
+  }
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+
+}
