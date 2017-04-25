@@ -54,6 +54,9 @@
   <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
   <!-- Import animation.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- sweetalert css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/sweetalert.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
   <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
   <script type="application/ld+json">
     {
@@ -90,7 +93,7 @@
   </script>
 </head>
 
-<body>
+<body id="index">
   <!-- Facebook -->
   <!-- <script>
         window.fbAsyncInit = function() {
@@ -117,31 +120,33 @@
 
   <header>
     <!-- Top Header bar -->
-    <div class="header-top">
+    <div class="header-top colorful-bg">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col s12">
-            <div class="row">
-              <div class="col s3 l3">
-                <!-- <img src="assets/images/Sponsors/scrs.png" height="100px"alt=""> -->
-              </div>
-              <div class="col s6 l6">
-                <h5 style="text-align:center;font-weight:600;">4<sup>th</sup> International Conference on Harmony search, Soft Computing and Applications</h5>
-                <h5 style="text-align:center;">February 6-9, 2018</h5>
-              </div>
-              <div class="col s3 l3">
-                <img class="responsive-img" src="assets/images/Sponsors/Korea_University.png" style="height:100px;" alt="Korea University">&nbsp;&nbsp;
-                <img class="responsive-img" src="assets/images/bml_logo.png" style="height:100px;" alt="BML Munjal University">
-                <!-- <img class="responsive-img" src="assets/images/Sponsors/scrs.png" style="height:100px;"alt="SCRS"> -->
+        <div class="col s12">
+          <div class="row" style="padding:10px;display:flex;">
+            <div class="col s12 m6 l3" id="div1">
+              <img class="responsive-img" src="assets/images/bml_logo.png" style="height:100px;float:right;" alt="BML Munjal University">
+            </div>
+            <div class="col s12 m6 l6" id="div2">
+              <div class="row">
+                <h5 style="font-weight:600;">4<sup>th</sup> International Conference on Harmony search, Soft Computing and Applications</h5>
+                <h5>February 7-9, 2018</h5>
+                <!-- <h6>School of Engineering & Technology</h6>
+                  <h6>BML Munjal University, Gurgaon</h6> -->
               </div>
             </div>
-            <!-- <h5 style="text-align:center;">International Conference on Harmony search, Soft Computing and Applications</h5> -->
-            <!-- <h7 style="font-family: Roboto,sans-serif;text-transform: uppercase;font-style: normal;line-height: 2.9rem;margin-bottom: 1.5rem;font-size:1.1rem; text-align:center;"><span class="bold" style="font-size:4.1rem;">I</span>nternational   <span class="bold" style="font-size:4.1rem;">C</span>onference<span style="text-align:center;"> on</span><br /><span class="bold" style="font-size:4.1rem;">H</span>armony search,<span class="bold" style="font-size:4.1rem;"> S</span>oft Computing and <span class="bold" style="font-size:4.1rem;">A</span>pplications</h7> -->
+            <div class="col s12 m6 l3" id="div3">
+              <div class="row">
+                <img class="responsive-img" src="assets/images/Sponsors/Korea_University.png" style="height:100px;" alt="Korea University">&nbsp;&nbsp;
+                <img class="responsive-img" src="assets/images/Sponsors/scrs.png" style="height:100px;" alt="SCRS">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Header bar ends -->
+
     <div class="navbar" id="navigation">
       <nav>
         <div class="nav-wrapper teal z-depth-2">
@@ -155,8 +160,8 @@
               <li class="Nav-menu-links"><a class="dropdown-button" href="#!" data-activates="Conference-dropdown-content">Conference<i class="material-icons right">arrow_drop_down</i></a></li>
               <li class="Nav-menu-links"><a class="dropdown-button" href="#!" data-activates="Travel-dropdown-content">Travel<i class="material-icons right">arrow_drop_down</i></a></li>
               <li class="Nav-menu-links"><a href="404.html">Speakers</a></li>
-              <li class="Nav-menu-links"><a href="#!">Downloads</a></li>
-              <li class="Nav-menu-links"><a href="ImportantDates.html">Important Dates</a></li>
+              <li class="btn-success Nav-menu-links button-success"><a href="Downloads/ICHSA 2018 - Latex Template.zip" download>Downloads</a></li>
+              <li class="Nav-menu-links"><a href="ImportantDates.html">Important Dates&nbsp;<span class="new badge" style="background-color:#ffffff;color:#009688;"></span></a></li>
               <li class="Nav-menu-links"><a href="Registration.html">Registration</a></li>
               <li class="Nav-menu-links"><a href="#!">Contact Us</a></li>
             </ul>
@@ -171,7 +176,7 @@
                   <div class="container" style="justify-content:center;margin-top:10%;">
                     <!-- <a href="index.html"></a> -->
                     <h3 style="text-align:center;font-weight:300">Welcome To</h3>
-                                        <h3 style="text-align:center;font-weight:400">ICHSA 2018</h3>
+                    <h3 style="text-align:center;font-weight:400">ICHSA 2018</h3>
                     <!-- <span class="white-text flow-text" style="font-weight:300;">Welcome To</span><br />
                                       <span class="white-text flow-text" style="font-weight:500;">&nbsp;ICHA 2018</span> -->
                   </div>
@@ -225,7 +230,7 @@
                         <li class="divider"></li>
                         <li><a href="ConferenceProceedings.html">Conference Proceedings</a></li>
                         <li class="divider"></li>
-                        <li><a href="#!">Previous Conferences</a></li>
+                        <li><a href="http://opti.korea.ac.kr/ichsa2014/">Previous Conferences</a></li>
                       </ul>
                     </div>
                   </li>
@@ -248,7 +253,7 @@
                 </ul>
               </li>
               <li><a href="#!">Speakers</a></li>
-              <li><a href="#!">Downloads</a></li>
+              <li><a id="button-success" href="#!">Downloads</a></li>
               <li><a href="important_dates.html">Important Dates</a></li>
               <li><a href="Registration.html">Registration</a></li>
               <li><a href="#!">Contact Us</a></li>
@@ -282,7 +287,7 @@
 
       <!-- Conference Dropdown Content -->
       <ul id='Conference-dropdown-content' class='dropdown-content'>
-        <li class="Dropdown-menu-links"><a class="dropdown-button" data-activates="test"data-beloworigin="false" data-constrainWidth="true" href="OrganizingCommittees.html">Organizing Committees</a></li>
+        <li class="Dropdown-menu-links"><a class="dropdown-button" data-activates="test" data-beloworigin="false" data-constrainWidth="true" href="OrganizingCommittees.html">Organizing Committees</a></li>
         <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="SpecialJournalIssue.html ">Special Journal Issue</a></li>
         <li class="divider"></li>
@@ -309,82 +314,98 @@
   </header>
 
 
-  <!-- Slider Starts -->
+  <!-- <main> -->
+
+  <!-- <div class="carousel carousel-slider center" data-indicators="true">
+    <div class="carousel-fixed-item center">
+      <a class="btn waves-effect white grey-text darken-text-2">button</a>
+    </div>
+    <div class="carousel-item red white-text" href="#one!">
+      <img src="assets/images/one.jpg">
+      <h2>First Panel</h2>
+      <p class="white-text">This is your first panel</p>
+    </div>
+    <div class="carousel-item amber white-text" href="#two!">
+            <img src="assets/images/two.jpeg">
+      <h2>Second Panel</h2>
+      <p class="white-text">This is your second panel</p>
+    </div>
+    <div class="carousel-item green white-text" href="#three!">
+            <img src="assets/images/one.jpg">
+      <h2>Third Panel</h2>
+      <p class="white-text">This is your third panel</p>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+            <img src="assets/images/one.jpg">
+      <h2>Fourth Panel</h2>
+      <p class="white-text">This is your fourth panel</p>
+    </div>
+  </div> -->
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="https://www.walldevil.com/wallpapers/w10/material-material-style-android-l-pattern-patterns-minimalism-colorful-simple-background.jpg">
+        <img class="responsive-img" src="assets/images/one.jpg">
         <!-- random image -->
-        <div class="caption center-align animated fadeInRightBig">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <div class="caption center-align">
+          <!-- <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
         </div>
       </li>
       <li>
-        <img src="https://newevolutiondesigns.com/images/freebies/google-material-design-wallpaper-10.jpg">
+        <img class="responsive-img" src="assets/images/two.jpeg">
         <!-- random image -->
-        <div class="caption left-align animated fadeInLeftBigp">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <div class="caption left-align">
+          <!-- <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
         </div>
       </li>
       <li>
-        <img src="http://i.imgur.com/AMf9X7E.jpg">
+        <img src="https://ununsplash.imgix.net/uploads/1413259835094dcdeb9d3/6e609595?q=75&fm=jpg&s=6a4fc66161293fc4a43a6ca6f073d1c5">
         <!-- random image -->
-        <div class="caption right-align animated fadeInRight">
+        <div class="caption right-align">
           <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://backwallpapers.com/wp-content/uploads/2016/07/Design-Wallpaper-Material-Design-HD-Background-1280x768.png">
-        <!-- random image -->
-        <div class="caption center-align animated fadeInDown">
-          <h3>This is our big Tagline!</h3>
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
     </ul>
   </div>
-  <!-- Slider ends here -->
-
 
 
   <!-- </header> -->
   <!-- <div class="container-fluid">
-        <div class="parallax-container">
-            <div class="parallax"><img src="assets/images/countdown-bg.jpg"></div>
-            <div class="white-text">
-                <h2 class="Main_title">Heading</h2>
-                <p class="Main_sub_title">This is your first panel</p>
-            </div>
-        </div>
-    </div> -->
+          <div class="parallax-container">
+              <div class="parallax"><img src="assets/images/countdown-bg.jpg"></div>
+              <div class="white-text">
+                  <h2 class="Main_title">Heading</h2>
+                  <p class="Main_sub_title">This is your first panel</p>
+              </div>
+          </div>
+      </div> -->
 
 
   <div class="row">
     <div class="col s12">
-      <div class="card darken-1 z-depth-3 clockDiv-wrapper" id="clockdiv">
+      <div class="card darken-1 z-depth-3 clockDiv-wrapper" style="display:block; margin-top:0 auto;" id="clockdiv">
         <div class="row">
-          <div class="col s3">
+          <div class="col s12 m6 l3">
             <div class="card-content grey-text darken-4" style="width:auto;">
               <h3 class="days" style="text-align:center;font-weight:300;">01</h3>
               <p style="text-align:center;">DAYS</p>
             </div>
           </div>
-          <div class="col s3">
+          <div class="col s12 m6 l3">
             <div class="card-content grey-text darken-4" style="width:auto;">
               <h3 class="hours" style="text-align:center;font-weight:300;">01</h3>
               <p style="text-align:center;">HOURS</p>
             </div>
           </div>
-          <div class="col s3">
+          <div class="col s12 m6 l3">
             <div class="card-content grey-text darken-4">
               <h3 class="minutes" style="text-align:center;font-weight:300;">01</h3>
               <p style="text-align:center;">MINUTES</p>
             </div>
           </div>
-          <div class="col s3">
+          <div class="col s12 m6 l3">
             <div class="card-content grey-text darken-4">
               <h3 class="seconds" style="text-align:center;font-weight:300;">01</h3>
               <p style="text-align:center;">SECONDS</p>
@@ -398,44 +419,38 @@
   <!-- About The Conference -->
   <div class="container">
     <h1 style="text-align:center; color:teal;">About ICHSA</h1>
-    <p class="flow-text" style="text-align:justify;">ICHSA is a four year old international conference. ICHSA was first held in 2014 at Korea University, Seoul, South Korea and attracted a large number of researchers from different part of the world. The second and third series of ICHSA were then organized
+    <p style="text-align:justify;">ICHSA is a four year old international conference. ICHSA was first held in 2014 at Korea University, Seoul, South Korea and attracted a large number of researchers from different part of the world. The second and third series of ICHSA were then organized
       in South Korea and Spain, respectively with a grand success.</p>
   </div>
-  <!-- <div class="container-fluid">
-        <div class="parallax-container">
-            <div class="parallax"><img src="assets/images/conference-participants.jpg"></div>
-            <div class="white-text">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s6">
-                <div class="card darken-1 z-depth-3" id="clockdiv">
-                    <div class="row">
-                        <div class="col s12">
-                          <p class="flow-text" style="text-align:justify;">Optimization problems are ubiquitous in all areas of science, engineering, mathematics, economics and medicine. The term soft computing refers to the collection of computational techniques which are developed to provide solutions to real world
-                              problems, which are not modelled or too difficult to model mathematically. In contrast to analytical methods, soft computing methodologies mimic consciousness and cognition in several important aspects: they can learn from experience; they
-                              can universalize into domains where direct experience is absent; and, through parallel computer architectures that simulate biological processes, they can perform mapping from inputs to the outputs faster than inherently serial analytical
-                              representations.
-                          </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+  <div class="parallax-container">
+    <div class="parallax"><img src="assets/images/conference-participants.jpg"></div>
+    <div class="white-text">
+    </div>
   </div>
-  <div class="container">
-    <h1 style="text-align:center; color:teal;">About Theme</h1>
-    <p class="flow-text" style="text-align:justify;">Optimization problems are ubiquitous in all areas of science, engineering, mathematics, economics and medicine. The term soft computing refers to the collection of computational techniques which are developed to provide solutions to real world problems,
-      which are not modelled or too difficult to model mathematically. In contrast to analytical methods, soft computing methodologies mimic consciousness and cognition in several important aspects: they can learn from experience; they can universalize
-      into domains where direct experience is absent; and, through parallel computer architectures that simulate biological processes, they can perform mapping from inputs to the outputs faster than inherently serial analytical representations.
-    </p><br />
-    <p class="flow-text" style="text-align:justify;">The harmony search algorithm (HSA) is one of the most well-known techniques in the field of soft computing, motivated by the behavioural patterns observed in music composition. The HSA was developed in 2001, since then the algorithm is showing its
-      dominance to other optimization solvers in a plethora of application scenarios. Since the worldwide scientific and research community is witnessing an upsurge of new ground breaking innovations in all areas of computational intelligence, more focused
-      on bio-inspired optimization, evolutionary computation and soft computing techniques.  This conference will fill the bridge by gathering the most notable individuals researching in the field of Soft computing, Harmony search algorithm and their
-      related applications.</p><br /><br />
-    <p class="flow-text" style="text-align:justify;">Topics of interest of the conference will include, but are not limited to the following</p>
+  <div class="container-fluid colorful-bg">
+    <div class="row">
+      <div class="container">
+        <h1 style="text-align:center; color:teal;">About Theme</h1>
+        <p class="" style="text-align:justify;">Optimization problems are ubiquitous in all areas of science, engineering, mathematics, economics and medicine. The term soft computing refers to the collection of computational techniques which are developed to provide solutions to real world problems,
+          which are not modelled or too difficult to model mathematically. In contrast to analytical methods, soft computing methodologies mimic consciousness and cognition in several important aspects: they can learn from experience; they can universalize
+          into domains where direct experience is absent; and, through parallel computer architectures that simulate biological processes, they can perform mapping from inputs to the outputs faster than inherently serial analytical representations.
+        </p><br />
+        <p style="text-align:justify;">The harmony search algorithm (HSA) is one of the most well-known techniques in the field of soft computing, motivated by the behavioural patterns observed in music composition. The HSA was developed in 2001, since then the algorithm is showing its
+          dominance to other optimization solvers in a plethora of application scenarios. Since the worldwide scientific and research community is witnessing an upsurge of new ground breaking innovations in all areas of computational intelligence, more focused
+          on bio-inspired optimization, evolutionary computation and soft computing techniques.  This conference will fill the bridge by gathering the most notable individuals researching in the field of Soft computing, Harmony search algorithm and their
+          related applications.</p>
+      </div>
+    </div>
+
   </div>
+
+  <!-- <div class="parallax-container">
+    <div class="parallax"><img src="assets/images/conference-participants.jpg"></div>
+    <div class="white-text">
+    </div>
+  </div> -->
+  <!-- </main> -->
+
 
 
   <!-- Footer -->
@@ -445,21 +460,25 @@
         <div class="col l6 s12">
           <h5 class="white-text">Footer Content</h5>
           <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          <div class="wrp">
+            <a class="icon icon-facebook" href="#"><i class="fa fa-facebook"></i></a>
+            <a class="icon icon-twitter" href="#"><i class="fa fa-twitter"></i></a>
+          </div>
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Important Dates</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Call For papers</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Registrations</a></li>
+            <!-- <li><a class="grey-text text-lighten-3" href="#!"></a></li> -->
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright teal darken-2">
       <div class="container">
-        © 2014 Copyright Text
+        © 2017 Copyright Text
         <a class="grey-text text-lighten-4 right" href="#!">Made with &hearts; by BML Munjal University</a>
       </div>
     </div>
@@ -469,6 +488,10 @@
   <script type="text/javascript" src="assets/js/materialize.js"></script>
   <script type="text/javascript" src="assets/js/style.js"></script>
   <script type="text/javascript" src="assets/js/countdown.js"></script>
+  <!-- <script src="https://use.fontawesome.com/9a00b908c2.js"></script> -->
+  <script src="assets/js/sweetalert.min.js"></script>
+
+  <!-- <script type="text/javascript" src="assets/js/map.js"></script> -->
   <script type="text/javascript">
     $('.button-collapse').sideNav({
       // menuWidth: 300, // Default is 300
@@ -509,6 +532,12 @@
     //     $(this).fadeOut(function() {
     //         $(this).remove();
     //     });
+    // });
+    $('.btn-success').click(function() {
+      swal("Thanks!", "for downloading!", "success");
+    });
+    // $('.btn-success').click(function() {
+    //   swal("Thanks!", "for downloading!", "success");
     // });
   </script>
 </body>
