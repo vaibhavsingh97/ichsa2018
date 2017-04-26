@@ -203,6 +203,7 @@ function initMap() {
     content: contentString
   });
   infowindow.open(map,marker);
+  
   var image = 'assets/images/location.png';
   var marker = new google.maps.Marker({
     position: uluru,
