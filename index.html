@@ -431,14 +431,14 @@
     <div class="row">
       <div class="container">
         <h1 style="text-align:center; color:teal;">About Theme</h1>
-        <p class="" style="text-align:justify;">Optimization problems are ubiquitous in all areas of science, engineering, mathematics, economics and medicine. The term soft computing refers to the collection of computational techniques which are developed to provide solutions to real world problems,
-          which are not modelled or too difficult to model mathematically. In contrast to analytical methods, soft computing methodologies mimic consciousness and cognition in several important aspects: they can learn from experience; they can universalize
-          into domains where direct experience is absent; and, through parallel computer architectures that simulate biological processes, they can perform mapping from inputs to the outputs faster than inherently serial analytical representations.
+        <p class="" style="text-align:justify;">Optimization problems are ubiquitous in all areas of science, engineering, mathematics, economics and medicine. The term soft computing refers to the collection of computational techniques which are developed to provide solutions to real world
+          problems, which are not modelled or too difficult to model mathematically. In contrast to analytical methods, soft computing methodologies mimic consciousness and cognition in several important aspects: they can learn from experience; they can
+          universalize into domains where direct experience is absent; and, through parallel computer architectures that simulate biological processes, they can perform mapping from inputs to the outputs faster than inherently serial analytical representations.
         </p><br />
-        <p style="text-align:justify;">The harmony search algorithm (HSA) is one of the most well-known techniques in the field of soft computing, motivated by the behavioural patterns observed in music composition. The HSA was developed in 2001, since then the algorithm is showing its
-          dominance to other optimization solvers in a plethora of application scenarios. Since the worldwide scientific and research community is witnessing an upsurge of new ground breaking innovations in all areas of computational intelligence, more focused
-          on bio-inspired optimization, evolutionary computation and soft computing techniques.  This conference will fill the bridge by gathering the most notable individuals researching in the field of Soft computing, Harmony search algorithm and their
-          related applications.</p>
+        <p style="text-align:justify;">The harmony search algorithm (HSA) is one of the most well-known techniques in the field of soft computing, motivated by the behavioural patterns observed in music composition. The HSA was developed in 2001, since then the algorithm is showing
+          its dominance to other optimization solvers in a plethora of application scenarios. Since the worldwide scientific and research community is witnessing an upsurge of new ground breaking innovations in all areas of computational intelligence,
+          more focused on bio-inspired optimization, evolutionary computation and soft computing techniques.  This conference will fill the bridge by gathering the most notable individuals researching in the field of Soft computing, Harmony search algorithm
+          and their related applications.</p>
       </div>
     </div>
 
@@ -451,7 +451,7 @@
   </div> -->
   <!-- </main> -->
 
-
+  <div id="map"></div>
 
   <!-- Footer -->
   <footer class="page-footer teal darken-1">
@@ -488,10 +488,9 @@
   <script type="text/javascript" src="assets/js/materialize.js"></script>
   <script type="text/javascript" src="assets/js/style.js"></script>
   <script type="text/javascript" src="assets/js/countdown.js"></script>
-  <!-- <script src="https://use.fontawesome.com/9a00b908c2.js"></script> -->
   <script src="assets/js/sweetalert.min.js"></script>
 
-  <!-- <script type="text/javascript" src="assets/js/map.js"></script> -->
+  <script type="text/javascript" src="assets/js/map.js"></script>
   <script type="text/javascript">
     $('.button-collapse').sideNav({
       // menuWidth: 300, // Default is 300
@@ -535,11 +534,18 @@
     // });
     $('.btn-success').click(function() {
       swal("Thanks!", "for downloading!", "success");
+      
     });
     // $('.btn-success').click(function() {
     //   swal("Thanks!", "for downloading!", "success");
     // });
   </script>
+  <!-- <script>
+
+  </script> -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5ip1iQAihZm3p9NSSGQB19RGwxrGO6Uw&callback=initMap">
+  </script>
+  <!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script> -->
 </body>
 
 </html>
