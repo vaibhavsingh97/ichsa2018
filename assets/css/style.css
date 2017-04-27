@@ -188,7 +188,6 @@ nav.nav-center ul li a {
   margin: 0 auto;
 }
 
-
 #background {
   background: #000000;
   background-image: linear-gradient(to bottom right, #002f4b, rgba(0, 0, 0, .8));
@@ -196,6 +195,24 @@ nav.nav-center ul li a {
 
 #background img {
   opacity: 0.5;
+}
+
+#blog-image img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#blog-image img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .my-card {
@@ -627,11 +644,15 @@ nav.nav-center ul li a {
 
 /*
  * ========================
- * Organizing Commitee page
+ * General Chair page
  * ========================
  */
 
-#organizing-commitee .image-card {
+#general-chair main {
+  flex: 1 0 auto;
+}
+
+#general-chair .image-card {
   display: block;
   margin: 0 auto;
   height: 150px;
@@ -639,12 +660,94 @@ nav.nav-center ul li a {
 }
 
 
-/*#Organizing-commitee .content{
+/*#general-chair .content{
 
 }
-#Organizing-commitee .content .heading{
+#general-chair .content .heading{
 
 }*/
+
+
+/*
+ * =============================
+ * Other Organizing Commitee page
+ * =============================
+ */
+
+#other-organizing-commitee main {
+  flex: 1 0 auto;
+}
+
+#other-organizing-commitee .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#other-organizing-commitee #table-content td {
+  text-align: left;
+}
+
+
+/*
+ * =============================
+ * National Advisory Committee page
+ * =============================
+ */
+
+#national-advisory-committee main {
+  flex: 1 0 auto;
+}
+
+#national-advisory-committee .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#national-advisory-committee .card-panel {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*
+ * =============================
+ * International Advisory Committee page
+ * =============================
+ */
+
+#international-advisory-committee main {
+  flex: 1 0 auto;
+}
+
+#international-advisory-committee .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#international-advisory-committee .card-panel {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*
+ * =============================
+ * Student Volunteers page
+ * =============================
+ */
+
+#student-volunteers main {
+  flex: 1 0 auto;
+}
+
+#student-volunteers .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
 
 .card-small {
   width: 400px;
