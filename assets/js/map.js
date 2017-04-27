@@ -196,14 +196,14 @@ function initMap() {
 
   var contentString = '<div id="container">' +
     '<h5 class="" style="text-align:center;">BML Munjal Univeristy</h5>' +
-    '<p>National Highway 8, 67 KM Milestone, Gurgaon, Haryana 122413, India</p>'+
+    '<p class="noscrollbar">National Highway 8, 67 KM Milestone, Gurgaon, Haryana 122413, India</p>'+
     '</div>';
 
   var infowindow = new google.maps.InfoWindow({
     content: contentString
   });
   infowindow.open(map,marker);
-  
+
   var image = 'assets/images/location.png';
   var marker = new google.maps.Marker({
     position: uluru,

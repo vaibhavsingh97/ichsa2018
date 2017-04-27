@@ -287,7 +287,7 @@
 
       <!-- Conference Dropdown Content -->
       <ul id='Conference-dropdown-content' class='dropdown-content'>
-        <li class="Dropdown-menu-links"><a class="dropdown-button" data-activates="test" data-beloworigin="false" data-constrainWidth="true" href="OrganizingCommittees.html">Organizing Committees</a></li>
+        <li class="Dropdown-menu-links"><a class="dropdown-button" data-activates="test" data-beloworigin="false" data-constrainWidth="false" href="OrganizingCommittees.html">Organizing Committees</a></li>
         <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="SpecialJournalIssue.html ">Special Journal Issue</a></li>
         <li class="divider"></li>
@@ -298,9 +298,13 @@
       <ul id='test' class='dropdown-content'>
         <li><a href="#!">General Chair</a></li>
         <li class="divider"></li>
-        <li><a href="#!">Other secretaries</a></li>
+        <li><a href="#!">Other Organizing Commitee</a></li>
         <li class="divider"></li>
         <li><a href="#!">Student Volunteers</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">National Advisory Commitee</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">International Advisory Commitee</a></li>
       </ul>
       <!-- Travel Dropdown Content -->
       <ul id='Travel-dropdown-content' class='dropdown-content'>
@@ -385,8 +389,8 @@
 
   <div class="row">
     <div class="col s12">
-      <div class="card darken-1 z-depth-3 clockDiv-wrapper" style="display:block; margin-top:0 auto;" id="clockdiv">
-        <div class="row">
+      <div class="card darken-1 z-depth-3 clockDiv-wrapper" id="clockdiv">
+        <div class="row" style="margin: 0 auto;">
           <div class="col s12 m6 l3">
             <div class="card-content grey-text darken-4" style="width:auto;">
               <h3 class="days" style="text-align:center;font-weight:300;">01</h3>
@@ -441,17 +445,86 @@
           and their related applications.</p>
       </div>
     </div>
-
   </div>
+  <!-- Blog content starts -->
+  <div class="container">
+    <div class="section">
+      <h3 class="blog-heading">From our blog</h3><br /><br />
+      <!-- <div class="divider"></div> -->
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card blog-cards">
+              <div class="card-image">
+                <img class="responsive-img blog-images" src="assets/images/rt.jpg" alt="sample">
 
-  <!-- <div class="parallax-container">
-    <div class="parallax"><img src="assets/images/conference-participants.jpg"></div>
-    <div class="white-text">
+                <span class="card-title">ICHSA 2014</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+                <a href='#'>This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card blog-cards">
+              <div class="card-image">
+                <img class="responsive-img blog-images" src="assets/images/rt.jpg" alt="sample">
+
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+                <a href='#'>This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card blog-cards">
+              <div class="card-image">
+                <img class="responsive-img blog-images" src="assets/images/rtt.jpg" alt="sample">
+
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+                <a href='#'>This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/r.png" alt="sample">
+
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+                <a href='#'>This is a link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div> -->
-  <!-- </main> -->
-
+  </div>
+  <!-- Bolg contents end here -->
+  <!-- Maps start -->
   <div id="map"></div>
+  <!-- Maps End -->
 
   <!-- Footer -->
   <footer class="page-footer teal darken-1">
@@ -534,7 +607,6 @@
     // });
     $('.btn-success').click(function() {
       swal("Thanks!", "for downloading!", "success");
-      
     });
     // $('.btn-success').click(function() {
     //   swal("Thanks!", "for downloading!", "success");
