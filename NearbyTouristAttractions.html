@@ -52,6 +52,9 @@
   <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
   <!-- Import animation.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- sweetalert css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/sweetalert.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
   <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
   <script type="application/ld+json">
     {
@@ -115,31 +118,33 @@
 
   <header>
     <!-- Top Header bar -->
-    <div class="header-top">
+    <div class="header-top colorful-bg">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col s12">
-            <div class="row">
-              <div class="col s3 l3">
-                <!-- <img src="assets/images/Sponsors/scrs.png" height="100px"alt=""> -->
-              </div>
-              <div class="col s6 l6">
-                <h5 style="text-align:center;font-weight:600;">4<sup>th</sup> International Conference on Harmony search, Soft Computing and Applications</h5>
-                <h5 style="text-align:center;">February 6-9, 2018</h5>
-              </div>
-              <div class="col s3 l3">
-                <img class="responsive-img" src="assets/images/Sponsors/Korea_University.png" style="height:100px;" alt="Korea University">&nbsp;&nbsp;
-                <img class="responsive-img" src="assets/images/bml_logo.png" style="height:100px;" alt="BML Munjal University">
-                <!-- <img class="responsive-img" src="assets/images/Sponsors/scrs.png" style="height:100px;"alt="SCRS"> -->
+        <div class="col s12">
+          <div class="row" style="padding:10px;display:flex;">
+            <div class="col s12 m6 l3" id="div1">
+              <img class="responsive-img" src="assets/images/bml_logo.png" style="height:100px;float:right;" alt="BML Munjal University">
+            </div>
+            <div class="col s12 m6 l6" id="div2">
+              <div class="row">
+                <h5 style="font-weight:600;">4<sup>th</sup> International Conference on Harmony search, Soft Computing and Applications</h5>
+                <h5>February 7-9, 2018</h5>
+                <!-- <h6>School of Engineering & Technology</h6>
+                  <h6>BML Munjal University, Gurgaon</h6> -->
               </div>
             </div>
-            <!-- <h5 style="text-align:center;">International Conference on Harmony search, Soft Computing and Applications</h5> -->
-            <!-- <h7 style="font-family: Roboto,sans-serif;text-transform: uppercase;font-style: normal;line-height: 2.9rem;margin-bottom: 1.5rem;font-size:1.1rem; text-align:center;"><span class="bold" style="font-size:4.1rem;">I</span>nternational   <span class="bold" style="font-size:4.1rem;">C</span>onference<span style="text-align:center;"> on</span><br /><span class="bold" style="font-size:4.1rem;">H</span>armony search,<span class="bold" style="font-size:4.1rem;"> S</span>oft Computing and <span class="bold" style="font-size:4.1rem;">A</span>pplications</h7> -->
+            <div class="col s12 m6 l3" id="div3">
+              <div class="row">
+                <img class="responsive-img" src="assets/images/Sponsors/Korea_University.png" style="height:100px;" alt="Korea University">&nbsp;&nbsp;
+                <img class="responsive-img" src="assets/images/Sponsors/scrs.png" style="height:100px;" alt="SCRS">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Header bar ends -->
+
     <div class="navbar" id="navigation">
       <nav>
         <div class="nav-wrapper teal z-depth-2">
@@ -153,8 +158,8 @@
               <li class="Nav-menu-links"><a class="dropdown-button" href="#!" data-activates="Conference-dropdown-content">Conference<i class="material-icons right">arrow_drop_down</i></a></li>
               <li class="Nav-menu-links"><a class="dropdown-button" href="#!" data-activates="Travel-dropdown-content">Travel<i class="material-icons right">arrow_drop_down</i></a></li>
               <li class="Nav-menu-links"><a href="404.html">Speakers</a></li>
-              <li class="Nav-menu-links"><a href="#!">Downloads</a></li>
-              <li class="Nav-menu-links"><a href="ImportantDates.html">Important Dates</a></li>
+              <li class="btn-success Nav-menu-links button-success"><a href="Downloads/ICHSA 2018 - Latex Template.zip" download>Downloads</a></li>
+              <li class="Nav-menu-links"><a href="ImportantDates.html">Important Dates&nbsp;<span class="new badge" style="background-color:#ffffff;color:#009688;"></span></a></li>
               <li class="Nav-menu-links"><a href="Registration.html">Registration</a></li>
               <li class="Nav-menu-links"><a href="#!">Contact Us</a></li>
             </ul>
@@ -223,7 +228,7 @@
                         <li class="divider"></li>
                         <li><a href="ConferenceProceedings.html">Conference Proceedings</a></li>
                         <li class="divider"></li>
-                        <li><a href="#!">Previous Conferences</a></li>
+                        <li><a href="http://opti.korea.ac.kr/ichsa2014/">Previous Conferences</a></li>
                       </ul>
                     </div>
                   </li>
@@ -246,7 +251,7 @@
                 </ul>
               </li>
               <li><a href="#!">Speakers</a></li>
-              <li><a href="#!">Downloads</a></li>
+              <li><a id="button-success" href="#!">Downloads</a></li>
               <li><a href="important_dates.html">Important Dates</a></li>
               <li><a href="Registration.html">Registration</a></li>
               <li><a href="#!">Contact Us</a></li>
@@ -273,14 +278,16 @@
         <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="PaperSubmission.html">Paper Submission</a></li>
         <li class="divider"></li>
-        <li class="Dropdown-menu-links"><a href="CameraReadySubmissions.html">Camera Ready submission</a></li>
+        <!-- <li class="Dropdown-menu-links"><a href="CameraReadySubmissions.html">Camera Ready submission</a></li> -->
+        <li class="Dropdown-menu-links"><a href="#!">Camera Ready submission</a></li>
         <li class="divider"></li>
-        <li class="Dropdown-menu-links"><a href="OnlineRegistrations.html">Online Registerations</a></li>
+        <!-- <li class="Dropdown-menu-links"><a href="OnlineRegistrations.html">Online Registerations</a></li> -->
+        <li class="Dropdown-menu-links"><a href="#!">Online Registerations</a></li>
       </ul>
 
       <!-- Conference Dropdown Content -->
       <ul id='Conference-dropdown-content' class='dropdown-content'>
-        <li class="Dropdown-menu-links"><a class="dropdown-button" data-activates="test" data-beloworigin="false" data-constrainWidth="true" href="OrganizingCommittees.html">Organizing Committees</a></li>
+        <li class="Dropdown-menu-links"><a class="dropdown-button" data-activates="test" data-beloworigin="false" data-constrainWidth="false" href="#!">Organizing Committees</a></li>
         <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="SpecialJournalIssue.html ">Special Journal Issue</a></li>
         <li class="divider"></li>
@@ -289,11 +296,15 @@
         <li class="Dropdown-menu-links"><a href="#!">Previous Conferences</a></li>
       </ul>
       <ul id='test' class='dropdown-content'>
-        <li><a href="#!">General Chair</a></li>
+        <li><a href="GeneralChair.html">General Chair</a></li>
         <li class="divider"></li>
-        <li><a href="#!">Other secretaries</a></li>
+        <li><a href="OtherOrganizinCommitee.html">Other Organizing Commitee</a></li>
         <li class="divider"></li>
-        <li><a href="#!">Student Volunteers</a></li>
+        <li><a href="StudentVolunteers.html">Student Volunteers</a></li>
+        <li class="divider"></li>
+        <li><a href="NationalAdvisoryCommitee.html">National Advisory Commitee</a></li>
+        <li class="divider"></li>
+        <li><a href="InternationalAdvisoryCommitee.html">International Advisory Commitee</a></li>
       </ul>
       <!-- Travel Dropdown Content -->
       <ul id='Travel-dropdown-content' class='dropdown-content'>
@@ -301,7 +312,8 @@
         <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="#!">Conference Venue</a></li>
         <li class="divider"></li>
-        <li class="Dropdown-menu-links"><a href="NearbyTouristAttractions.html">Nearby Tourist Attractions</a></li>
+        <!-- <li class="Dropdown-menu-links"><a href="NearbyTouristAttractions.html">Nearby Tourist Attractions</a></li> -->
+        <li class="Dropdown-menu-links"><a href="#!">Nearby Tourist Attractions</a></li>
       </ul>
     </div>
   </header>
@@ -469,7 +481,7 @@
     </div>
     <div class="footer-copyright teal darken-2">
       <div class="container">
-        © 2014 Copyright Text
+        © 2017 ICHSA
         <a class="grey-text text-lighten-4 right" href="#!">Made with &hearts; by BML Munjal University</a>
       </div>
     </div>
@@ -477,6 +489,7 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="assets/js/materialize.js"></script>
+    <script src="assets/js/sweetalert.min.js"></script>
   <script type="text/javascript" src="assets/js/style.js"></script>
   <!-- chartist -->
   <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>

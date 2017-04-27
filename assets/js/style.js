@@ -25,6 +25,9 @@ $(document).ready(function() {
   $('.carousel.carousel-slider').carousel({
     fullWidth: true
   });
+  $('.btn-success').click(function() {
+    swal("Thanks!", "for downloading!", "success");
+  });
   $('.materialboxed').materialbox();
 });
 

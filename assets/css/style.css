@@ -188,20 +188,103 @@ nav.nav-center ul li a {
   margin: 0 auto;
 }
 
-.blog-cards :hover {}
 
-.blog-images {
-  background: red;
-  background-color: #000000;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(red, yellow);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(red, yellow);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(red, yellow);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(red, yellow);
-  /* Standard syntax */
+#background {
+  background: #000000;
+  background-image: linear-gradient(to bottom right, #002f4b, rgba(0, 0, 0, .8));
+}
+
+#background img {
+  opacity: 0.5;
+}
+
+.my-card {
+  margin: 40px auto;
+  height: 450px;
+  max-width: 375px;
+  width: 100%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-1 {
+  background-image: url("../../assets/images/rt.jpg");
+}
+
+.image-2 {
+  background-image: url("../../assets/images/rt.jpg");
+}
+
+.image-3 {
+  background-image: url("../../assets/images/rtt.jpg");
+}
+
+.my-card:hover .overlay {
+  bottom: -25%;
+}
+
+.my-card h4 {
+  font-size: 2.2rem;
+  -webkit-transform: rotate(3deg);
+  transform: rotate(3deg);
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 0;
+  padding-left: 80px;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Roboto Slab;
+  margin-top: 8%;
+  font-weight: 200;
+  line-height: 1;
+}
+
+.my-card p {
+  font-family: "Roboto Slab", serif;
+  -webkit-transform: rotate(3deg);
+  transform: rotate(3deg);
+  color: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  padding: 30px;
+  padding-right: 100px;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: justify;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.overlay {
+  position: absolute;
+  left: -10%;
+  bottom: -40%;
+  display: block;
+  background: white;
+  height: 400px;
+  width: 500px;
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  border-radius: 10px;
+  text-align: center;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+.my-card .button {
+  color: #E80000;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 900;
+  -webkit-transform: rotate(3deg) translateX(-70%);
+  transform: rotate(3deg) translateX(-70%);
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
 }
 
 #map {
