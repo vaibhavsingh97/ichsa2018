@@ -1232,3 +1232,20 @@ nav.nav-center ul li a {
   font-style: italic;
   /*font-size: 1em;*/
 }
+
+
+/*
+ * =============================
+ * Awards page
+ * =============================
+ */
+
+#awards main {
+  flex: 1 0 auto;
+}
+
+#awards .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
