@@ -9,5 +9,6 @@ Conference Website
 - [ ] Fix Font
 - [ ] Fix top header
 - [x] Fix OrganizingCommitte.html view in mobile
+- [ ] Add Tourist attraction page
 
 <!-- Reference: http://socpros16.scrs.in/ -->
