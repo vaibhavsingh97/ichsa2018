@@ -92,6 +92,13 @@
     }
   </script>
 </head>
+<div id="loader-wrapper">
+  <div id="loader"></div>
+
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+
+</div>
 
 <body id="index">
   <!-- Facebook -->
@@ -117,7 +124,6 @@
         }(document, 'script', 'facebook-jssdk'));
     </script> -->
   <!-- End Facebook -->
-
   <header>
     <!-- Top Header bar -->
     <div class="header-top colorful-bg">
@@ -588,6 +594,13 @@
 
   <script type="text/javascript" src="assets/js/map.js"></script>
   <script type="text/javascript">
+    $(document).ready(function() {
+
+      setTimeout(function() {
+        $('body').addClass('loaded');
+      }, 3000);
+
+    });
     $('.button-collapse').sideNav({
       // menuWidth: 300, // Default is 300
       // edge: 'right', // Choose the horizontal origin
