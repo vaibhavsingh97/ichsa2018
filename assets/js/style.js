@@ -1,4 +1,9 @@
 $(document).ready(function() {
+  window.onload = function() {
+    $('body').addClass('loaded');
+  };
+});
+$(document).ready(function() {
   // Dropdown
   // $('.dropdown-button').dropdown({
   //     inDuration: 300,
