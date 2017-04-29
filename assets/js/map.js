@@ -202,8 +202,11 @@ function initMap() {
   var infowindow = new google.maps.InfoWindow({
     content: contentString
   });
-  google.maps.event.addListenerOnce(map, 'tilesloaded', function() {
-    infowindow.open(map, marker);
+  
+  google.maps.event.addListener(RdrMarker, 'click', function() {
+    map.setCenter(RdrMarker.getPosition());
+    infowindow.setContent(contentStringRdr);
+    infowindow.open(map, RdrMarker);
   });
 
   var image = 'assets/images/location.png';
