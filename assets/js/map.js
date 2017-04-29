@@ -202,11 +202,9 @@ function initMap() {
   var infowindow = new google.maps.InfoWindow({
     content: contentString
   });
-  
-  google.maps.event.addListener(RdrMarker, 'click', function() {
-    map.setCenter(RdrMarker.getPosition());
-    infowindow.setContent(contentStringRdr);
-    infowindow.open(map, RdrMarker);
+
+  google.maps.event.addListenerOnce(map, 'tilesloaded', function() {
+    infowindow.open(map, marker);
   });
 
   var image = 'assets/images/location.png';
