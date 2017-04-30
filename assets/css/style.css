@@ -1200,7 +1200,9 @@ nav.nav-center ul li a {
   font-weight: 300;
   text-align: center;
 }
-
+#nearby-tourist-page .card .card-image img{
+  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+}
 
 /*
  * =============================
