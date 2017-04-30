@@ -873,6 +873,14 @@ nav.nav-center ul li a {
   margin: 0 auto;
 }
 
+#national-advisory-committee .collection-item {
+  cursor: default;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  border: none;
+}
+
 
 /*
  * =============================
@@ -893,6 +901,14 @@ nav.nav-center ul li a {
 #international-advisory-committee .card-panel {
   display: block;
   margin: 0 auto;
+}
+
+#international-advisory-committee .collection-item {
+  cursor: default;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  border: none;
 }
 
 
@@ -1200,9 +1216,11 @@ nav.nav-center ul li a {
   font-weight: 300;
   text-align: center;
 }
-#nearby-tourist-page .card .card-image img{
+
+#nearby-tourist-page .card .card-image img {
   background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
 }
+
 
 /*
  * =============================
