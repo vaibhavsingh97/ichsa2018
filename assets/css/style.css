@@ -316,7 +316,7 @@ body {
   z-index: 100;
 }
 
-#clockDic {
+#clockDiv {
   z-index: 300;
 }
 
@@ -1276,5 +1276,4 @@ marquee {
   margin-right: 5px;
   text-align: center;
   align-items: center;
-
 }
