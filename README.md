@@ -14,6 +14,6 @@ Conference Website
 <!-- Reference: http://socpros16.scrs.in/ -->
 - [ ] Add in National advisory board 
         Dr. Amreek Singh, DRDO Chandigarh 
-- [ ] Add in Call for papers one algorithm and one Applications
-        Algorithm : Cuckoo Search Algorithm 
+- [ ] Add in Call for papers, 
+        Algorithm : Cuckoo Search Algorithm ,
         Applications: Structural Engineering
