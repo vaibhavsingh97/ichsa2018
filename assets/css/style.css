@@ -1285,11 +1285,16 @@ marquee {
   margin: 0 auto;
 }
 
+.slider .slides li img {
+  background-repeat: no-repeat;
+}
+
 .chip {
   color: #fff;
   background-color: teal;
 }
-.chip a{
+
+.chip a {
   color: #fff;
 }
 
