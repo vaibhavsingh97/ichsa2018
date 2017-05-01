@@ -1270,6 +1270,14 @@ nav.nav-center ul li a {
   text-align: center;
 }
 
+#awards .collection-item {
+  cursor: default;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  border: none;
+}
+
 marquee {
   height: 50px;
   padding: 10px;
@@ -1280,6 +1288,9 @@ marquee {
 .chip {
   color: #fff;
   background-color: teal;
+}
+.chip a{
+  color: #fff;
 }
 
 .chip-cards {
