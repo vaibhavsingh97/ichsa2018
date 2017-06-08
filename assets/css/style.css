@@ -1371,12 +1371,12 @@ marquee {
 }
 
 #speakers-page .card-image{
-  max-height: 350px;
+  max-height: 300px;
 }
 
 #speakers-page .card-image img{
   background-position: center;
   background-size: cover;
   vertical-align: text-top;
-  max-height: 350px;
+  max-height: 300px;
 }
