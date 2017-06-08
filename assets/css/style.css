@@ -1172,6 +1172,17 @@ nav.nav-center ul li a {
   text-align: center;
 }
 
+#special-journal-issue-page img {
+  margin: 0 auto;
+}
+
+#special-journal-issue-page p {
+  font-weight: 400;
+  font-style: oblique;
+  font-variant: normal;
+  font-size: 15px;
+}
+
 
 /*
  * =============================
@@ -1312,4 +1323,60 @@ marquee {
   margin-right: 5px;
   text-align: center;
   align-items: center;
+}
+
+
+/*
+ * =============================
+ * Downloads page
+ * =============================
+ */
+
+#downloads-page main {
+  flex: 1 0 auto;
+}
+
+#downloads-page .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#downloads-page #card-stats a {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+#downloads-page .material-icons{
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+/*
+ * =============================
+ * Speakers page
+ * =============================
+ */
+
+#speakers-page main {
+  flex: 1 0 auto;
+}
+
+#speakers-page .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#speakers-page .card-image{
+  max-height: 350px;
+}
+
+#speakers-page .card-image img{
+  background-position: center;
+  background-size: cover;
+  vertical-align: text-top;
+  max-height: 350px;
 }
