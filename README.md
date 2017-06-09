@@ -34,3 +34,7 @@ In speakers section, just add thier name and affiliation and give a direct link 
    Nanyang Technological University                                (Homepage: https://sites.google.com/a/hydroteq.com/www/gcu)
    Singapore
    (Homepage :http://www.ntu.edu.sg/home/elpwang/)
+   
+   Under Registration section,
+   Registration Fee waiver scheme for students/ research scholars: (Bold Heading)
+   A selected number of registration fee for students/research scholars (national/international) shall be waived off (partially/fully) by the organising committee. The application window for waive off scheme will be available till August 31,2017. Seperate email request is required for the same to be send at secretariat@ichsa2018.com. 
