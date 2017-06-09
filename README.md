@@ -26,3 +26,5 @@ Add speakers section (detials given in word file)
 2. Prof. Lipo Wang
 
 Downloads section correct spelling of Template Word . its wriiten Tempate
+
+Picture of Prof. Zong Woo Geem is wrong in the speakers section. (please correct it asap)
