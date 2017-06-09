@@ -18,9 +18,9 @@ Conference Website
         Algorithm : Cuckoo Search Algorithm ,
         Applications: Structural Engineering
 
-Add at homepage two things
-1."All accepted papers will be published in proceedings of AISC seriers of Springer, SCOPUS Indexed (approval awaited)
-2. "selected papers will be published in Special Issue of Journal of Experimental and Theoretical Artificial Intelligence (Taylor & Francis), SCI Indexed, Impact Factor 1.703” (approval recieved)
+Add at homepage two things in floating way
+1.edit "Proceedings:Springer" to "All accepted papers will be published in proceedings of AISC seriers of Springer, SCOPUS Indexed (approval awaited)
+2. add "selected papers will be published in Special Issue of Journal of Experimental and Theoretical Artificial Intelligence (Taylor & Francis), SCI Indexed, Impact Factor 1.703” (approval recieved)
 Add speakers section (detials given in word file)
 1. Prof. Zoong Woo Geem
 2. Prof. Lipo Wang
