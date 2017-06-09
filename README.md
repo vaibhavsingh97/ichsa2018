@@ -24,4 +24,5 @@ Add at homepage two things in floating way
 
 Downloads section correct spelling of Template Word . its wriiten Tempate
 
-Picture of Prof. Zong Woo Geem is wrong in the speakers section. (please correct it asap)
+Picture of Prof. Zong Woo Geem is wrong in the speakers section. (please correct it asap) link for picture
+(https://www.google.co.in/search?q=zong+woo+geem+gachon+university&newwindow=1&safe=active&client=firefox-b-ab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj6useugrDUAhVFtY8KHcxFBFsQ_AUIBygC&biw=1525&bih=736#imgrc=W2__eWQLZgOnHM:)
