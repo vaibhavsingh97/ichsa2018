@@ -24,3 +24,5 @@ Add at homepage two things in floating way
 Add speakers section (detials given in word file)
 1. Prof. Zoong Woo Geem
 2. Prof. Lipo Wang
+
+Downloads section correct spelling of Template Word . its wriiten Tempate
