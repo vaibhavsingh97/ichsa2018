@@ -40,3 +40,5 @@ In speakers section, just add thier name and affiliation and give a direct link 
   
   National Advisory Committee >>> correct the numbering after 11 and add a name of Prof. U.C. Gupta, IIT Kharagpur
   
+  Home>> mark registration section as "new". Put an reflecting icon of "Registration Fee waiver scheme for students/ research scholars" at Home somewhere same as last date of Abstract. 
+  
