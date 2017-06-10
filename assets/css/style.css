@@ -1274,7 +1274,6 @@ nav.nav-center ul li a {
   margin: 0 auto;
   color: #fff;
   background-color: teal;
-
 }
 
 
@@ -1393,4 +1392,51 @@ marquee {
   background-size: cover;
   vertical-align: text-top;
   max-height: 300px;
+}
+
+
+/*
+ * =============================
+ * Contacts page
+ * =============================
+ */
+
+#contacts-page main {
+  flex: 1 0 auto;
+}
+
+#contacts-page .card .card-content .name {
+  font-weight: 400;
+  font-size: 23px;
+  clear: both;
+}
+
+#contacts-page .card .card-content .details {
+  margin: 0 auto;
+  display: block;
+  clear: both;
+}
+
+#contacts-page .card .card-content .location {
+  padding: 5px;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: center;
+  clear: both;
+}
+
+#contacts-page .card .card-content .email-id {
+  padding: 5px;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: left;
+  clear: both;
+}
+
+#contacts-page .icon-property{
+  color: teal;
+  font-size: 1.6rem;
+  position: relative;
+  margin: 0 auto;
+  margin-right: 5px;
 }
