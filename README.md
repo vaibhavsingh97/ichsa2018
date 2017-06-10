@@ -18,11 +18,11 @@ Conference Website
         Algorithm : Cuckoo Search Algorithm ,
         Applications: Structural Engineering
 
-Add at homepage two things in floating way
-1.edit "Proceedings:Springer" to "All accepted papers will be published in proceedings of AISC seriers of Springer, SCOPUS Indexed (approval awaited)
-2. add "selected papers will be published in Special Issue of Journal of Experimental and Theoretical Artificial Intelligence (Taylor & Francis), SCI Indexed, Impact Factor 1.703” (approval recieved)
+-[x]Add at homepage two things in floating way
+[x] 1.edit "Proceedings:Springer" to "All accepted papers will be published in proceedings of AISC seriers of Springer, SCOPUS Indexed (approval awaited)
+[x] 2. add "selected papers will be published in Special Issue of Journal of Experimental and Theoretical Artificial Intelligence (Taylor & Francis), SCI Indexed, Impact Factor 1.703” (approval recieved)
 
-Downloads section correct spelling of Template Word . its wriiten Tempate
+[x] Downloads section correct spelling of Template Word . its wriiten Tempate
 
 Picture of Prof. Zong Woo Geem is wrong in the speakers section. (please correct it asap) link for picture
 (https://www.google.co.in/search?q=zong+woo+geem+gachon+university&newwindow=1&safe=active&client=firefox-b-ab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj6useugrDUAhVFtY8KHcxFBFsQ_AUIBygC&biw=1525&bih=736#imgrc=W2__eWQLZgOnHM:)
@@ -35,6 +35,8 @@ In speakers section, just add thier name and affiliation and give a direct link 
    Singapore
    (Homepage :http://www.ntu.edu.sg/home/elpwang/)
    
-   Under Registration section,
-   Registration Fee waiver scheme for students/ research scholars: (Bold Heading)
-   A selected number of registration fee for students/research scholars (national/international) shall be waived off (partially/fully) by the organising committee. The application window for waive off scheme will be available till August 31,2017. Seperate email request is required for the same to be send at secretariat@ichsa2018.com. 
+  Spelling mistake registration section >> Accompanying person instead of "Accompaning"
+  under Registration Fee waiver scheme : the heading is repeated twice in the text as well..keep it only heading and start with "select number of registration fee..." 
+  
+  National Advisory Committee >>> correct the numbering after 11 and add a name of Prof. U.C. Gupta, IIT Kharagpur
+  
