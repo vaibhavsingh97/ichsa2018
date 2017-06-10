@@ -1251,10 +1251,15 @@ nav.nav-center ul li a {
 
 #registration-page table {
   font-size: 1.1em;
+  border: 1px solid teal;
 }
 
 #registration-page th {
-  font-size: 1.3em;
+  font-size: 1.2em;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 #registration-page .note-text {
@@ -1262,6 +1267,14 @@ nav.nav-center ul li a {
   /*font-weight: 400;*/
   font-style: italic;
   /*font-size: 1em;*/
+}
+
+#registration-page .table-heading {
+  font-weight: 500;
+  margin: 0 auto;
+  color: #fff;
+  background-color: teal;
+
 }
 
 
@@ -1347,7 +1360,8 @@ marquee {
   font-size: 20px;
   color: #ffffff;
 }
-#downloads-page .material-icons{
+
+#downloads-page .material-icons {
   vertical-align: middle;
   display: inline-block;
   margin: 0 auto;
@@ -1370,11 +1384,11 @@ marquee {
   text-align: center;
 }
 
-#speakers-page .card-image{
+#speakers-page .card-image {
   max-height: 300px;
 }
 
-#speakers-page .card-image img{
+#speakers-page .card-image img {
   background-position: center;
   background-size: cover;
   vertical-align: text-top;
