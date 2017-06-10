@@ -14,7 +14,7 @@ In speakers section, just add thier name and affiliation and give a direct link 
    School of School of Electrical and                                Department of Energy IT
    Electronic Engineering                                            Gachon University, S. Korea
    Nanyang Technological University                                (Homepage: https://sites.google.com/a/hydroteq.com/www/gcu)
-   Singapore
+   Singapore  
    (Homepage :http://www.ntu.edu.sg/home/elpwang/)
 
 
