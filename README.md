@@ -1,10 +1,6 @@
-# ichsa2018
-Conference Website
+# ICHSA 2018
 
-## Todo
+ICHSA is a four year old international conference. ICHSA was first held in 2014 at Korea University, Seoul, South Korea and attracted a large number of researchers from different part of the world.
 
-- [ ] All screen size compatibility (ipad Pro, all mobile screen size)
-- [ ] Add media queries
-- [ ] National Advisory Committee >>> correct the numbering after 11 and add a name of Prof. U.C. Gupta, IIT Kharagpur
-- [ ] Add facebook link "https://www.facebook.com/ICHSA2018/"
-- [ ] Update "organizing commitee"
+# Framework used
+- Materialized CSS
