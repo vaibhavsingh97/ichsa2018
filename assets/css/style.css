@@ -830,6 +830,38 @@ nav.nav-center ul li a {
 
 }*/
 
+/*
+ * =============================
+ * Organizing Commitee page
+ * =============================
+ */
+
+#organizing-commitee-page main {
+  flex: 1 0 auto;
+}
+
+#organizing-commitee-page .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#organizing-commitee-page .card{
+  height: 360px;
+}
+#organizing-commitee-page .profile-picture{
+  width: 180px;
+}
+#organizing-commitee-page .name{
+  font-size: 25px;
+}
+#organizing-commitee-page .designation{
+  font-size: 16px;
+  font-weight: 500;
+}
+#organizing-commitee-page .chip{
+  margin-top: 10px;
+}
 
 /*
  * =============================
