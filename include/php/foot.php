@@ -29,6 +29,9 @@
     </div>
   </div>
 </footer>
+<?php if(is_page('#index-page')){
+
+} ?>
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="assets/js/materialize.js"></script>
@@ -58,6 +61,22 @@
   //         $(this).remove();
   //     });
   // });
+  $(window).load(function() {
+    setTimeout(function() {
+      Materialize.toast('<strong>Announcement: Welcome to the 4th International Conference.</strong>', 4500);
+    }, 1500);
+
+    setTimeout(function() {
+      Materialize.toast('<strong>Important Date <br />Submission of Abstract 15<sup>th</sup> July 2017</strong', 50000);
+    }, 5000);
+
+    setTimeout(function() {
+      Materialize.toast('<strong><a href="Registration.html" style="color:white">Registration Fee waiver scheme for students/ research scholars</a></strong>', 50000, 'orange');
+    }, 6000);
+    // setTimeout(function() {
+    //   Materialize.toast('<span >Join the conference </span><a class="btn-flat yellow-text" href="#">Join<a>', 15000);
+    // }, 3000);
+  });
 </script>
 <script>
   (function(i, s, o, g, r, a, m) {
