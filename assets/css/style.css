@@ -848,6 +848,8 @@ nav.nav-center ul li a {
 
 #organizing-commitee-page .card {
   height: 360px;
+  clear: both;
+  display: block;
 }
 
 #organizing-commitee-page .profile-picture {
@@ -865,6 +867,29 @@ nav.nav-center ul li a {
 
 #organizing-commitee-page .chip {
   margin-top: 10px;
+}
+
+#organizing-commitee-page .card .card-content {
+  clear: both;
+  margin: 0 auto;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #organizing-commitee-page .card {
+    height: 360px;
+    overflow: scroll;
+    clear: both;
+    display: block;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  #organizing-commitee-page .card {
+    height: 360px;
+    overflow: scroll;
+    clear: both;
+    display: block;
+  }
 }
 
 
@@ -1436,15 +1461,55 @@ marquee {
   text-align: center;
 }
 
-#speakers-page .card-image {
-  max-height: 370px;
+#speakers-page .card {
+  height: 380px;
+  clear: both;
+  display: block;
 }
 
-#speakers-page .card-image img {
-  background-position: center;
-  background-size: cover;
-  vertical-align: text-top;
-  max-height: 370px;
+#speakers-page .profile-picture {
+  width: 180px;
+}
+
+#speakers-page .name {
+  font-size: 22px;
+}
+
+#speakers-page .title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#speakers-page .school-name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#speakers-page .chip {
+  margin-top: 10px;
+}
+
+#speakers-page .card .card-content {
+  clear: both;
+  margin: 0 auto;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #speakers-page .card {
+    height: 360px;
+    overflow: scroll;
+    clear: both;
+    display: block;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+  #speakers-page .card {
+    height: 360px;
+    overflow: scroll;
+    clear: both;
+    display: block;
+  }
 }
 
 
