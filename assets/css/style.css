@@ -13,10 +13,9 @@ body {
   flex-direction: column;
 }
 
-
-/*main {
-    flex: 1 0 auto;
-  }*/
+main {
+  flex: 1 0 auto;
+}
 
 #loader-wrapper {
   position: fixed;
@@ -830,6 +829,7 @@ nav.nav-center ul li a {
 
 }*/
 
+
 /*
  * =============================
  * Organizing Commitee page
@@ -846,22 +846,27 @@ nav.nav-center ul li a {
   text-align: center;
 }
 
-#organizing-commitee-page .card{
+#organizing-commitee-page .card {
   height: 360px;
 }
-#organizing-commitee-page .profile-picture{
+
+#organizing-commitee-page .profile-picture {
   width: 180px;
 }
-#organizing-commitee-page .name{
+
+#organizing-commitee-page .name {
   font-size: 25px;
 }
-#organizing-commitee-page .designation{
+
+#organizing-commitee-page .designation {
   font-size: 16px;
   font-weight: 500;
 }
-#organizing-commitee-page .chip{
+
+#organizing-commitee-page .chip {
   margin-top: 10px;
 }
+
 
 /*
  * =============================
@@ -958,6 +963,22 @@ nav.nav-center ul li a {
   font-size: 35px;
   font-weight: 300;
   text-align: center;
+}
+
+#student-volunteers .profile-picture {
+  width: 180px;
+}
+
+#student-volunteers .name {
+  margin-top: 5px;
+}
+
+#student-volunteers .designation {
+  margin-top: 5px;
+}
+
+#student-volunteers .chip {
+  margin-top: 10px;
 }
 
 .card-small {
@@ -1465,7 +1486,7 @@ marquee {
   clear: both;
 }
 
-#contacts-page .icon-property{
+#contacts-page .icon-property {
   color: teal;
   font-size: 1.6rem;
   position: relative;
