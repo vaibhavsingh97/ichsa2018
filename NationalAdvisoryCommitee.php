@@ -3,7 +3,7 @@
   $id_name = 'id="national-advisory-committee"';
   include 'include/php/head.php';
 ?>
-  <link rel="stylesheet" href="assets/css/typicons.min.css">
+
   <main>
     <div class="container">
       <h4 class="heading">National Advisory Committee</h4>

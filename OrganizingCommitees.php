@@ -6,7 +6,7 @@
 
   <main>
     <div class="row">
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/akshay_munjal.jpg" alt="Mr. Akshay Munjal">
@@ -18,7 +18,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Prof-Satya1.jpg" alt="Prof. (Dr.) B.S.Satyanarayana">
@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/prof_joong.png" alt="Prof. Joong Hoon Kim">
@@ -42,7 +42,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dean-MBS.jpg" alt="Prof. M.B. Srinivas">
@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/kusumfma_kusumfma.jpg" alt="Prof. Kusum Deep">
@@ -66,7 +66,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/jagdish_chand.jpg" alt="Dr. J.C. Bansal">
@@ -78,7 +78,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/knd.jpg" alt="Dr. Kedar Nath Das">
@@ -90,7 +90,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/neha.jpg" alt="Dr. Neha Yadav">
@@ -102,7 +102,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/anupam.jpg" alt="Dr. Anupam Yadav">
@@ -114,7 +114,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dr_Akhlaq_Hussain.jpg" alt="Dr. Akhlaq Husain">
@@ -126,7 +126,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dr_Ziya_Uddin.jpg" alt="Dr. Ziya Uddin">
@@ -138,7 +138,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dr_Rishi_Asthana.jpg" alt="Dr. Rishi Asthana">
@@ -150,7 +150,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dr_Ranjib_Bannerjee.jpg" alt="Dr. Ranjib Banerjee">
@@ -162,7 +162,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dr_Kalluri_Vinayak.jpg" alt="Dr. Kalluri Vinayak">
@@ -174,7 +174,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dr_Maheshwar_Dwivedy.jpg" alt="Dr. Maheshwar Dwivedy">
@@ -186,7 +186,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/manoj.jpg" alt="Dr. Manoj Thakur">
@@ -198,7 +198,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Mukesh_mann.jpg" alt="Dr. Mukesh Mann">
@@ -210,7 +210,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/rakesh-badoni.jpg" alt="Dr. Rakesh Prasad Badoni">
@@ -222,7 +222,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dr_Goldie_Gabrani.jpg" alt="Prof. Goldie Gabrani">
@@ -234,7 +234,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dr_Swati_Jha.jpg" alt="Dr. Sawti Jha">
@@ -246,7 +246,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dr-Ashok-Sihag.jpg" alt="Dr. Ashok Kumar Suhag">
@@ -258,7 +258,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Sanjay.jpg" alt="Dr. Sanjay Kashyap">
@@ -270,7 +270,7 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Harish.jpg" alt="Dr. Harish">

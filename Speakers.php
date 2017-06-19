@@ -9,39 +9,55 @@
       <h4 class="heading">Speakers</h4>
       <div class="divider"></div>
       <div class="section">
+
+
         <div class="row">
-          <div class="col s12 m12 l4">
-            <div class="card hoverable" style="height:580px;">
-              <div class="card-image">
-                <img src="assets/images/Speakers/dr_lipo.jpg">
-                <!-- <span class="card-title">Card Title</span> -->
-              </div>
-              <div class="card-content center">
-                <span style="font-weight:400;font-size:1.5rem;">Prof. Lipo Wang</span>
-                <h5 style="color:grey;font-size:1rem;margin-top:2px;"><strong>School of Electrical and Electronic Engineering</strong></h5>
-                <h6>Nanyang Technological University, Singapore</h6>
+          <div class="col s12 m5">
+            <div class="card darken-1 center hoverable">
+              <div class="card-content black-text">
+                <img class="circle img-responsive profile-picture" src="assets/images/Speakers/test.jpg" alt="Mr. Akshay Munjal">
+                <span class="card-title name"> Prof. Lipo Wang</span>
+                <span class=" title">School of Electrical and Electronic Engineering</span><br>
+                <span class="grey-text school-name">Nanyang Technological University, Singapore</span><br>
                 <a href="http://www.ntu.edu.sg/home/elpwang/"><i class="material-icons circle teal" style="padding:10px; color:#ffffff;top:15px; margin-top:5px;">public</i></a>
               </div>
             </div>
           </div>
-          <div class="col s12 m12 l4">
-            <div class="card hoverable" style="height:580px;">
-              <div class="card-image">
-                <img src="assets/images/Speakers/Prof_zong.jpg">
-                <!-- <span class="card-title">Card Title</span> -->
-              </div>
-              <div class="card-content center">
-                <span style="font-weight:400;font-size:1.5rem;">Prof. Zong Woo Geem</span>
-                <h5 class="Regular" style="color:grey;font-size:1rem;margin-top:2px;"><strong>Department of Energy IT</strong></h5>
-                <h6>Gachon University, S. Korea</h6>
+          <div class="col s12 m5">
+            <div class="card darken-1 center hoverable">
+              <div class="card-content black-text">
+                <img class="circle img-responsive profile-picture" src="assets/images/Speakers/test1.jpg" alt="Mr. Akshay Munjal">
+                <span class="card-title name"> Prof. Zong Woo Geem</span>
+                <span class="title">Department of Energy IT</span><br>
+                <span class="grey-text school-name">Gachon University, S. Korea</span><br>
                 <a href="https://sites.google.com/a/hydroteq.com/www/gcu"><i class="material-icons circle teal" style="padding:10px; color:#ffffff;top:15px; margin-top:5px;">public</i></a>
               </div>
-              <!-- <div class="card-action">
-                <a href="#">This is a link</a>
-              </div> -->
             </div>
           </div>
+
+          <!-- <div class="col s12 m6 l4">
+            <div class="card darken-1 center hoverable">
+              <img class="circle img-responsive profile-picture" src="assets/images/Speakers/test.jpg" alt="Mr. Akshay Munjal">
+              <div class="card-content black-text">
+                <span class="card-title name"> Prof. Lipo Wang </span>
+                <span class="grey-text designation">School of Electrical and Electronic Engineering<br>Nanyang Technological University, Singapore</span><br>
+                <a href="http://www.ntu.edu.sg/home/elpwang/"><i class="material-icons circle teal" style="padding:10px; color:#ffffff;top:15px; margin-top:5px;">public</i></a>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col s12 m6 l4">
+            <div class="card darken-1 center hoverable">
+              <img class="circle img-responsive profile-picture" src="assets/images/Speakers/test1.jpg" alt="Mr. Akshay Munjal">
+              <div class="card-content black-text">
+                <span class="card-title name"> Prof. Zong Woo Geem </span>
+                <span class="grey-text designation">Department of Energy IT<br>Gachon University, S. Korea</span><br>
+                <a href="https://sites.google.com/a/hydroteq.com/www/gcu"><i class="material-icons circle teal" style="padding:10px; color:#ffffff;top:15px; margin-top:5px;">public</i></a>
+              </div>
+            </div>
+          </div> -->
         </div>
+
 
       </div>
     </div>

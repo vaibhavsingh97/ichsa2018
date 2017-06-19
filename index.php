@@ -1,5 +1,6 @@
 <?php
   $title = "International Conference on Harmony search, Soft Computing and Applications 2018";
+  // $id_name = 'id="index-page"';
   include 'include/php/head.php';
 ?>
 
@@ -188,43 +189,6 @@
     </div>
   </div>
   <!-- Blog contents end here -->
-
-  <!-- Testing Blog -->
-  <!-- <div class="section">
-    <h3 class="blog-heading">From our blog</h3><br /><br />
-    <div class="divider"></div>
-    <div class="section">
-      <div class="row">
-        <div class="col s12 m6 l4">
-          <div class="my-card image-1">
-            <div class="overlay">
-              <h4>ICHSA 2014</h4>
-              <p>A little known aspect of the roofing industry is that very few roofing companies actually work on roofs.</p>
-              <a href="http://www.evanpedrick.com/" target="_blank" class='button'>LEARN MORE</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l4">
-          <div class="my-card image-2">
-            <div class="overlay">
-              <h4>ICHSA 2015</h4>
-              <p>A little known aspect of the roofing industry is that very few roofing companies actually work on roofs.</p>
-              <a href="http://www.evanpedrick.com/" target="_blank" class='button'>LEARN MORE</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l4">
-          <div class="my-card image-3">
-            <div class="overlay">
-              <h4>ICHSA 2016</h4>
-              <p>A little known aspect of the roofing industry is that very few roofing companies actually work on roofs.</p>
-              <a href="http://www.evanpedrick.com/" target="_blank" class='button'>LEARN MORE</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
   <!-- Maps start -->
   <div id="map"></div>
   <!-- Maps End -->
@@ -232,26 +196,6 @@
   <script type="text/javascript" src="assets/js/countdown.js"></script>
   <script type="text/javascript" src="assets/js/map.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5ip1iQAihZm3p9NSSGQB19RGwxrGO6Uw&callback=initMap">
-  </script>
-  <script type="text/javascript">
-  // Toast Notification'
-
-  $(window).load(function() {
-    setTimeout(function() {
-      Materialize.toast('<strong>Announcement: Welcome to the 4th International Conference.</strong>', 4500);
-    }, 1500);
-
-    setTimeout(function() {
-      Materialize.toast('<strong>Important Date <br />Submission of Abstract 15<sup>th</sup> July 2017</strong', 50000);
-    }, 5000);
-
-    setTimeout(function() {
-      Materialize.toast('<strong><a href="Registration.html" style="color:white">Registration Fee waiver scheme for students/ research scholars</a></strong>', 50000, 'orange');
-    }, 6000);
-    // setTimeout(function() {
-    //   Materialize.toast('<span >Join the conference </span><a class="btn-flat yellow-text" href="#">Join<a>', 15000);
-    // }, 3000);
-  });
   </script>
 
   <?php
