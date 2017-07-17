@@ -58,13 +58,15 @@
   //         $(this).remove();
   //     });
   // });
+
+  // Notification Function
   $(window).load(function() {
     setTimeout(function() {
       Materialize.toast('<strong>Announcement: Welcome to the 4th International Conference.</strong>', 4500);
     }, 1500);
 
     setTimeout(function() {
-      Materialize.toast('<strong>Important Date <br />Submission of Abstract 15<sup>th</sup> July 2017</strong', 50000);
+      Materialize.toast('<strong>Important Date <br />Submission of Abstract 15<sup>th</sup> August 2017</strong', 50000, 'red');
     }, 5000);
 
     setTimeout(function() {

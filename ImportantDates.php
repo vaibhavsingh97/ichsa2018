@@ -7,14 +7,13 @@
   <main id="important-dates">
     <div class="container">
       <h1 style="text-align:center;font-weight:300;">Important Dates</h1>
-      <p style="text-align:justify" class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <div class="timeline">
         <div class="timeline-event">
           <div class="card timeline-content z-depth-2">
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Submission of Abstract</span>
               <div class="chip teal" style="color:#fff;">
-                15<sup>th</sup> July,&nbsp;&nbsp;2017
+                15<sup>th</sup> August,&nbsp;&nbsp;2017
                 <i class="material-icons"></i>
               </div>
             </div>
@@ -100,7 +99,7 @@
       </div>
     </div>
   </main>
-  
+
   <?php
    include 'include/php/foot.php';
   ?>
