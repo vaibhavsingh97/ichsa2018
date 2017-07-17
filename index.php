@@ -96,7 +96,7 @@
 
   <!-- About The Conference -->
   <div class="container">
-    <h1 style="text-align:center; color:teal;">About ICHSA</h1>
+    <h1 style="text-align:center; color:teal;" onclick="abc()">About ICHSA</h1>
     <p style="text-align:justify;">ICHSA is a four year old international conference. ICHSA was first held in 2014 at Korea University, Seoul, South Korea and attracted a large number of researchers from different part of the world. The second and third series of ICHSA were then organized
       in South Korea and Spain, respectively with a grand success.</p>
   </div>
@@ -193,6 +193,22 @@
   <div id="map"></div>
   <!-- Maps End -->
   <!-- scripts -->
+
+  <script type="text/javascript" >
+    document.addEventListener('DOMContentLoaded',setTimeout(function() {
+    setTimeout(function() {
+      Materialize.toast('<strong>Announcement: Welcome to the 4th International Conference.</strong>', 4500);
+    }, 1500);
+
+    setTimeout(function() {
+      Materialize.toast('<strong>Important Date <br />Submission of Abstract 15<sup>th</sup> August 2017</strong', 50000, 'red');
+    }, 5000);
+
+    setTimeout(function() {
+      Materialize.toast('<strong><a href="Registration.html" style="color:white">Registration Fee waiver scheme for students/ research scholars</a></strong>', 50000, 'orange');
+    }, 6000);
+  },4000), false);
+  </script>
   <script type="text/javascript" src="assets/js/countdown.js"></script>
   <script type="text/javascript" src="assets/js/map.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5ip1iQAihZm3p9NSSGQB19RGwxrGO6Uw&callback=initMap">
