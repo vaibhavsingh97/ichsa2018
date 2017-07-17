@@ -7,7 +7,7 @@
   <!-- <main> -->
   <marquee>
     <div class="chip">
-      <a href="ConferenceProceedings.html">All accepted papers will be published in proceedings of AISC seriers of Springer, SCOPUS Indexed (approval awaited)</a>
+      <a href="ConferenceProceedings.php">All accepted papers will be published in proceedings of AISC seriers of Springer, SCOPUS Indexed (approval awaited)</a>
     </div>
     <div class="chip">
       <a href="http://www.tandfonline.com/toc/teta20/current">Selected papers will be published in Special Issue of Journal of Experimental and Theoretical Artificial Intelligence (Taylor & Francis), SCI Indexed, Impact Factor 1.703” (approval recieved)</a>
@@ -16,7 +16,7 @@
       Call for Proposal for workshops and special sessions
     </div>
     <div class="chip">
-      <a href="ImportantDates.html">
+      <a href="ImportantDates.php">
         Abstract Submission Deadline: 15<sup>th</sup>&nbsp;July, 2017
       </a>
     </div>

@@ -13,10 +13,10 @@
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Links</h5>
         <ul>
-          <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Important Dates</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Call For papers</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Registrations</a></li>
+          <li><a class="grey-text text-lighten-3" href="index.php">Home</a></li>
+          <li><a class="grey-text text-lighten-3" href="ImportantDates.php">Important Dates</a></li>
+          <li><a class="grey-text text-lighten-3" href="CallForPapers.php">Call For papers</a></li>
+          <li><a class="grey-text text-lighten-3" href="Registration.php">Registrations</a></li>
           <!-- <li><a class="grey-text text-lighten-3" href="#!"></a></li> -->
         </ul>
       </div>
