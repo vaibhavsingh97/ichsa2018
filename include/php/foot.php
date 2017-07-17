@@ -6,8 +6,8 @@
         <h5 class="white-text">ICHSA 2018</h5>
         <!-- <p class="grey-text text-lighten-4">The fourth international conference on Harmony Search</p> -->
         <div class="wrp">
-          <a class="icon icon-facebook" href="#"><i class="fa fa-facebook"></i></a>
-          <a class="icon icon-twitter" href="#"><i class="fa fa-twitter"></i></a>
+          <a class="icon icon-facebook" href="https://www.facebook.com/ICHSA2018/"><i class="fa fa-facebook"></i></a>
+          <!-- <a class="icon icon-twitter" href="#"><i class="fa fa-twitter"></i></a> -->
         </div>
       </div>
       <div class="col l4 offset-l2 s12">
