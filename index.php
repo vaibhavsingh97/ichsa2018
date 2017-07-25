@@ -17,7 +17,7 @@
     </div>
     <div class="chip">
       <a href="ImportantDates.php">
-        Abstract Submission Deadline: 15<sup>th</sup>&nbsp;August, 2017
+        Abstract Submission Deadline (Extended): 15<sup>th</sup>&nbsp;August, 2017
       </a>
     </div>
   </marquee>
