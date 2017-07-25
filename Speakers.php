@@ -15,7 +15,7 @@
           <div class="col s12 m5">
             <div class="card darken-1 center hoverable">
               <div class="card-content black-text">
-                <img class="circle img-responsive profile-picture" src="assets/images/Speakers/test.jpg" alt="Mr. Akshay Munjal">
+                <img class="circle img-responsive profile-picture" src="assets/images/Speakers/Dr_lipo.jpg" alt="Dr. Lipo Wang">
                 <span class="card-title name"> Prof. Lipo Wang</span>
                 <span class=" title">School of Electrical and Electronic Engineering</span><br>
                 <span class="grey-text school-name">Nanyang Technological University, Singapore</span><br>
@@ -26,7 +26,7 @@
           <div class="col s12 m5">
             <div class="card darken-1 center hoverable">
               <div class="card-content black-text">
-                <img class="circle img-responsive profile-picture" src="assets/images/Speakers/test1.jpg" alt="Mr. Akshay Munjal">
+                <img class="circle img-responsive profile-picture" src="assets/images/Speakers/Prof_zong.jpg" alt="Prof Zong Woo Geem">
                 <span class="card-title name"> Prof. Zong Woo Geem</span>
                 <span class="title">Department of Energy IT</span><br>
                 <span class="grey-text school-name">Gachon University, S. Korea</span><br>
