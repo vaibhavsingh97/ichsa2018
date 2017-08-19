@@ -17,7 +17,7 @@
     </div>
     <div class="chip">
       <a href="ImportantDates.php">
-        Abstract Submission Deadline (Extended): 15<sup>th</sup>&nbsp;August, 2017
+        Abstract Submission Deadline (Extended): 15<sup>th</sup>&nbsp;September, 2017
       </a>
     </div>
   </marquee>
@@ -201,7 +201,7 @@
     }, 1500);
 
     setTimeout(function() {
-      Materialize.toast('<strong>Submission of Abstract <br> Date Extended: 15<sup>th</sup> August 2017</strong>', 50000, 'red');
+      Materialize.toast('<strong>Submission of Abstract <br> Date Extended: 15<sup>th</sup> September 2017</strong>', 50000, 'red');
     }, 5000);
 
     setTimeout(function() {

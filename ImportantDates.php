@@ -16,8 +16,12 @@
                 <strike>15<sup>th</sup> July,&nbsp;&nbsp;2017</strike>
                 <i class="material-icons"></i>
               </div>
+              <div class="chip red" style="color:#fff;">
+                <strike>15<sup>th</sup> August,&nbsp;&nbsp;2017</strike>
+                <i class="material-icons"></i>
+              </div>
               <div class="chip teal" style="color:#fff;">
-                15<sup>th</sup> August,&nbsp;&nbsp;2017
+                15<sup>th</sup> September,&nbsp;&nbsp;2017
                 <i class="material-icons"></i>
               </div>
             </div>
