@@ -12,7 +12,7 @@
 
 
         <div class="row">
-          <div class="col s12 m5">
+          <div class="col s12 m4">
             <div class="card darken-1 center hoverable">
               <div class="card-content black-text">
                 <img class="circle img-responsive profile-picture" src="assets/images/Speakers/Dr_lipo.jpg" alt="Dr. Lipo Wang">
@@ -23,7 +23,7 @@
               </div>
             </div>
           </div>
-          <div class="col s12 m5">
+          <div class="col s12 m4">
             <div class="card darken-1 center hoverable">
               <div class="card-content black-text">
                 <img class="circle img-responsive profile-picture" src="assets/images/Speakers/Prof_zong.jpg" alt="Prof Zong Woo Geem">
@@ -31,6 +31,18 @@
                 <span class="title">Department of Energy IT</span><br>
                 <span class="grey-text school-name">Gachon University, S. Korea</span><br>
                 <a href="https://sites.google.com/a/hydroteq.com/www/gcu"><i class="material-icons circle teal" style="padding:10px; color:#ffffff;top:15px; margin-top:5px;">public</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="card darken-1 center hoverable">
+              <div class="card-content black-text">
+                <img class="circle img-responsive profile-picture" src="assets/images/Commitee/default.pngil" alt="Prof. Ashish Ghosh">
+                <span class="card-title name"> Prof. Ashish Ghosh</span>
+                <span class="title">Machine Intelligence Unit</span><br>
+                <span class="grey-text school-name">Indian Statistical Institute, Kolkata</span><br>
+                <a href="http://www.isical.ac.in/~ash/"><i class="material-icons circle teal" style="padding:10px; color:#ffffff;top:15px; margin-top:5px;">public</i></a>
               </div>
             </div>
           </div>
