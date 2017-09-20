@@ -205,7 +205,7 @@
     }, 5000);
 
     setTimeout(function() {
-      Materialize.toast('<strong><a href="Registration.html" style="color:white">Registration Fee waiver scheme for students/ research scholars</a></strong>', 50000, 'orange');
+      Materialize.toast('<strong><a href="Registration.php" style="color:white">Registration Fee waiver scheme for students/ research scholars</a></strong>', 50000, 'orange');
     }, 6000);
   },4000), false);
   </script>
