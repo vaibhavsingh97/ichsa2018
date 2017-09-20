@@ -167,7 +167,6 @@
           <!-- To activate menu when screen size is small -->
           <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
           <div class="container-fluid">
-            <!-- <a href="index.html" class="brand-logo">SATA</a> -->
             <ul class="right hide-on-med-and-down">
               <li class="Nav-menu-links"><a class="dropdown-button" href="index.php" data-activates="Home-dropdown-content">Home<i class="material-icons right">arrow_drop_down</i></a></li>
               <li class="Nav-menu-links"><a class="dropdown-button" href="#!" data-activates="Authors-dropdown-content">Authors<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -176,7 +175,7 @@
               <li class="Nav-menu-links"><a href="Speakers.php">Speakers&nbsp;<span class="new badge" style="background-color:#ffffff;color:#009688;"></a></li>
               <li class="Nav-menu-links"><a href="Downloads.php">Downloads</a></li>
               <li class="Nav-menu-links"><a href="ImportantDates.php">Important Dates&nbsp;<span class="new badge" style="background-color:#ffffff;color:#009688;"></span></a></li>
-              <li class="Nav-menu-links"><a href="Registration.php">Registration&nbsp;<span class="new badge" style="background-color:#ffffff;color:#009688;"></span></a></li>
+              <li class="Nav-menu-links"><a class="dropdown-button" href="#!" data-activates="Registration-dropdown-content">Registration<i class="material-icons right">arrow_drop_down</i></a></li>              
               <li class="Nav-menu-links"><a href="Contacts.php">Contact Us</a></li>
             </ul>
             <!-- Mobile slide nav content -->
@@ -208,7 +207,7 @@
                         <li class="divider"></li>
                         <li><a href="Sponsors.php">Sponsors</a></li>
                         <li class="divider"></li>
-                        <li><a href="Accomodation.php">Accomodation</a></li>
+                        <li><a href="http://opti.korea.ac.kr/ichsa2014/">Previous Conferences</a></li>
                       </ul>
                     </div>
                   </li>
@@ -225,8 +224,6 @@
                         <li><a href="PaperSubmission.php">Paper Submission</a></li>
                         <li class="divider"></li>
                         <li><a href="CameraReadySubmissions.php">Camera Ready submission</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#!">Online Registrations</a></li>
                       </ul>
                     </div>
                   </li>
@@ -238,13 +235,13 @@
                     <a class="collapsible-header waves-effect waves-teal">Conference<i class="material-icons right">arrow_drop_down</i></a>
                     <div class="collapsible-body">
                       <ul>
+                        <li><a href="#!">Conference Venue</a></li>
+                        <li class="divider"></li>
                         <li><a href="#!">Committees</a></li>
                         <li class="divider"></li>
                         <li><a href="SpecialJournalIssue.php">Special Journal Issue</a></li>
                         <li class="divider"></li>
                         <li><a href="ConferenceProceedings.php">Conference Proceedings</a></li>
-                        <li class="divider"></li>
-                        <li><a href="http://opti.korea.ac.kr/ichsa2014/">Previous Conferences</a></li>
                       </ul>
                     </div>
                   </li>
@@ -258,8 +255,6 @@
                       <ul>
                         <li><a href="Accomodation.php">Accommodation</a></li>
                         <li class="divider"></li>
-                        <li><a href="#!">Conference Venue</a></li>
-                        <li class="divider"></li>
                         <li><a href="NearbyTouristAttractions.php">Nearby Tourist Attractions</a></li>
                       </ul>
                     </div>
@@ -269,7 +264,20 @@
               <li><a href="Speakers.php">Speakers&nbsp;<span class="new badge" style="background-color:#ffffff;color:#009688;"></a></li>
               <li><a href="Downloads.php">Downloads</a></li>
               <li><a href="ImportantDates.php">Important Dates&nbsp;<span class="new badge" style="background-color:#ffffff;color:#009688;"></a></li>
-              <li><a href="Registration.php">Registration&nbsp;<span class="new badge" style="background-color:#ffffff;color:#009688;"></a></li>
+              <li class="no-padding">
+                <ul class="collapsible collapsible-accordion">
+                  <li>
+                    <a class="collapsible-header waves-effect waves-teal">Registration<i class="material-icons right">arrow_drop_down</i></a>
+                    <div class="collapsible-body">
+                      <ul>
+                        <li><a href="Registration.php">Registration Fees&nbsp;<span class="new badge" style="background-color:#ffffff;color:#009688;"></a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">Online Registrations</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
               <li><a href="Contacts.php">Contact Us</a></li>
             </ul>
             <!-- Slide Nav content ends -->
@@ -285,7 +293,7 @@
         <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="Sponsors.php">Sponsors</a></li>
         <li class="divider"></li>
-        <li class="Dropdown-menu-links"><a href="Accomodation.php">Accomodation</a></li>
+        <li class="Dropdown-menu-links"><a href="http://opti.korea.ac.kr/ichsa2014/">Previous Conferences</a></li>
       </ul>
 
       <!-- Authors Dropdown content -->
@@ -295,21 +303,18 @@
         <li class="Dropdown-menu-links"><a href="PaperSubmission.php">Paper Submission</a></li>
         <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="CameraReadySubmissions.php">Camera Ready submission</a></li>
-        <li class="divider"></li>
-        <!-- <li class="Dropdown-menu-links"><a href="OnlineRegistrations.php">Online Registerations</a></li> -->
-        <li class="Dropdown-menu-links"><a href="#!">Online Registrations</a></li>
       </ul>
 
       <!-- Conference Dropdown Content -->
-      <ul id='Conference-dropdown-content' class='dropdown-content'>
+        <ul id='Conference-dropdown-content' class='dropdown-content'>
+        <li class="Dropdown-menu-links"><a href="#!">Conference Venue</a></li>
         <li class="Dropdown-menu-links"><a class="dropdown-button" data-activates="test" data-beloworigin="false" data-constrainWidth="false" href="#!">Committees</a></li>
         <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="SpecialJournalIssue.php ">Special Journal Issue</a></li>
         <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="ConferenceProceedings.php">Conference Proceedings</a></li>
-        <li class="divider"></li>
-        <li class="Dropdown-menu-links"><a href="http://opti.korea.ac.kr/ichsa2014/">Previous Conferences</a></li>
       </ul>
+      
       <ul id='test' class='dropdown-content'>
         <li><a href="OrganizingCommitees.php">Organizing Commitee</a></li>
         <li class="divider"></li>
@@ -323,9 +328,15 @@
       <ul id='Travel-dropdown-content' class='dropdown-content'>
         <li class="Dropdown-menu-links"><a href="Accomodation.php">Accommodation</a></li>
         <li class="divider"></li>
-        <li class="Dropdown-menu-links"><a href="#!">Conference Venue</a></li>
-        <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="NearbyTouristAttractions.php">Nearby Tourist Attractions</a></li>
+      </ul>
+
+      <!-- Registration Dropdown Content -->
+      <ul id='Registration-dropdown-content' class='dropdown-content'>
+        <li class="Dropdown-menu-links"><a href="Registration.php">Registration Fees&nbsp;<span class="new badge" style="background-color:#009688;color:#ffffff;"></a></li>
+        <li class="divider"></li>
+        <!-- <li class="Dropdown-menu-links"><a href="OnlineRegistrations.php">Online Registerations</a></li> -->
+        <li class="Dropdown-menu-links"><a href="#!">Online Registrations</a></li>
       </ul>
     </div>
   </header>
