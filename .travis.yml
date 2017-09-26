@@ -1,0 +1,7 @@
+language: php
+
+php:
+  - hhvm
+  
+script:
+  - echo success
