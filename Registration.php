@@ -1,6 +1,6 @@
 <?php
   $title = "Registration | ICHSA 2018";
-  $id_name = 'id="registration-page"';
+  $id_name = 'id="scrs-registration-page"';
   include 'include/php/head.php';
 ?>
 

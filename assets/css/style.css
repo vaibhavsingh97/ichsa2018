@@ -1354,6 +1354,49 @@ nav.nav-center ul li a {
   background-color: teal;
 }
 
+/*
+ * =====================================
+ * SCRS Travel Grant Registration Fees
+ * =====================================
+ */
+
+ #scrs-registration-page main {
+  flex: 1 0 auto;
+}
+
+#scrs-registration-page .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#scrs-registration-page table {
+  font-size: 1.1em;
+  border: 1px solid teal;
+}
+
+#scrs-registration-page th {
+  font-size: 1.2em;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#scrs-registration-page .note-text {
+  text-align: justify;
+  /*font-weight: 400;*/
+  font-style: italic;
+  /*font-size: 1em;*/
+}
+
+#scrs-registration-page .table-heading {
+  font-weight: 500;
+  margin: 0 auto;
+  color: #fff;
+  background-color: teal;
+}
+
 
 /*
  * =============================

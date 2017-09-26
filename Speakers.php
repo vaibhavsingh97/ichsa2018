@@ -38,7 +38,7 @@
           <div class="col s12 m4">
             <div class="card darken-1 center hoverable">
               <div class="card-content black-text">
-                <img class="circle img-responsive profile-picture" src="assets/images/Commitee/default.pngil" alt="Prof. Ashish Ghosh">
+                <img class="circle img-responsive profile-picture" src="assets/images/Speakers/ash.jpg" alt="Prof. Ashish Ghosh">
                 <span class="card-title name"> Prof. Ashish Ghosh</span>
                 <span class="title">Machine Intelligence Unit</span><br>
                 <span class="grey-text school-name">Indian Statistical Institute, Kolkata</span><br>
