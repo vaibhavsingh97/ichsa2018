@@ -183,15 +183,11 @@
               <li>
                 <div class="userView">
                   <div class="background" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 59%, rgba(0, 0, 0, 0.6) 100%), url('assets/images/parallax1.jpeg') no-repeat;">
-                    <!-- <img src="assets/images/parallax1.jpeg"> -->
                   </div>
-                  <!-- <a href="#!user"><img class="circle" src="images/yuna.jpg"></a> -->
                   <div class="container" style="justify-content:center;margin-top:10%;">
                     <!-- <a href="index.php"></a> -->
                     <h3 style="text-align:center;font-weight:300">Welcome To</h3>
                     <h3 style="text-align:center;font-weight:400">ICHSA 2018</h3>
-                    <!-- <span class="white-text flow-text" style="font-weight:300;">Welcome To</span><br />
-                                      <span class="white-text flow-text" style="font-weight:500;">&nbsp;ICHA 2018</span> -->
                   </div>
                 </div>
               </li>
@@ -273,6 +269,8 @@
                         <li><a href="Registration.php">Registration Fees&nbsp;<span class="new badge" style="background-color:#ffffff;color:#009688;"></a></li>
                         <li class="divider"></li>
                         <li><a href="#!">Online Registrations</a></li>
+                        <li class="divider"></li>
+                        <li><a href="SCRSRegistrationFees.php">SCRS Travel Grant &amp; Registration Fees</a></li>
                       </ul>
                     </div>
                   </li>
@@ -337,6 +335,8 @@
         <li class="divider"></li>
         <!-- <li class="Dropdown-menu-links"><a href="OnlineRegistrations.php">Online Registerations</a></li> -->
         <li class="Dropdown-menu-links"><a href="#!">Online Registrations</a></li>
+        <li class="divider"></li>
+        <li class="Dropdown-menu-links"><a href="SCRSRegistrationFees.php">SCRS Travel Grant &amp; Registration Fees</a></li>
       </ul>
     </div>
   </header>
