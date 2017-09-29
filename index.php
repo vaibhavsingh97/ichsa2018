@@ -13,7 +13,7 @@
       <a href="http://www.tandfonline.com/toc/teta20/current">Selected papers will be published in Special Issue of Journal of Experimental and Theoretical Artificial Intelligence (Taylor & Francis), SCI Indexed, Impact Factor 1.384” (approval recieved)</a>
     </div>
     <div class="chip">
-      Call for Proposal for workshops and special sessions
+      <a href="SCRSRegistrationFees.php">SCRS Travel Grant and Registartion Fee Support</a>
     </div>
     <div class="chip">
       <a href="ImportantDates.php">
@@ -201,7 +201,7 @@
     }, 1500);
 
     setTimeout(function() {
-      Materialize.toast('<strong>Submission of Abstract <br> Date Extended: 15<sup>th</sup> September 2017</strong>', 50000, 'red');
+      Materialize.toast('<strong>Submission of full length paper (Date Extended): 30<sup>th</sup>&nbsp;November, 2017</strong>', 50000, 'red');
     }, 5000);
 
     setTimeout(function() {

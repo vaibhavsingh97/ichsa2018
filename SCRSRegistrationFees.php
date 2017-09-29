@@ -6,7 +6,7 @@
 
     <main>
         <div class="container">
-            <h4 class="heading">SCRS Travel Grant &amp; Registration Fees</h4>
+            <h4 class="heading">SCRS Travel Grant &amp; Registration Fee Support</h4>
             <div class="divider"></div>
             <div class="section">
                 <div class="row">
