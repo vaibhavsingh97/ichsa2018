@@ -17,7 +17,7 @@
     </div>
     <div class="chip">
       <a href="ImportantDates.php">
-        Abstract Submission Deadline (Extended): 15<sup>th</sup>&nbsp;September, 2017
+        Abstract Submission Deadline (Extended): 30<sup>th</sup>&nbsp;November, 2017
       </a>
     </div>
   </marquee>
@@ -196,17 +196,15 @@
 
   <script type="text/javascript" >
     document.addEventListener('DOMContentLoaded',setTimeout(function() {
-    setTimeout(function() {
-      Materialize.toast('<strong>Announcement: Welcome to the 4th International Conference on Harmony search, Soft Computing and Applications 2018</strong>', 4500);
-    }, 1500);
 
     setTimeout(function() {
       Materialize.toast('<strong>Submission of full length paper (Date Extended): 30<sup>th</sup>&nbsp;November, 2017</strong>', 50000, 'red');
     }, 5000);
 
-    // setTimeout(function() {
-    //   Materialize.toast('<strong><a href="Registration.php" style="color:white">Registration Fee waiver scheme for students/ research scholars</a></strong>', 50000, 'orange');
-    // }, 6000);
+    setTimeout(function() {
+      Materialize.toast('<a href="SCRSRegistrationFees.php"><strong>SCRS Travel Grant Scheme</strong></a>', 50000, 'yellow');
+    }, 5000);
+
   },4000), false);
   </script>
   <script type="text/javascript" src="assets/js/countdown.js"></script>
