@@ -65,7 +65,7 @@
                     paper of 10 pages length.
                   </p>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                   <div class="col s12">
                     <div class="card darken-1 z-depth:2">
                       <div class="card-content black-text">
@@ -75,7 +75,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

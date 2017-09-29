@@ -204,9 +204,9 @@
       Materialize.toast('<strong>Submission of full length paper (Date Extended): 30<sup>th</sup>&nbsp;November, 2017</strong>', 50000, 'red');
     }, 5000);
 
-    setTimeout(function() {
-      Materialize.toast('<strong><a href="Registration.php" style="color:white">Registration Fee waiver scheme for students/ research scholars</a></strong>', 50000, 'orange');
-    }, 6000);
+    // setTimeout(function() {
+    //   Materialize.toast('<strong><a href="Registration.php" style="color:white">Registration Fee waiver scheme for students/ research scholars</a></strong>', 50000, 'orange');
+    // }, 6000);
   },4000), false);
   </script>
   <script type="text/javascript" src="assets/js/countdown.js"></script>

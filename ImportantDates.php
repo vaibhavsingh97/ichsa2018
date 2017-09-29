@@ -20,13 +20,13 @@
                 <strike>15<sup>th</sup> August,&nbsp;&nbsp;2017</strike>
                 <i class="material-icons"></i>
               </div>
-              <div class="chip teal" style="color:#fff;">
-                15<sup>th</sup> September,&nbsp;&nbsp;2017
+              <div class="chip red" style="color:#fff;">
+                <strike>15<sup>th</sup> September,&nbsp;&nbsp;2017</strike>
                 <i class="material-icons"></i>
               </div>
             </div>
           </div>
-          <div class="timeline-badge green white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_checked</i></div>
+          <div class="timeline-badge green white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
         </div>
         <div class="timeline-event">
           <div class="card timeline-content z-depth-2">
@@ -42,7 +42,7 @@
               </div>
             </div>
           </div>
-          <div class="timeline-badge grey white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
+          <div class="timeline-badge grey white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_checked</i></div>
         </div>
         <div class="timeline-event">
           <div class="card timeline-content z-depth-2">
