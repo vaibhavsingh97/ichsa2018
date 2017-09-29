@@ -197,7 +197,7 @@
   <script type="text/javascript" >
     document.addEventListener('DOMContentLoaded',setTimeout(function() {
     setTimeout(function() {
-      Materialize.toast('<strong>Announcement: Welcome to the 4th International Conference.</strong>', 4500);
+      Materialize.toast('<strong>Announcement: Welcome to the 4th International Conference on Harmony search, Soft Computing and Applications 2018</strong>', 4500);
     }, 1500);
 
     setTimeout(function() {
