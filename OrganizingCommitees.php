@@ -311,7 +311,7 @@
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dr_Nagendra_Singh.jpg" alt="Dr. Nagendra Singh">
             <span class="card-title name"> Dr. Nagendra Singh</span>
-            <span class="grey-text designation">Assistant Professor, Physics, BMU</span><br>
+            <span class="grey-text designation">Head(Electron Microscope Facility), NCBS</span><br>
             <div class="chip">
               Publicity Chair
             </div>
@@ -335,14 +335,25 @@
           <div class="card-content black-text">
             <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Pradeep.jpg" alt="Dr. Pradeep Kumar Arya">
             <span class="card-title name"> Dr. Pradeep Kumar Arya</span>
-            <span class="grey-text designation">Assistant Professor, CSE, BML</span><br>
+            <span class="grey-text designation">Assistant Professor, CSE, BMU</span><br>
             <div class="chip">
-              Publicity Chair
+              Technical Chair
             </div>
           </div>
         </div>
       </div>
-
+      <div class="col s12 m3">
+        <div class="card darken-1 center hoverable">
+          <div class="card-content black-text">
+            <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Swetank.jpg" alt="Dr. Shwetank Avikal">
+            <span class="card-title name"> Dr. Sumit Roy</span>
+            <span class="grey-text designation">Assistant Professor,ME, BMU</span><br>
+            <div class="chip">
+              Technical Chair
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </main>
@@ -350,3 +361,4 @@
   <?php
    include 'include/php/foot.php';
   ?>
+Dr_Sumit_Roy.jpg
