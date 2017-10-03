@@ -198,12 +198,12 @@
     document.addEventListener('DOMContentLoaded',setTimeout(function() {
 
     setTimeout(function() {
-      Materialize.toast('<strong>Submission of full length paper (Date Extended): 30<sup>th</sup>&nbsp;November, 2017</strong>', 30000, 'red');
-    }, 5000);
+      Materialize.toast('<strong>Submission of full length paper (Date Extended): 30<sup>th</sup>&nbsp;November, 2017</strong>', 50000, 'red');
+    }, 1000);
 
     setTimeout(function() {
       Materialize.toast('<a href="SCRSRegistrationFees.php"><strong>SCRS Travel Grant Scheme</strong></a>', 50000, 'yellow');
-    }, 5000);
+    }, 3000);
 
   },4000), false);
   </script>
