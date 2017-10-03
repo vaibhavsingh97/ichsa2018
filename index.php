@@ -198,7 +198,7 @@
     document.addEventListener('DOMContentLoaded',setTimeout(function() {
 
     setTimeout(function() {
-      Materialize.toast('<strong>Submission of full length paper (Date Extended): 30<sup>th</sup>&nbsp;November, 2017</strong>', 50000, 'red');
+      Materialize.toast('<strong>Submission of full length paper (Date Extended): 30<sup>th</sup>&nbsp;November, 2017</strong>', 30000, 'red');
     }, 5000);
 
     setTimeout(function() {
