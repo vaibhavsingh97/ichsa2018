@@ -41,7 +41,8 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p style="font-size:20px;color:red;"><a class="btn btn-floating pulse"><i class="material-icons">info</i></a>&nbsp;&nbsp;&nbsp;Page will be updated soon</p>
+                                <p style="font-size:18px;color:yelow;"><a class="btn btn-floating pulse"><i class="material-icons">info</i></a>&nbsp;&nbsp;&nbsp;All the eligible scholars and students are requested to fill the following form, also upload the
+following filled and signed form. <a href="Downloads.php">Download the form here</a></p>
                         </div>
                     </div>
                     <!-- <a class="button" href="#">Register Now</a> -->
