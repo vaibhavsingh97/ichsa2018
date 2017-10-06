@@ -45,13 +45,211 @@
 following filled and signed form. <a href="Downloads.php">Download the form here</a></p>
                         </div>
                     </div>
-                    <!-- <a class="button" href="#">Register Now</a> -->
-                    <!-- TODO: Activate this later -->
                 </div>
             </div>
+            <div id="jqueryvalidation" class="section">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                  <div class="col s12 m12 l12">
+                        <div class="card-panel">
+                            <h4 class="header2" style="text-align:center">Form for application</h4>
+                            <div class="row">
+                                <form class="formValidate" id="formValidate" method="get" action="">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <label for="name">Name*</label>
+                                            <input id="name" name="name" type="text" data-error=".errorTxt1">
+                                            <div class="errorTxt1"></div>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <label for="fname">Fathers Name*</label>
+                                            <input id="fname" name="fname" type="text" data-error=".errorTxt2">
+                                            <div class="errorTxt2"></div>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <label for="titleOfPaper">Title of the Paper*</label>
+                                            <input id="titleOfPaper" name="titleOfPaper" type="text" data-error=".errorTxt3">
+                                            <div class="errorTxt3"></div>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <label for="paperID">PaperId*</label>
+                                            <input id="paperID" name="paperID" type="text" data-error=".errorTxt4">
+                                            <div class="errorTxt4"></div>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <label for="nameOfInstitute">Name of the Institute*</label>
+                                            <input id="nameOfInstitute" name="nameOfInstitute" type="text" data-error=".errorTxt5">
+                                            <div class="errorTxt5"></div>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <label for="instituteRollNumber">Institute Registration No./ Roll No.*</label>
+                                            <input id="instituteRollNumber" name="instituteRollNumber" type="text" data-error=".errorTxt6">
+                                            <div class="errorTxt6"></div>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <label for="yearOfAdmission">Year of admission*</label>
+                                            <input id="yearOfAdmission" name="yearOfAdmission" type="text" data-error=".errorTxt7">
+                                            <div class="errorTxt7"></div>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <label for="nameOfTheCity">Name of the city*</label>
+                                            <input id="nameOfTheCity" name="nameOfTheCity" type="text" data-error=".errorTxt8">
+                                            <div class="errorTxt8"></div>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <label for="nearestPlace">Nearest Railway Station/ Airport*</label>
+                                            <input id="nearestPlace" name="nearestPlace" type="text" data-error=".errorTxt9">
+                                            <div class="errorTxt9"></div>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <label for="totalFare">Tentative Travel Fare (To and Fro)*</label>
+                                            <input id="totalFare" name="totalFare" type="text" data-error=".errorTxt10">
+                                            <div class="errorTxt10"></div>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <textarea id="ccomment" name="ccomment" class="materialize-textarea validate" data-error=".errorTxt11"></textarea>
+                                            <label for="ccomment">Any other Information *</label>
+                                            <div class="errorTxt11"></div>
+                                        </div>
+                                        <div id="file-upload" class="section" style="margin: 5px; text-align: center;">
+                                            <div class="row section">
+                                                <div class="col s12">
+                                                    <p style="text-align: right;">Maximum file upload size 2MB.</p>
+                                                    <input type="file" id="input-file-max-fs" class="dropify" data-max-file-size="2M" />
+                                                </div>
+                                            </div>
+                                        </div>                                
+                                        <div class="input-field col s12">
+                                            <button class="btn waves-effect waves-light right submit" type="submit" name="action">Submit
+                                              <i class="mdi-content-send right"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
         </div>
     </main>
+    <script type="text/javascript" src="./assets/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./assets/js/additional-methods.min.js"></script>
+    <script type="text/javascript" src="./assets/js/dropify.min.js"></script>
+    <script type="text/javascript" src="./assets/js/angular.min.js"></script>
+    <script>
+    $("#formValidate").validate({
+        rules: {
+            name: {
+                required: true,
+                minlength: 5
+            },
+            fname: {
+                required: true,
+                minlength: 5
+            },
+            titleOfPaper: {
+                required: true,
+                minlength: 10
+            },
+            paperID: {
+                required: true,
+                minlength: 5
+            },
+            nameOfInstitute: {
+                required: true,
+                minlength: 5
+            },
+            instituteRollNumber: {
+                required: true,
+                minlength: 5
+            },
+            yearOfAdmission: {
+                required: true,
+                minlength: 5
+            },
+            nameOfTheCity: {
+                required: true,
+                minlength: 5
+            },
+            nearestPlace: {
+                required: true,
+                minlength: 5
+            },
+            totalFare: {
+                required: true,
+                minlength: 3
+            },
+            ccomment: {
+                required: false,
+                minlength: 15
+            },
+        },
+        //For custom messages
+        messages: {
+            name: {
+                required: "Enter your Full name",
+                minlength: "Enter at least 5 characters"
+            },
+            fname: {
+                required: "Enter your Fathers Name",
+                minlength: "Enter at least 5 characters"
+            },
+            titleOfPaper: {
+                required: "Enter Title of the Paper",
+                minlength: "Enter at least 10 characters"
+            },
+            paperID: {
+                required: "Enter Paper ID",
+                minlength: "Enter at least 5 characters"
+            },
+            nameOfInstitute: {
+                required: "Enter Name of your Institute",
+                minlength: "Enter at least 5 characters"
+            },
+            instituteRollNumber: {
+                required: "Enter Institute Registration Number/ Roll Number",
+                minlength: "Enter at least 5 characters"
+            },
+            yearOfAdmission: {
+                required: "Enter Year of admisson",
+                minlength: "Enter at least 5 characters"
+            },
+            nameOfTheCity: {
+                required: "Enter name of the city",
+                minlength: "Enter at least 5 characters"
+            },
+            nearestPlace: {
+                required: "Enter name of nearest Railway Station/ Airport",
+                minlength: "Enter at least 5 characters"
+            },
+            totalFare: {
+                required: "Enter tentative travel fare (To and Fro)",
+                minlength: "Enter at least 3 characters"
+            },
+            curl: "Enter your website",
+        },
+        errorElement: 'div',
+        errorPlacement: function (error, element) {
+            var placement = $(element).data('error');
+            if (placement) {
+                $(placement).append(error)
+            } else {
+                error.insertAfter(element);
+            }
+        }
+    });
 
+    $('.dropify').dropify();
+    // Used events
+    var drEvent = $('.dropify-event').dropify();
+
+    drEvent.on('dropify.beforeClear', function (event, element) {
+        return confirm("Do you really want to delete \"" + element.filename + "\" ?");
+    });
+
+    drEvent.on('dropify.afterClear', function (event, element) {
+        alert('File deleted');
+    });
+    </script>
     <?php
    include 'include/php/foot.php';
   ?>

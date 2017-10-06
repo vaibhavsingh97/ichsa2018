@@ -71,6 +71,9 @@
   <link rel="stylesheet" type="text/css" href="assets/css/sweetalert.css">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
   <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+  <!--dropify-->
+  <link href="assets/css/dropify.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
