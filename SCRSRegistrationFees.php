@@ -53,7 +53,7 @@ following filled and signed form. <a href="Downloads.php">Download the form here
                   <div class="col s12 m12 l12">
                         <div class="card-panel">
                         <h4 class="header2" style="text-align:center">Form for application</h4>
-                        <h4 class="header2" style="text-align:center"><?php if(isset($_GET['ok'])) { if($_GET['ok'] == '1') echo "Submission success!"; elseif($_GET['ok'] == "0") echo "Submission failed!";}?></h4>
+                        <h4 class="header2" style="text-align:center"><?php if(isset($_GET['ok'])) { if($_GET['ok'] == '1') echo "<div id=\"card-alert\" class=\"card green\"><div class=\"card-content white-text\" style=\"font-size:24px;\"><p>You have successfully submitted form. \xF0\x9F\x98\x83</p></div></div>"; elseif($_GET['ok'] == "0") echo "<div id=\"card-alert\" class=\"card red\"><div class=\"card-content white-text\" style=\"font-size:24px;\"><p>Your submission failed!! \xF0\x9F\x98\x9E</p></div></div>";}?></h4>
                             <div class="row">
                                 <form class="formValidate" id="formValidate" method="post" action="SCRSSTore.php" enctype="multipart/form-data">
                                     <input type="hidden" name="issubmit" value="true" />
@@ -117,10 +117,10 @@ following filled and signed form. <a href="Downloads.php">Download the form here
                                             <div class="row section">
                                                 <div class="col s12">
                                                     <p style="text-align: right;">Maximum file upload size 2MB.</p>
-                                                    <input type="file" id="input-file-max-fs" name="file" />
+                                                    <input type="file" id="input-file-max-fs" name="file" class="dropify" data-max-file-size="2M" />
                                                 </div>
                                             </div>
-                                        </div>                                
+                                        </div>                         
                                         <div class="input-field col s12">
                                             <button class="btn waves-effect waves-light right submit" type="submit" name="action">Submit
                                               <i class="mdi-content-send right"></i>
