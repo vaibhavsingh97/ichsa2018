@@ -52,9 +52,11 @@ following filled and signed form. <a href="Downloads.php">Download the form here
               <div class="col s12 m12 l12">
                   <div class="col s12 m12 l12">
                         <div class="card-panel">
-                            <h4 class="header2" style="text-align:center">Form for application</h4>
+                        <h4 class="header2" style="text-align:center">Form for application</h4>
+                        <h4 class="header2" style="text-align:center"><?php if(isset($_GET['ok'])) { if($_GET['ok'] == '1') echo "Submission success!"; elseif($_GET['ok'] == "0") echo "Submission failed!";}?></h4>
                             <div class="row">
-                                <form class="formValidate" id="formValidate" method="get" action="">
+                                <form class="formValidate" id="formValidate" method="post" action="SCRSSTore.php" enctype="multipart/form-data">
+                                    <input type="hidden" name="issubmit" value="true" />
                                     <div class="row">
                                         <div class="input-field col s12">
                                             <label for="name">Name*</label>
@@ -115,7 +117,7 @@ following filled and signed form. <a href="Downloads.php">Download the form here
                                             <div class="row section">
                                                 <div class="col s12">
                                                     <p style="text-align: right;">Maximum file upload size 2MB.</p>
-                                                    <input type="file" id="input-file-max-fs" class="dropify" data-max-file-size="2M" />
+                                                    <input type="file" id="input-file-max-fs" name="file" />
                                                 </div>
                                             </div>
                                         </div>                                
@@ -164,7 +166,7 @@ following filled and signed form. <a href="Downloads.php">Download the form here
             },
             yearOfAdmission: {
                 required: true,
-                minlength: 5
+                minlength: 4
             },
             nameOfTheCity: {
                 required: true,
