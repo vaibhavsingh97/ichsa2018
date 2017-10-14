@@ -113,16 +113,17 @@ following filled and signed form. <a href="Downloads.php">Download the form here
                                             <label for="ccomment">Any other Information *</label>
                                             <div class="errorTxt11"></div>
                                         </div>
-                                        <div id="file-upload" class="section" style="margin: 5px; text-align: center;">
+                                        <div id="file-upload" class="section" style="margin: 5px; text-align: center;" data-error=".errorTxt12">
                                             <div class="row section">
                                                 <div class="col s12">
                                                     <p style="text-align: right;">Maximum file upload size 2MB.</p>
                                                     <input type="file" id="input-file-max-fs" name="file" class="dropify" data-max-file-size="2M" />
                                                 </div>
                                             </div>
-                                        </div>                         
-                                        <div class="input-field col s12">
-                                            <button class="btn waves-effect waves-light right submit" type="submit" name="action">Submit
+                                        </div>
+                                                                
+                                        <div class="input-field col s12 center-align">
+                                            <button class="btn waves-effect waves-light submit" type="submit" name="action">Submit
                                               <i class="mdi-content-send right"></i>
                                             </button>
                                         </div>
@@ -184,6 +185,9 @@ following filled and signed form. <a href="Downloads.php">Download the form here
                 required: false,
                 minlength: 15
             },
+            file: {
+                required: true,
+            },
         },
         //For custom messages
         messages: {
@@ -226,6 +230,9 @@ following filled and signed form. <a href="Downloads.php">Download the form here
             totalFare: {
                 required: "Enter tentative travel fare (To and Fro)",
                 minlength: "Enter at least 3 characters"
+            },
+            totalFare: {
+                required: "Please upload your file",
             },
             curl: "Enter your website",
         },
