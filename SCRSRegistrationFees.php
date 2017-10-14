@@ -162,7 +162,7 @@ following filled and signed form. <a href="Downloads.php">Download the form here
             },
             instituteRollNumber: {
                 required: true,
-                minlength: 5
+                minlength: 2
             },
             yearOfAdmission: {
                 required: true,
@@ -209,7 +209,7 @@ following filled and signed form. <a href="Downloads.php">Download the form here
             },
             instituteRollNumber: {
                 required: "Enter Institute Registration Number/ Roll Number",
-                minlength: "Enter at least 5 characters"
+                minlength: "Enter at least 2 characters"
             },
             yearOfAdmission: {
                 required: "Enter Year of admisson",

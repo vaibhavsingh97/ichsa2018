@@ -53,7 +53,7 @@
                 <div class="card-content blue-grey white-text">
                   <h4 class="card-stats-number center">SCRS Travel Grant Form</h4>
                 </div>
-                <a class="btn-success" href="Downloads/SCRS Travel Grant and Registration Fee Support.docx">
+                <a class="btn-success" href="Downloads/Soft_Computing_Research_Society_TravelGrant_Form_ICHSA.docx">
                   <div class="card-action blue-grey darken-2">
                     <div class="center-align">Download <i class="material-icons">file_download</i></div>
                   </div>
