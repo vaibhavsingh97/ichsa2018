@@ -120,8 +120,7 @@ following filled and signed form. <a href="Downloads.php">Download the form here
                                                     <input type="file" id="input-file-max-fs" name="file" class="dropify" data-max-file-size="2M" />
                                                 </div>
                                             </div>
-                                        </div>
-                                                                
+                                        </div>                  
                                         <div class="input-field col s12 center-align">
                                             <button class="btn waves-effect waves-light submit" type="submit" name="action">Submit
                                               <i class="mdi-content-send right"></i>
@@ -231,7 +230,7 @@ following filled and signed form. <a href="Downloads.php">Download the form here
                 required: "Enter tentative travel fare (To and Fro)",
                 minlength: "Enter at least 3 characters"
             },
-            totalFare: {
+            file: {
                 required: "Please upload your file",
             },
             curl: "Enter your website",
