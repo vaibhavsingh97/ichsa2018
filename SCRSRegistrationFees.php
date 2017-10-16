@@ -154,7 +154,7 @@ following filled and signed form. <a href="Downloads.php">Download the form here
             },
             paperID: {
                 required: true,
-                minlength: 5
+                minlength: 1
             },
             nameOfInstitute: {
                 required: true,
@@ -204,7 +204,7 @@ following filled and signed form. <a href="Downloads.php">Download the form here
             },
             paperID: {
                 required: "Enter Paper ID",
-                minlength: "Enter at least 5 characters"
+                minlength: "Enter at least 1 characters"
             },
             nameOfInstitute: {
                 required: "Enter Name of your Institute",
