@@ -73,6 +73,8 @@
   <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
   <!--dropify-->
   <link href="assets/css/dropify.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <!-- Fontawesome Icons -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="application/ld+json">
     {

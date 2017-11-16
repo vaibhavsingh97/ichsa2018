@@ -345,7 +345,7 @@
       <div class="col s12 m3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
-            <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Swetank.jpg" alt="Dr. Shwetank Avikal">
+            <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dr_Sumit_Roy.jpg" alt="Dr. Sumit Roy">
             <span class="card-title name"> Dr. Sumit Roy</span>
             <span class="grey-text designation">Assistant Professor,ME, BMU</span><br>
             <div class="chip">

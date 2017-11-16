@@ -7,7 +7,7 @@
   <!-- <main> -->
   <marquee>
     <div class="chip">
-      <a href="ConferenceProceedings.php">All accepted papers will be published in proceedings of AISC seriers of Springer, SCOPUS Indexed (approval awaited)</a>
+      <a href="ConferenceProceedings.php">All accepted papers will be published in proceedings of AISC seriers of Springer, SCOPUS Indexed (approval received)</a>
     </div>
     <div class="chip">
       <a href="http://www.tandfonline.com/toc/teta20/current">Selected papers will be published in Special Issue of Journal of Experimental and Theoretical Artificial Intelligence (Taylor & Francis), SCI Indexed, Impact Factor 1.384” (approval recieved)</a>

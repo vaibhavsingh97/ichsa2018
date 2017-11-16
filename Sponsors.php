@@ -22,9 +22,10 @@
             <img class="responsive-img image-center" src="assets/images/Sponsors/pearson.png" alt="Pearson Education">
             <h4 style="text-align:center;">Pearson Education</h4>
           </div>
-          <!--   <div class="col s12 m6 l3">
-                        <img src="assets/images/Sponsors/scrs.png" alt="">
-                    </div> -->
+          <div class="col s12 m6 l3">
+            <img class="responsive-img image-center" style="height:110px; padding-top: 50px;" src="assets/images/Sponsors/FICE_Logo.png" alt="Pearson Education">
+            <h4 style="text-align:center;">Foundation for Innovation and Collaborative Education</h4>
+          </div>
         </div>
       </div>
     </div>
