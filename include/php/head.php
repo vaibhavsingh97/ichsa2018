@@ -338,7 +338,7 @@
       <ul id='Registration-dropdown-content' class='dropdown-content'>
         <li class="Dropdown-menu-links"><a href="Registration.php">Registration Fees&nbsp;<span class="new badge" style="background-color:#009688;color:#ffffff;"></a></li>
         <li class="divider"></li>
-        <li class="Dropdown-menu-links"><a href="OnlineRegistrations.php">Online Registerations</a></li>
+        <li class="Dropdown-menu-links"><a href="OnlineRegistrations.php">Online Registrations</a></li>
         <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="SCRSRegistrationFees.php">SCRS Travel Grant &amp; Registration Fees</a></li>
       </ul>

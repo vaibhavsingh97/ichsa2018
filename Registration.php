@@ -44,6 +44,13 @@
                       <td>USD 700</td>
                     </tr>
                     <tr>
+                      <td>Only presenting a paper</td>
+                      <td>INR 2000</td>
+                      <td>INR 3000</td>
+                      <td>USD 300</td>
+                      <td>USD 400</td>
+                    </tr>
+                    <tr>
                       <td>Only Attending</td>
                       <td>INR 1500</td>
                       <td>INR 3000</td>
@@ -61,9 +68,11 @@
                 </table>
                 <div style="clear:both">
                   <p style="color:red; margin: 2px 0 2px 0; padding:2px;">Early Bird Registration by 31<sup>st</sup> December 2017</p>
-                  <p class="note-text"> <strong>Note:</strong> *Registration Fee Includes Book of abstract, conference bag, breakfasts and lunches and a gala dinner. Limited accommodation will be arranged on first-come-first serve basis. One registration will cover only a
+                  <p class="note-text"> <strong>Note:</strong> * Registration Fee Includes Book of abstract, conference bag, breakfasts, lunches and a gala dinner. Atleast one author must register with full registration fee applicable as above for inclusion of paper in the proceedings. One registration will cover only a
                     paper of 10 pages length.
                   </p>
+                  <!-- <p class="note-text">* Limited shared accommodation shall be given on payment of Rs. 1000/- (in addition to the registration fee) on first cum first serve basis in student Hostel (boys/girls) for conference duration, subject to availability. (Preference will be given to Student Authors).
+                  </p> -->
                 </div>
                 <!-- <div class="row">
                   <div class="col s12">

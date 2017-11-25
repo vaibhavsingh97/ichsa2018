@@ -11,7 +11,7 @@
       <div class="divider"></div>
       <div class="section">
         <img class="responsive-img image-fix" src="assets/images/springer_logo.png" alt="springer">
-        <p class="image-caption" style="text-align:center;">Note: (Approval Pending)</p>
+        <p class="image-caption" style="text-align:center;">Note: (Approval Received)</p>
       </div>
     </div>
 
