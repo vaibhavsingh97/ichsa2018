@@ -74,10 +74,7 @@ $('#cregistrationcategory').change(function () {
 
 $('#caccomodation').change(function () {
   if ($(this).val() == "Yes") {
-    $("#yes").removeClass("hidden");
-  }
-  else{
-    $('#yes').addClass('hidden');
+    swal("Accomodation charges","INR 1000 per person in addition to registration fee.");
   }
 });
 

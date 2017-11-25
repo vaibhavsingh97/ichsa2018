@@ -8,6 +8,7 @@
     <div class="container">
       <h4 class="heading">Online Registrations</h4>
       <div class="divider"></div>
+      <h5 class="center-align">Instructions: Please keep the details of the fee deposited ready before submiting registration form </h5>
       <div class="section">
         <div id="jqueryvalidation" class="section">
           <div class="row">
@@ -18,7 +19,7 @@
                     <div class="row">
                       <!-- Name of Deligate -->
                       <div class="input-field col s12">
-                        <label for="cdeligatename">Name of Deligate *</label>
+                        <label for="cdeligatename">Name of Delegate *</label>
                         <input id="cdeligatename" name="cdeligatename" type="text" data-error=".errorTxt1">
                         <div class="errorTxt1"></div>
                       </div>
@@ -116,10 +117,12 @@
                           <option value="Regular Author Foreigner -- USD 600">Regular Author Foreigner -- USD 600</option>
                           <option value="Full time student author Indian -- INR 3000">Full time student author Indian -- INR 3000</option>
                           <option value="Full time student author Foreigner -- USD 500">Full time student author Foreigner -- USD 500</option>
+                          <option value="Only presenting a paper Indian -- INR 2000">Only presenting a paper Indian -- INR 2000</option>
+                          <option value="Only presenting a paper Foreigner -- USD 300">Only presenting a paper Foreigner -- USD 300</option>
                           <option value="Only attending Indian -- INR 1500">Only attending Indian -- INR 1500</option>
                           <option value="Only attending Foreigner -- USD 100">Only attending Foreigner -- USD 100</option>
-                          <option value="Accompanying Person Indian -- INR 1500">Accompanying Person Indian -- INR 1500</option>
-                          <option value="Accompanying Person Foreigner -- USD 100">Accompanying Person Foreigner -- USD 100</option>
+                          <!-- <option value="Accompanying Person Indian -- INR 1500">Accompanying Person Indian -- INR 1500</option>
+                          <option value="Accompanying Person Foreigner -- USD 100">Accompanying Person Foreigner -- USD 100</option> -->
                         </select>
                       </div>
                       <!-- Regular Registration -->
@@ -130,10 +133,12 @@
                           <option value="Regular Author Foreigner -- USD 700">Regular Author Foreigner -- USD 700</option>
                           <option value="Full time student author Indian -- INR 4500">Full time student author Indian -- INR 4500</option>
                           <option value="Full time student author Foreigner -- USD 600">Full time student author Foreigner -- USD 600</option>
+                          <option value="Only presenting a paper Indian -- INR 3000">Only presenting a paper Indian -- INR 3000</option>
+                          <option value="Only presenting a paper Foreigner -- USD 400">Only presenting a paper Foreigner -- USD 400</option>
                           <option value="Only attending Indian -- INR 3000">Only attending Indian -- INR 3000</option>
                           <option value="Only attending Foreigner -- USD 200">Only attending Foreigner -- USD 200</option>
-                          <option value="Accompanying Person Indian -- INR 3000">Accompanying Person Indian -- INR 3000</option>
-                          <option value="Accompanying Person Foreigner -- USD 200">Accompanying Person Foreigner -- USD 200</option>
+                          <!-- <option value="Accompanying Person Indian -- INR 3000">Accompanying Person Indian -- INR 3000</option>
+                          <option value="Accompanying Person Foreigner -- USD 200">Accompanying Person Foreigner -- USD 200</option> -->
                         </select>
                       </div>
                       <!-- Extra Paper Charges -->
@@ -150,11 +155,12 @@
                       </div>
                       <!-- Accommodation Needed -->
                       <div class="col s12">
-                        <label for="caccomodation">Accommodation Needed *</label>
+                        <label for="caccomodation">Accommodation Needed (Only for Indian participants)*</label>
                         <select class="error browser-default" id="caccomodation" name="caccomodation" data-error=".errorTxt14">
                           <option value="" disabled selected>Choose options</option>
                           <option value="Yes">Yes</option>
                           <option value="No">No</option>
+                          <option value="Not Applicable">Not Applicable</option>
                         </select>
                         <div class="input-field">
                           <div class="errorTxt14"></div>
@@ -175,11 +181,13 @@
                       <div class="col s12">
                         <label for="caccomodation">Accompanying Person *</label>
                         <select class="error browser-default" id="caccomodation" name="caccomodation" data-error=".errorTxt16">
-                          <option value="1">1</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option>
-                          <option value="4">4</option>
-                          <option value="5">5</option>
+                          <option value="None">None</option>
+                          <option value="From India -- INR 1500 (1 Person)">From India -- INR 1500 (1 Person)</option>
+                          <option value="From Abroad -- USD 100 (1 Person)">From Abroad -- USD 100 (1 Person)</option>
+                          <option value="From India -- INR 3000 (2 Person)">From India -- INR 3000 (2 Person)</option>
+                          <option value="From Abroad -- USD 200 (2 Person)">From Abroad -- USD 200 (2 Person)</option>
+                          <option value="From India -- INR 4500 (3 Person)">From India -- INR 4500 (3 Person)</option>
+                          <option value="From Abroad -- USD 300 (3 Person)">From Abroad -- USD 300 (3 Person)</option>
                         </select>
                         <div class="input-field">
                           <div class="errorTxt16"></div>
@@ -209,6 +217,8 @@
                                 <br>
                                 <label class="white-text" style="font-size:16px;font-weight:bold;">Type of Account : </label> Saving
                                 <br>
+                                <label class="white-text" style="font-size:16px;font-weight:bold;">Account Number : </label> 001694600000631
+                                <br>
                                 <label class="white-text" style="font-size:16px;font-weight:bold;">IFSC Code : </label> YESB0000016
                                 <br>
                                 <label class="white-text" style="font-size:16px;font-weight:bold;">SWIFT CODE : </label> YESBINBB
@@ -229,7 +239,7 @@
                               <h3 class="card-title">Bank Transfer</h3>
                               <code>
                                 <label class="white-text" style="font-size:16px;font-weight:bold;">PayU link: </label>
-                                <a href="tinyurl.com/ICHSA2018registration">tinyurl.com/ICHSA2018registration</a>
+                                <a href="https://tinyurl.com/ICHSA2018registration" target="_blank">tinyurl.com/ICHSA2018registration</a>
                               </code>
                             </div>
                           </div>
@@ -238,27 +248,27 @@
                       <div class="divider"></div>
                       <h5 class="center">Details Of Payment</h4>
                         <div class="input-field col s12">
-                          <label for="camount">Amount</label>
+                          <label for="camount">Amount Paid *</label>
                           <input id="camount" type="number" name="camount" data-error=".errorTxt18">
                         </div>
                         <div class="input-field col s12">
-                          <label for="conlinetransaction">Online Transaction ID/Ref. No. :</label>
+                          <label for="conlinetransaction">Online Transaction ID/Ref. No. *</label>
                           <input id="conlinetransaction" type="number" name="conlinetransaction" data-error=".errorTxt19">
                         </div>
                         <div class="input-field col s12">
-                          <label for="cdate">Date</label>
+                          <label for="cdate">Date *</label>
                           <input id="cdate" type="text" class="datepicker" data-error=".errorTxt20">
                         </div>
                         <div class="input-field col s12">
-                          <label for="cbankname">Bank Name:</label>
+                          <label for="cbankname">Bank Name *</label>
                           <input id="cbankname" type="text" name="cbankname" data-error=".errorTxt21">
                         </div>
                         <div class="input-field col s12">
-                          <label for="cplace">Place</label>
+                          <label for="cplace">Place *</label>
                           <input id="cplace" type="text" name="cplace" data-error=".errorTxt22">
                         </div>
                         <div class="input-field col s12">
-                          <label for="cifsc">IFSC/SWIFT Code :</label>
+                          <label for="cifsc">IFSC/SWIFT Code *</label>
                           <input id="cifsc" type="number" name="cifsc" data-error=".errorTxt23">
                         </div>
                         <center>
@@ -295,137 +305,138 @@
   <!-- chartist -->
   <script type="text/javascript" src="./assets/js/jquery.validate.min.js"></script>
   <script type="text/javascript" src="./assets/js/additional-methods.min.js"></script>
+  <script src="assets/js/sweetalert.min.js"></script>
   <script src='https://www.google.com/recaptcha/api.js'></script>
   <script>
-  $("#formValidate").validate({
-    rules: {
-      cdeligatename: {
-            required: true,
-            minlength: 5
+    $("#formValidate").validate({
+      rules: {
+        cdeligatename: {
+          required: true,
+          minlength: 5
         },
         cgender: {
-            required: true
+          required: true
         },
         cdesignation: {
-            required: true,
-            minlength: 5
+          required: true,
+          minlength: 5
         },
         cinstitutename: {
-            required: true,
-            minlength: 5
+          required: true,
+          minlength: 5
         },
-        caddress:{
+        caddress: {
           require: true,
           minLength: 5
         },
-        cemail:{
+        cemail: {
           require: true,
           minLength: 5
         },
-        cmobile:{
+        cmobile: {
           require: true,
           minLength: 5
         },
         paperID: {
-            required: true,
-            minlength: 1
+          required: true,
+          minlength: 1
         },
         instituteRollNumber: {
-            required: true,
-            minlength: 2
+          required: true,
+          minlength: 2
         },
         yearOfAdmission: {
-            required: true,
-            minlength: 4
+          required: true,
+          minlength: 4
         },
         nameOfTheCity: {
-            required: true,
-            minlength: 5
+          required: true,
+          minlength: 5
         },
         nearestPlace: {
-            required: true,
-            minlength: 5
+          required: true,
+          minlength: 5
         },
         totalFare: {
-            required: true,
-            minlength: 3
+          required: true,
+          minlength: 3
         },
         ccomment: {
-            required: false,
-            minlength: 15
+          required: false,
+          minlength: 15
         },
         file: {
-            required: true,
+          required: true,
         },
-    },
-    //For custom messages
-    messages: {
-      cdeligatename: {
-            required: "Enter your Full name",
-            minlength: "Enter at least 5 characters"
+      },
+      //For custom messages
+      messages: {
+        cdeligatename: {
+          required: "Enter your Full name",
+          minlength: "Enter at least 5 characters"
         },
         cgender: {
-            required: "Please select your gender"
+          required: "Please select your gender"
         },
         cdesignation: {
-            required: "Enter your designation",
-            minlength: "Enter at least 5 characters"
+          required: "Enter your designation",
+          minlength: "Enter at least 5 characters"
         },
         cinstitutename: {
-            required: "Enter Name of your Institute",
-            minlength: "Enter at least 5 characters"
+          required: "Enter Name of your Institute",
+          minlength: "Enter at least 5 characters"
         },
-        caddress:{
+        caddress: {
           required: "Enter your address",
           minlength: "Enter at least 5 characters"
         },
-        cemail:{
+        cemail: {
           required: "Enter your email",
           minlength: "Enter at least 5 characters"
         },
-        cmobile:{
+        cmobile: {
           required: "Enter your Mobile Number",
           minlength: "Enter at least 5 characters"
         },
         instituteRollNumber: {
-            required: "Enter Institute Registration Number/ Roll Number",
-            minlength: "Enter at least 2 characters"
+          required: "Enter Institute Registration Number/ Roll Number",
+          minlength: "Enter at least 2 characters"
         },
         yearOfAdmission: {
-            required: "Enter Year of admisson",
-            minlength: "Enter at least 5 characters"
+          required: "Enter Year of admisson",
+          minlength: "Enter at least 5 characters"
         },
         nameOfTheCity: {
-            required: "Enter name of the city",
-            minlength: "Enter at least 5 characters"
+          required: "Enter name of the city",
+          minlength: "Enter at least 5 characters"
         },
         paperID: {
-            required: "Enter Paper ID",
-            minlength: "Enter at least 1 characters"
+          required: "Enter Paper ID",
+          minlength: "Enter at least 1 characters"
         },
         nearestPlace: {
-            required: "Enter name of nearest Railway Station/ Airport",
-            minlength: "Enter at least 5 characters"
+          required: "Enter name of nearest Railway Station/ Airport",
+          minlength: "Enter at least 5 characters"
         },
         totalFare: {
-            required: "Enter tentative travel fare (To and Fro)",
-            minlength: "Enter at least 3 characters"
+          required: "Enter tentative travel fare (To and Fro)",
+          minlength: "Enter at least 3 characters"
         },
         file: {
-            required: "Please upload your file",
+          required: "Please upload your file",
         },
         curl: "Enter your website",
-    },
-    errorElement: 'div',
-    errorPlacement: function (error, element) {
+      },
+      errorElement: 'div',
+      errorPlacement: function (error, element) {
         var placement = $(element).data('error');
         if (placement) {
-            $(placement).append(error)
+          $(placement).append(error)
         } else {
-            error.insertAfter(element);
+          error.insertAfter(element);
         }
-    }
-});
+      }
+    });
   </script>
   <?php
    include 'include/php/foot.php';
