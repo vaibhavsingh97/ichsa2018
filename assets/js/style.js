@@ -1,9 +1,9 @@
-$(document).ready(function() {
-  window.onload = function() {
+$(document).ready(function () {
+  window.onload = function () {
     $('body').addClass('loaded');
   };
 });
-$(document).ready(function() {
+$(document).ready(function () {
   // Dropdown
   // $('.dropdown-button').dropdown({
   //     inDuration: 300,
@@ -30,17 +30,25 @@ $(document).ready(function() {
   $('.carousel.carousel-slider').carousel({
     fullWidth: true
   });
-  $('.btn-success').click(function() {
+  $('.btn-success').click(function () {
     swal("Thanks!", "for downloading!", "success");
   });
   $('.materialboxed').materialbox();
+});
+
+$('.datepicker').pickadate({
+  selectMonths: false, // Creates a dropdown to control month
+  today: 'Today',
+  clear: 'Clear',
+  close: 'Ok',
+  closeOnSelect: false // Close upon selecting a date,
 });
 
 // sticky navigation bar
 if ($('body').has('navbar')) {
   var targetPos = $('#navigation').offset().top;
 
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     var scrollPos = $(this).scrollTop();
     if (scrollPos > targetPos) {
       $('#navigation').addClass('fixed-nav');
@@ -49,7 +57,36 @@ if ($('body').has('navbar')) {
     }
   });
 
-  $(window).resize(function() {
+  $(window).resize(function () {
     targetPos = $('#navigation').offset().top;
   });
 }
+
+$('#cregistrationcategory').change(function () {
+  if ($(this).val() == "Early Bird") {
+    $("#early").removeClass("hidden");
+    $("#regular").addClass("hidden");
+  } else {
+    $("#regular").removeClass("hidden");
+    $("#early").addClass("hidden");
+  }
+});
+
+$('#caccomodation').change(function () {
+  if ($(this).val() == "Yes") {
+    $("#yes").removeClass("hidden");
+  }
+  else{
+    $('#yes').addClass('hidden');
+  }
+});
+
+$('#cpaymentmode').change(function () {
+  if ($(this).val() == "Online Transaction (NEFT/RTGS/IMPS)") {
+    $("#bank").removeClass("hidden");
+    $("#payu").addClass("hidden");
+  } else {
+    $("#payu").removeClass("hidden");
+    $("#bank").addClass("hidden");
+  }
+});
