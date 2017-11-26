@@ -15,7 +15,9 @@
             <div class="col s12 m12 l12">
               <div class="card-panel z-depth-2">
                 <div class="row">
-                  <form class="formValidate" id="formValidate" method="get" action="">
+                <h4 class="header2" style="text-align:center"><?php if(isset($_GET['ok'])) { if($_GET['ok'] == '1') echo "<div id=\"card-alert\" class=\"card green\"><div class=\"card-content white-text\" style=\"font-size:24px;\"><p>You have successfully submitted form. \xF0\x9F\x98\x83</p></div></div>"; elseif($_GET['ok'] == "0") echo "<div id=\"card-alert\" class=\"card red\"><div class=\"card-content white-text\" style=\"font-size:24px;\"><p>Your submission failed!! \xF0\x9F\x98\x9E</p></div></div>";}?></h4>
+                  <form class="formValidate" id="formValidate" method="post" action="saveRegDetails.php">
+                  <input type="hidden" name="issubmit" value="1">
                     <div class="row">
                       <!-- Name of Deligate -->
                       <div class="input-field col s12">
