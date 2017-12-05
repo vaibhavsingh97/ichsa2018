@@ -1385,6 +1385,26 @@ nav.nav-center ul li a {
 
 /*
  * =====================================
+ * Pay Registration Fees
+ * =====================================
+ */
+
+ #pay-registration-fee-page main {
+  flex: 1 0 auto;
+}
+
+#pay-registration-fee-page .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#pay-registration-fee-page .note-text {
+  text-align: justify;
+  font-style: italic;
+}
+/*
+ * =====================================
  * SCRS Travel Grant Registration Fees
  * =====================================
  */

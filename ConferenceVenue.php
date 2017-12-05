@@ -12,7 +12,8 @@
                 <div class="section">
                     <div class="row">
                         <div class="col s12">
-                            <i class="material-icons">directions_car</i>
+                            <h5>Information will be updated soon</h5>
+                            <!-- <i class="material-icons">directions_car</i>
                             <i class="material-icons">directions_bus</i>
                             <i class="material-icons">directions_railway</i>
                             <i class="material-icons">local_airport</i>
@@ -43,7 +44,7 @@
                                     <div id="test6">Test 3</div>
                                     <div id="test7">Test 4</div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

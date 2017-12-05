@@ -274,6 +274,8 @@
                         <li><a href="Registration.php">Registration Fees&nbsp;<span class="new badge" style="background-color:#ffffff;color:#009688;"></a></li>
                         <li class="divider"></li>
                         <!-- <li><a href="OnlineRegistrations.php">Online Registrations</a></li> -->
+                        <li class="divider"></li>                        
+                        <li><a href="PayRegistrationFee.php">Pay Registration Fee</a></li>
                         <li class="divider"></li>
                         <li><a href="SCRSRegistrationFees.php">SCRS Travel Grant &amp; Registration Fees</a></li>
                       </ul>
@@ -340,6 +342,8 @@
         <li class="divider"></li>
         <!-- <li class="Dropdown-menu-links"><a href="OnlineRegistrations.php">Online Registrations</a></li> -->
         <li class="divider"></li>
+        <li><a href="PayRegistrationFee.php">Pay Registration Fee</a></li>
+        <li class="divider"></li>        
         <li class="Dropdown-menu-links"><a href="SCRSRegistrationFees.php">SCRS Travel Grant &amp; Registration Fees</a></li>
       </ul>
     </div>

@@ -27,6 +27,7 @@ $(document).ready(function () {
     height: 540,
     indicators: false
   });
+  $('.collapsible').collapsible();
   $('.carousel.carousel-slider').carousel({
     fullWidth: true
   });
