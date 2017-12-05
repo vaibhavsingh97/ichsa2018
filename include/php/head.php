@@ -236,7 +236,7 @@
                     <a class="collapsible-header waves-effect waves-teal">Conference<i class="material-icons right">arrow_drop_down</i></a>
                     <div class="collapsible-body">
                       <ul>
-                        <li><a href="#!">Conference Venue</a></li>
+                        <li><a href="ConferenceVenue.php">Conference Venue</a></li>
                         <li class="divider"></li>
                         <li><a href="#!">Committees</a></li>
                         <li class="divider"></li>
@@ -310,7 +310,7 @@
 
       <!-- Conference Dropdown Content -->
         <ul id='Conference-dropdown-content' class='dropdown-content'>
-        <li class="Dropdown-menu-links"><a href="#!">Conference Venue</a></li>
+        <li class="Dropdown-menu-links"><a href="ConferenceVenue.php">Conference Venue</a></li>
         <li class="Dropdown-menu-links"><a class="dropdown-button" data-activates="test" data-beloworigin="false" data-constrainWidth="false" href="#!">Committees</a></li>
         <li class="divider"></li>
         <li class="Dropdown-menu-links"><a href="SpecialJournalIssue.php ">Special Journal Issue</a></li>

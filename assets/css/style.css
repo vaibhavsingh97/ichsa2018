@@ -208,23 +208,33 @@ main {
   color: rgba(255, 255, 255, 0.3);
 }
 
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 10%;
+  left:6%;
+}
 
-/*#toast-container .toast {
+#toast-container .toast {
     cursor: pointer;
 }
 
+#toast-container{
+  width: 580px;
+  margin: 0 auto;
+}
+/* 
 #toast-container .toast::after {
     font-family: 'Material Icons';
     content: "close";
-    -webkit-font-feature-settings: 'liga';
-    color: #dd2c00;
+    color: #ffffff;
     font-size: 1.3rem;
     font-weight: 300;
     float: right;
     padding-left: 3rem;
     padding-right: -200px;
     width: inherit;
-}*/
+} */
 
 #sidenav-overlay {
   z-index: 1;
@@ -1190,6 +1200,21 @@ nav.nav-center ul li a {
   text-align: center;
 }
 
+/*
+ * =============================
+ * Conference Venue page
+ * =============================
+ */
+
+ #conference-venue-page main {
+  flex: 1 0 auto;
+}
+
+#conference-venue-page .heading {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+}
 
 /*
  * =============================

@@ -12,8 +12,12 @@
           <div class="card timeline-content z-depth-2">
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Submission of Abstract</span>
+              <div class="chip red" style="color:#fff;">
+                <strike>30<sup>th</sup> November,&nbsp;&nbsp;2017</strike>
+                <i class="material-icons"></i>
+              </div>
               <div class="chip teal" style="color:#fff;">
-                30<sup>th</sup> November,&nbsp;&nbsp;2017
+                15<sup>th</sup> December,&nbsp;&nbsp;2017
                 <i class="material-icons"></i>
               </div>
             </div>
@@ -28,8 +32,12 @@
                 <strike>15<sup>th</sup> September,&nbsp;&nbsp;2017</strike>
                 <i class="material-icons"></i>
               </div>
+              <div class="chip red" style="color:#fff;">
+              <strike>30<sup>th</sup> November,&nbsp;&nbsp;2017</strike>
+                <i class="material-icons"></i>
+              </div>
               <div class="chip teal" style="color:#fff;">
-                30<sup>th</sup> November,&nbsp;&nbsp;2017
+                15<sup>th</sup> December,&nbsp;&nbsp;2017
                 <i class="material-icons"></i>
               </div>
             </div>
