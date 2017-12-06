@@ -11,8 +11,14 @@
           <h2 class="accomodation-title">Accomodation</h2>
         </div>
         <div class="divider"></div>
-        <p class="accomodation-content">To be announced</p>
-        <div class="svg-animation">
+        <p class="accomodation-content">
+          Note:<br> 1. An optional limited shared accommodation shall be provided to the Indian participants on payment basis, the participants are 
+          required to pay a fixed amount of Rs. 1000/- (for all days) in addition to registration fee. <br>
+          2. The accompany person will also be required to pay the accommodation fee in addition to the registration fee.
+        </p>
+        <br>
+        <h6>For more information:<a href=""> Click Here</a></h6>
+        <!-- <div class="svg-animation">
           <svg width="200" height="200">
 
       <filter id="innerShadow" x="-20%" y="-20%" width="140%" height="140%">
@@ -49,7 +55,7 @@
       </g>
       <circle id="center" style="fill:#009688; stroke: #C1EFED; stroke-width: 2px;" cx="100" cy="100" r="3"></circle>
   </svg>
-        </div>
+        </div> -->
       </div>
     </main>
   </div>

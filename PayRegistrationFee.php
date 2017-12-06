@@ -7,7 +7,7 @@ include 'include/php/head.php';
     <main>
         <div class="container">
             <div id="card-panel-type" class="section">
-                <h4 class="heading" style="text-align:center;font-size:35px;">Pay Regsitration Fee</h4>
+                <h4 class="heading" style="text-align:center;font-size:35px;">Pay Registration Fee</h4>
                 <div class="divider"></div>
                 <div class="section">
                     <div class="row">
@@ -36,8 +36,10 @@ include 'include/php/head.php';
                                             <span>Registration Fee + Accommodation Fee (Rs. 1000/-)</span>
                                         </div>
                                     </li>
-                                    <li class="active">
-                                        <div class="collapsible-header">
+                                </ul>
+                                <ul class="collapsible">
+                                <li class="active">
+                                        <div class="collapsible-header active">
                                             <i class="material-icons">group</i>With accompany person</div>
                                         <div class="collapsible-body">
                                             <span>Registration Fee + Accompany Person Fee + Accommodation Fee (Rs. 2000*/-)</span>
@@ -84,10 +86,10 @@ include 'include/php/head.php';
                                     <div class="col s12">
                                         <div class="card blue-grey">
                                             <div class="card-content white-text">
-                                                <h3 class="card-title">Bank Transfer</h3>
+                                                <h3 class="card-title">Online Transfer</h3>
                                                 <code>
                                                     <label class="white-text" style="font-size:16px;font-weight:bold;">PayU link: </label>
-                                                    <a class="yellow-text" href="https://tinyurl.com/ICHSA2018registration" target="_blank">tinyurl.com/ICHSA2018registration</a>
+                                                    <a class="yellow-text" href="https://tinyurl.com/ICHSA2018registration" target="_blank">https://www.payumoney.com/ICHSA2018registration</a>
                                                 </code>
                                             </div>
                                         </div>
