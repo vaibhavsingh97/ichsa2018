@@ -114,7 +114,7 @@
                       <!-- Early Bird -->
                       <div class="col s12 hidden" id="early">
                         <label for="cregistrationcategory-option">Early Bird</label>
-                        <select class="error browser-default" id="cregistrationcategory-option" name="cregistrationcategory-option" data-error=".errorTxt10">
+                        <select class="error browser-default" id="cregistrationcategory-option" name="cregistrationcategory-option" data-error=".errorTxt12">
                           <option value="Regular Author Indian -- INR 6000" selected="selected">Regular Author Indian -- INR 6000</option>
                           <option value="Regular Author Foreigner -- USD 600">Regular Author Foreigner -- USD 600</option>
                           <option value="Full time student author Indian -- INR 3000">Full time student author Indian -- INR 3000</option>
@@ -123,14 +123,12 @@
                           <option value="Only presenting a paper Foreigner -- USD 300">Only presenting a paper Foreigner -- USD 300</option>
                           <option value="Only attending Indian -- INR 1500">Only attending Indian -- INR 1500</option>
                           <option value="Only attending Foreigner -- USD 100">Only attending Foreigner -- USD 100</option>
-                          <!-- <option value="Accompanying Person Indian -- INR 1500">Accompanying Person Indian -- INR 1500</option>
-                          <option value="Accompanying Person Foreigner -- USD 100">Accompanying Person Foreigner -- USD 100</option> -->
                         </select>
                       </div>
                       <!-- Regular Registration -->
                       <div class="col s12 hidden" id="regular">
                         <label for="cregistrationcategory-option">Regular Registration</label>
-                        <select class="error browser-default" id="cregistrationcategory-option" name="cregistrationcategory-option" data-error=".errorTxt10">
+                        <select class="error browser-default" id="cregistrationcategory-option" name="cregistrationcategory-option" data-error=".errorTxt12">
                           <option value="Regular Author Indian -- INR 7500" selected="selected">Regular Author Indian -- INR 7500</option>
                           <option value="Regular Author Foreigner -- USD 700">Regular Author Foreigner -- USD 700</option>
                           <option value="Full time student author Indian -- INR 4500">Full time student author Indian -- INR 4500</option>
@@ -139,8 +137,6 @@
                           <option value="Only presenting a paper Foreigner -- USD 400">Only presenting a paper Foreigner -- USD 400</option>
                           <option value="Only attending Indian -- INR 3000">Only attending Indian -- INR 3000</option>
                           <option value="Only attending Foreigner -- USD 200">Only attending Foreigner -- USD 200</option>
-                          <!-- <option value="Accompanying Person Indian -- INR 3000">Accompanying Person Indian -- INR 3000</option>
-                          <option value="Accompanying Person Foreigner -- USD 200">Accompanying Person Foreigner -- USD 200</option> -->
                         </select>
                       </div>
                       <!-- Extra Paper Charges -->
@@ -171,18 +167,15 @@
                       <!-- Accommodation Needed -->
                       <div class="col s12 hidden" id="yes">
                         <label for="caccomodation">Accommodation Needed (If yes) *</label>
-                        <select class="error browser-default" id="caccomodation" name="caccomodation" data-error=".errorTxt15">
+                        <select class="error browser-default" id="caccomodation" name="caccomodation" data-error=".errorTxt14">
                           <option value="Single">Single</option>
                           <option value="Shared">Shared</option>
                         </select>
-                        <div class="input-field">
-                          <div class="errorTxt15"></div>
-                        </div>
                       </div>
                       <!-- Accommodation Needed -->
                       <div class="col s12">
-                        <label for="caccomodation">Accompanying Person *</label>
-                        <select class="error browser-default" id="caccomodation" name="caccomodation" data-error=".errorTxt16">
+                        <label for="caccompanyingperson">Accompanying Person *</label>
+                        <select class="error browser-default" id="caccomodation" name="caccomodation" data-error=".errorTxt15">
                           <option value="None">None</option>
                           <option value="From India -- INR 1500 (1 Person)">From India -- INR 1500 (1 Person)</option>
                           <option value="From Abroad -- USD 100 (1 Person)">From Abroad -- USD 100 (1 Person)</option>
@@ -192,102 +185,73 @@
                           <option value="From Abroad -- USD 300 (3 Person)">From Abroad -- USD 300 (3 Person)</option>
                         </select>
                         <div class="input-field">
-                          <div class="errorTxt16"></div>
+                          <div class="errorTxt15"></div>
                         </div>
                       </div>
                       <!-- Mode of Payment -->
                       <div class="col s12">
                         <label for="cpaymentmode">Mode of Payment *</label>
-                        <select class="error browser-default" id="cpaymentmode" name="cpaymentmode" data-error=".errorTxt17">
+                        <select class="error browser-default" id="cpaymentmode" name="cpaymentmode" data-error=".errorTxt16">
                           <option value="" disabled selected>Choose options</option>
                           <option value="Online Transaction (NEFT/RTGS/IMPS)">Online Transaction (NEFT/RTGS/IMPS)</option>
                           <option value="PayU transfer">PayU transfer</option>
                         </select>
                         <div class="input-field">
-                          <div class="errorTxt17"></div>
-                        </div>
-                      </div>
-                      <div class="row hidden" id="bank" style="padding:10px">
-                        <div class="col s12">
-                          <div class="card blue-grey">
-                            <div class="card-content white-text">
-                              <h3 class="card-title">Bank Transfer</h3>
-                              <code>
-                                <label class="white-text" style="font-size:16px;font-weight:bold;">Beneficiary Name: </label> BML Munjal University
-                                <br>
-                                <label class="white-text" style="font-size:16px;font-weight:bold;">Bank Name : </label> YES Bank Ltd.
-                                <br>
-                                <label class="white-text" style="font-size:16px;font-weight:bold;">Type of Account : </label> Saving
-                                <br>
-                                <label class="white-text" style="font-size:16px;font-weight:bold;">Account Number : </label> 001694600000631
-                                <br>
-                                <label class="white-text" style="font-size:16px;font-weight:bold;">IFSC Code : </label> YESB0000016
-                                <br>
-                                <label class="white-text" style="font-size:16px;font-weight:bold;">SWIFT CODE : </label> YESBINBB
-                                <br>
-                                <label class="white-text" style="font-size:16px;font-weight:bold;">MICR : </label> 110532006
-                                <br>
-                                <label class="white-text" style="font-size:16px;font-weight:bold;">Address : </label> D-12, South Extension Part-II, New Delhi-110049
-                                <br>
-                              </code>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row hidden" id="payu" style="padding:10px">
-                        <div class="col s12">
-                          <div class="card blue-grey">
-                            <div class="card-content white-text">
-                              <h3 class="card-title">Bank Transfer</h3>
-                              <code>
-                                <label class="white-text" style="font-size:16px;font-weight:bold;">PayU link: </label>
-                                <a href="https://tinyurl.com/ICHSA2018registration" target="_blank">tinyurl.com/ICHSA2018registration</a>
-                              </code>
-                            </div>
-                          </div>
+                          <div class="errorTxt16"></div>
                         </div>
                       </div>
                       <div class="divider"></div>
                       <h5 class="center">Details Of Payment</h4>
                         <div class="input-field col s12">
                           <label for="camount">Amount Paid *</label>
-                          <input id="camount" type="number" name="camount" data-error=".errorTxt18">
+                          <input id="camount" type="number" name="camount" data-error=".errorTxt17">
+                          <div class="input-field">
+                            <div class="errorTxt17"></div>
+                          </div>
                         </div>
                         <div class="input-field col s12">
                           <label for="conlinetransaction">Online Transaction ID/Ref. No. *</label>
-                          <input id="conlinetransaction" type="number" name="conlinetransaction" data-error=".errorTxt19">
+                          <input id="conlinetransaction" type="number" name="conlinetransaction" data-error=".errorTxt18">
+                          <div class="input-field">
+                            <div class="errorTxt18"></div>
+                          </div>
                         </div>
                         <div class="input-field col s12">
                           <label for="cdate">Date *</label>
-                          <input id="cdate" type="text" class="datepicker" data-error=".errorTxt20">
+                          <input id="cdate" type="text" class="datepicker" data-error=".errorTxt19">
+                          <div class="input-field">
+                            <div class="errorTxt19"></div>
+                          </div>
                         </div>
                         <div class="input-field col s12">
                           <label for="cbankname">Bank Name *</label>
-                          <input id="cbankname" type="text" name="cbankname" data-error=".errorTxt21">
+                          <input id="cbankname" type="text" name="cbankname" data-error=".errorTxt20">
+                          <div class="input-field">
+                            <div class="errorTxt20"></div>
+                          </div>
                         </div>
                         <div class="input-field col s12">
                           <label for="cplace">Place *</label>
-                          <input id="cplace" type="text" name="cplace" data-error=".errorTxt22">
+                          <input id="cplace" type="text" name="cplace" data-error=".errorTxt21">
+                          <div class="input-field">
+                            <div class="errorTxt21"></div>
+                          </div>
                         </div>
                         <div class="input-field col s12">
                           <label for="cifsc">IFSC/SWIFT Code *</label>
-                          <input id="cifsc" type="number" name="cifsc" data-error=".errorTxt23">
+                          <input id="cifsc" type="number" name="cifsc" data-error=".errorTxt22">
+                          <div class="input-field">
+                            <div class="errorTxt22"></div>
+                          </div>
                         </div>
                         <center>
                           <div class="col s12 center-align">
-                            <div class="g-recaptcha" data-sitekey="6LeHRjoUAAAAABobHGQQBHZgzlI1tvm0M51_bNbT"></div>
+                            <div id="cbot" class="g-recaptcha" data-sitekey="6LeHRjoUAAAAABobHGQQBHZgzlI1tvm0M51_bNbT" data-error=".errorTxt23"></div>
+                          </div>
+                          <div class="input-field">
+                            <div class="errorTxt23"></div>
                           </div>
                         </center>
-                        <!-- <div class="col s12">
-                          <label for="tnc_select">T&C *</label>
-                          <p>
-                            <input type="checkbox" class="checkbox" id="cagree" name="cagree" data-error=".errorTxt14" />
-                            <label for="cagree">Please agree to our policy</label>
-                          </p>
-                          <div class="input-field">
-                            <div class="errorTxt14"></div>
-                          </div>
-                        </div> -->
                         <div class="input-field col s12 center-align">
                           <button class="btn btn-large waves-effect waves-light submit" type="submit" name="action">Submit
                             <i class="mdi-content-send right"></i>
@@ -333,42 +297,64 @@
         },
         cemail: {
           require: true,
-          minLength: 5
+          email: true
         },
         cmobile: {
           require: true,
           minLength: 5
         },
-        paperID: {
-          required: true,
+        cpresentpaper:{
+          require: true
+        },
+        cpapertitle: {
+          require: true,
+          minlength: 5
+        },
+        cpaperid: {
+          require: true,
           minlength: 1
         },
-        instituteRollNumber: {
-          required: true,
-          minlength: 2
+        cregistrationcategory: {
+          require: true
         },
-        yearOfAdmission: {
-          required: true,
-          minlength: 4
+        cpapercharges: {
+          require: true
         },
-        nameOfTheCity: {
-          required: true,
-          minlength: 5
+        caccomodation: {
+          require: true
         },
-        nearestPlace: {
-          required: true,
-          minlength: 5
+        caccompanyingperson: {
+          require: true
         },
-        totalFare: {
-          required: true,
-          minlength: 3
+        cpaymentmode:{
+          require: true
         },
-        ccomment: {
-          required: false,
-          minlength: 15
+        camount:{
+          require: true,
+          number: true
         },
-        file: {
-          required: true,
+        conlinetransaction:{
+          require: true,
+          number: true
+        },
+        cdate:{
+          require: true,
+          date: true
+        },
+        cbankname:{
+          require: true,
+          minLength: 5
+        },
+        cplace: {
+          require: true,
+          minLength: 3
+        },
+        cifsc:{
+          require: true,
+          minLength: 3
+        },
+        cbot: {
+          require: true
         },
       },
       //For custom messages
@@ -393,41 +379,62 @@
           minlength: "Enter at least 5 characters"
         },
         cemail: {
-          required: "Enter your email",
-          minlength: "Enter at least 5 characters"
+          required: "Enter your email"
         },
         cmobile: {
           required: "Enter your Mobile Number",
           minlength: "Enter at least 5 characters"
         },
-        instituteRollNumber: {
-          required: "Enter Institute Registration Number/ Roll Number",
-          minlength: "Enter at least 2 characters"
+        cpresentpaper:{
+          required: "Select yes/no"
         },
-        yearOfAdmission: {
-          required: "Enter Year of admisson",
+        cpapertitle:{
+          required: "Enter your Paper Title",
           minlength: "Enter at least 5 characters"
         },
-        nameOfTheCity: {
-          required: "Enter name of the city",
-          minlength: "Enter at least 5 characters"
-        },
-        paperID: {
-          required: "Enter Paper ID",
+        cpaperid:{
+          required: "Enter your Paper ID",
           minlength: "Enter at least 1 characters"
         },
-        nearestPlace: {
-          required: "Enter name of nearest Railway Station/ Airport",
+        cregistrationcategory: {
+          required: "Select your Registration Category"
+        },
+        cpapercharges: {
+          required: "Select Extra paper charges"
+        },
+        caccomodation: {
+          required: "Select Accomdation"
+        },
+        caccompanyingperson:{
+          required: "Select Accompanying Person"
+        },
+        cpaymentmode:{
+          required: "Select Mode of Payment"
+        },
+        camount:{
+          required: "Enter Amount Paid"
+        },
+        conlinetransaction:{
+          required: "Enter Online Transaction ID/ Reference Number"
+        },
+        cdate: {
+          required: "Enter Date"
+        },
+        cbankname:{
+          required: "Enter your Bank Name",
           minlength: "Enter at least 5 characters"
         },
-        totalFare: {
-          required: "Enter tentative travel fare (To and Fro)",
+        cplace: {
+          required: "Enter your Place",
           minlength: "Enter at least 3 characters"
         },
-        file: {
-          required: "Please upload your file",
+        cifsc:{
+          required: "Enter your IFSC/SWIFT code",
+          minlength: "Enter at least 3 characters"
         },
-        curl: "Enter your website",
+        cbot:{
+          required: "Please prove that your are human"
+        }
       },
       errorElement: 'div',
       errorPlacement: function (error, element) {

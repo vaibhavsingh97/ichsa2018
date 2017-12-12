@@ -78,13 +78,3 @@ $('#caccomodation').change(function () {
     swal("Accomodation charges","INR 1000 per person in addition to registration fee.");
   }
 });
-
-$('#cpaymentmode').change(function () {
-  if ($(this).val() == "Online Transaction (NEFT/RTGS/IMPS)") {
-    $("#bank").removeClass("hidden");
-    $("#payu").addClass("hidden");
-  } else {
-    $("#payu").removeClass("hidden");
-    $("#bank").addClass("hidden");
-  }
-});
