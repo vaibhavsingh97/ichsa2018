@@ -211,7 +211,7 @@
                         </div>
                         <div class="input-field col s12">
                           <label for="conlinetransaction">Online Transaction ID/Ref. No. *</label>
-                          <input id="conlinetransaction" type="number" name="conlinetransaction" data-error=".errorTxt18">
+                          <input id="conlinetransaction" type="text" name="conlinetransaction" data-error=".errorTxt18">
                           <div class="input-field">
                             <div class="errorTxt18"></div>
                           </div>
@@ -239,7 +239,7 @@
                         </div>
                         <div class="input-field col s12">
                           <label for="cifsc">IFSC/SWIFT Code *</label>
-                          <input id="cifsc" type="number" name="cifsc" data-error=".errorTxt22">
+                          <input id="cifsc" type="text" name="cifsc" data-error=".errorTxt22">
                           <div class="input-field">
                             <div class="errorTxt22"></div>
                           </div>
@@ -334,8 +334,7 @@
           number: true
         },
         conlinetransaction:{
-          require: true,
-          number: true
+          require: true
         },
         cdate:{
           require: true,
