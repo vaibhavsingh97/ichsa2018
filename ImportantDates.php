@@ -16,11 +16,15 @@
                 <strike>30<sup>th</sup> November,&nbsp;&nbsp;2017</strike>
                 <i class="material-icons"></i>
               </div>
-              <div class="chip teal" style="color:#fff;">
-                15<sup>th</sup> December,&nbsp;&nbsp;2017
+              <div class="chip red" style="color:#fff;">
+                <strike>15<sup>th</sup> December,&nbsp;&nbsp;2017</strike>
                 <i class="material-icons"></i>
               </div>
+                <div class="chip teal" style="color:#fff;">
+                30<sup>th</sup> December,&nbsp;&nbsp;2017
+                <i class="material-icons"></i>
             </div>
+           </div>
           </div>
           <div class="timeline-badge green white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_checked</i></div>
         </div>
@@ -36,11 +40,15 @@
               <strike>30<sup>th</sup> November,&nbsp;&nbsp;2017</strike>
                 <i class="material-icons"></i>
               </div>
-              <div class="chip teal" style="color:#fff;">
-                15<sup>th</sup> December,&nbsp;&nbsp;2017
+              <div class="chip red" style="color:#fff;">
+                <strike>15<sup>th</sup> December,&nbsp;&nbsp;2017</strike>
                 <i class="material-icons"></i>
               </div>
+                <div class="chip teal" style="color:#fff;">
+                30<sup>th</sup> December,&nbsp;&nbsp;2017
+                <i class="material-icons"></i>
             </div>
+           </div>
           </div>
           <div class="timeline-badge grey white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
         </div>
@@ -48,10 +56,14 @@
           <div class="card timeline-content z-depth-2">
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Decision of Acceptance/ Rejection</span>
-              <div class="chip teal" style="color:#fff;">
-                15<sup>th</sup> December,&nbsp;&nbsp;2017
+              <div class="chip red" style="color:#fff;">
+                <strike>15<sup>th</sup> December,&nbsp;&nbsp;2017</strike>
                 <i class="material-icons"></i>
               </div>
+                <div class="chip teal" style="color:#fff;">
+                30<sup>th</sup> December,&nbsp;&nbsp;2017
+                <i class="material-icons"></i>
+            </div>
             </div>
           </div>
           <div class="timeline-badge grey white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
