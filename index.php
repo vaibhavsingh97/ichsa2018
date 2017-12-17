@@ -17,7 +17,7 @@
     </div>
     <div class="chip">
       <a href="ImportantDates.php">
-        Abstract Submission Deadline (Extended): 30<sup>th</sup>&nbsp;November, 2017
+        Abstract Submission Deadline (Extended): 30<sup>th</sup>&nbsp;December, 2017
       </a>
     </div>
   </marquee>
@@ -198,7 +198,7 @@
     document.addEventListener('DOMContentLoaded',setTimeout(function() {
 
     setTimeout(function() {
-      Materialize.toast('<strong>Submission of full length paper (Date Extended): 15<sup>th</sup>&nbsp;December, 2017</strong>', 50000, 'red');
+      Materialize.toast('<strong>Submission of full length paper (Date Extended): 30<sup>th</sup>&nbsp;December, 2017</strong>', 50000, 'red');
     }, 1000);
 
     setTimeout(function() {
