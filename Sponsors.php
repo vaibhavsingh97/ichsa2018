@@ -16,7 +16,18 @@
             <h4 style="text-align:center;">Foundation for Innovation and Collaborative Education</h4>
           </div>
         </div>
+       <div class="container">
+      <h4 class="header" style="text-align:center;font-size:35px;">Sponsors</h4>
+      <div class="divider"></div>
+      <h5 class="flow-text center-align">Education Partner</h5>
+      <div class="section">
+        <div class="row">
+          <div class="col s12">
+            <img class="responsive-img image-center" style="height:110px; padding-top: 50px;" src="assets/images/Sponsors/brainweave.png" alt="BrainWeave">
+            <h4 style="text-align:center;">BrainWeave</h4>
+          </div>
       </div>
+      </div>  
       <h5 class="flow-text center-align">Other Sponsors</h5>
       <div class="section">
         <div class="row">
