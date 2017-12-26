@@ -30,7 +30,7 @@
                     </p>
                     <p>
                       For registration details follow the Conference Website at the following web link: <a href="https://ichsa2018.com/Registration.html">https://ichsa2018.com/Registration.html</a> You are kindly requested to mail the source file of your
-                      final manuscript (.doc/.docx/latex), Copyright form and Payment proof (scanned) in a ZIP folder to <a href="mailto:secretariat@ichsa2018.com">secretariat@ichsa2018.com</a>​
+                      final manuscript (.doc/.docx/latex), Copyright form and Payment proof (scanned) in a ZIP folder to <a href="mailto:ichsa2018@gmail.com">ichsa2018@gmail.com</a>​
                     </p>
                     <p>Note: Violations of any of the above paper specifications may result in rejection of your paper.</p>
                   </div>
