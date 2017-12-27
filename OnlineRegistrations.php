@@ -113,9 +113,9 @@
                       </div>
                       <!-- Early Bird -->
                       <div class="col s12 hidden" id="early">
-                        <label for="cregistrationcategory-option">Early Bird</label>
-                        <select class="error browser-default" id="cregistrationcategory-option" name="cregistrationcategory-option" data-error=".errorTxt12">
-                          <option value="Regular Author Indian -- INR 6000" selected="selected">Regular Author Indian -- INR 6000</option>
+                        <label for="cregistrationcategory-option-early">Early Bird</label>
+                        <select class="error browser-default" id="cregistrationcategory-option-early" name="cregistrationcategory-option-early" data-error=".errorTxt12">
+                          <option value="Regular Author Indian -- INR 6000">Regular Author Indian -- INR 6000</option>
                           <option value="Regular Author Foreigner -- USD 600">Regular Author Foreigner -- USD 600</option>
                           <option value="Full time student author Indian -- INR 3000">Full time student author Indian -- INR 3000</option>
                           <option value="Full time student author Foreigner -- USD 500">Full time student author Foreigner -- USD 500</option>
@@ -127,9 +127,9 @@
                       </div>
                       <!-- Regular Registration -->
                       <div class="col s12 hidden" id="regular">
-                        <label for="cregistrationcategory-option">Regular Registration</label>
-                        <select class="error browser-default" id="cregistrationcategory-option" name="cregistrationcategory-option" data-error=".errorTxt12">
-                          <option value="Regular Author Indian -- INR 7500" selected="selected">Regular Author Indian -- INR 7500</option>
+                        <label for="cregistrationcategory-option-regular">Regular Registration</label>
+                        <select class="error browser-default" id="cregistrationcategory-option-regular" name="cregistrationcategory-option-regular" data-error=".errorTxt12">
+                          <option value="Regular Author Indian -- INR 7500">Regular Author Indian -- INR 7500</option>
                           <option value="Regular Author Foreigner -- USD 700">Regular Author Foreigner -- USD 700</option>
                           <option value="Full time student author Indian -- INR 4500">Full time student author Indian -- INR 4500</option>
                           <option value="Full time student author Foreigner -- USD 600">Full time student author Foreigner -- USD 600</option>
@@ -153,8 +153,8 @@
                       </div>
                       <!-- Accommodation Needed -->
                       <div class="col s12">
-                        <label for="caccomodation">Accommodation Needed (Only for Indian participants)*</label>
-                        <select class="error browser-default" id="caccomodation" name="caccomodation" data-error=".errorTxt14">
+                        <label for="caccomodation1">Accommodation Needed (Only for Indian participants)*</label>
+                        <select class="error browser-default" id="caccomodation1" name="caccomodation1" data-error=".errorTxt14">
                           <option value="" disabled selected>Choose options</option>
                           <option value="Yes">Yes</option>
                           <option value="No">No</option>
@@ -166,8 +166,8 @@
                       </div>
                       <!-- Accommodation Needed -->
                       <div class="col s12 hidden" id="yes">
-                        <label for="caccomodation">Accommodation Needed (If yes) *</label>
-                        <select class="error browser-default" id="caccomodation" name="caccomodation" data-error=".errorTxt14">
+                        <label for="caccomodation2">Accommodation Needed (If yes) *</label>
+                        <select class="error browser-default" id="caccomodation2" name="caccomodation2" data-error=".errorTxt14">
                           <option value="Single">Single</option>
                           <option value="Shared">Shared</option>
                         </select>
@@ -218,7 +218,7 @@
                         </div>
                         <div class="input-field col s12">
                           <label for="cdate">Date *</label>
-                          <input id="cdate" type="text" class="datepicker" data-error=".errorTxt19">
+                          <input id="cdate" type="text" class="datepicker" name="cdate" data-error=".errorTxt19">
                           <div class="input-field">
                             <div class="errorTxt19"></div>
                           </div>
