@@ -70,7 +70,7 @@ $('#cregistrationcategory').change(function () {
   } else {
     $("#regular").removeClass("hidden");
     $("#early").addClass("hidden");
-  }
+		 }
 });
 
 $('#caccomodation').change(function () {

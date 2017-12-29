@@ -2,8 +2,7 @@
   $title = "Online Registrations | ICHSA 2018";
   $id_name = 'id="online-registrations-page"';
   include 'include/php/head.php';
-?>
-
+  ?>
   <main>
     <div class="container">
       <h4 class="heading">Online Registrations</h4>
@@ -115,7 +114,8 @@
                       <div class="col s12 hidden" id="early">
                         <label for="cregistrationcategory-option-early">Early Bird</label>
                         <select class="error browser-default" id="cregistrationcategory-option-early" name="cregistrationcategory-option-early" data-error=".errorTxt12">
-                          <option value="Regular Author Indian -- INR 6000">Regular Author Indian -- INR 6000</option>
+                          <option id="nullEarly" value="" disabled selected>Select your package</option>
+						  <option value="Regular Author Indian -- INR 6000">Regular Author Indian -- INR 6000</option>
                           <option value="Regular Author Foreigner -- USD 600">Regular Author Foreigner -- USD 600</option>
                           <option value="Full time student author Indian -- INR 3000">Full time student author Indian -- INR 3000</option>
                           <option value="Full time student author Foreigner -- USD 500">Full time student author Foreigner -- USD 500</option>
@@ -129,7 +129,8 @@
                       <div class="col s12 hidden" id="regular">
                         <label for="cregistrationcategory-option-regular">Regular Registration</label>
                         <select class="error browser-default" id="cregistrationcategory-option-regular" name="cregistrationcategory-option-regular" data-error=".errorTxt12">
-                          <option value="Regular Author Indian -- INR 7500">Regular Author Indian -- INR 7500</option>
+                          <option id="nullRegular" value="" disabled selected>Select your package</option>
+						  <option value="Regular Author Indian -- INR 7500">Regular Author Indian -- INR 7500</option>
                           <option value="Regular Author Foreigner -- USD 700">Regular Author Foreigner -- USD 700</option>
                           <option value="Full time student author Indian -- INR 4500">Full time student author Indian -- INR 4500</option>
                           <option value="Full time student author Foreigner -- USD 600">Full time student author Foreigner -- USD 600</option>
@@ -168,6 +169,7 @@
                       <div class="col s12 hidden" id="yes">
                         <label for="caccomodation2">Accommodation Needed (If yes) *</label>
                         <select class="error browser-default" id="caccomodation2" name="caccomodation2" data-error=".errorTxt14">
+						  <option value=" " disabled selected>Select your option</option>
                           <option value="Single">Single</option>
                           <option value="Shared">Shared</option>
                         </select>
@@ -446,6 +448,6 @@
       }
     });
   </script>
-  <?php
+    <?php
    include 'include/php/foot.php';
   ?>
