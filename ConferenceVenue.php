@@ -12,39 +12,103 @@
                 <div class="section">
                     <div class="row">
                         <div class="col s12">
-                            <h5>Information will be updated soon</h5>
-                            <!-- <i class="material-icons">directions_car</i>
-                            <i class="material-icons">directions_bus</i>
-                            <i class="material-icons">directions_railway</i>
-                            <i class="material-icons">local_airport</i>
                             <div class="card">
-                                <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                        because I require little markup to use effectively.</p>
-                                </div>
                                 <div class="card-tabs">
-                                    <ul class="tabs tabs-fixed-width">
+                                    <ul class="tabs tabs-fixed-width teal">
                                         <li class="tab">
-                                            <a href="#test4"><i class="material-icons" style="margin: 0 auto">directions_car</i> Parking</a>
+                                            <a class="white-text waves-light active" href="#parking">
+                                                <i class="material-icons" style="font-size: 20px !important; vertical-align: sub; padding: 5px;">directions_car</i> Parking</a>
                                         </li>
                                         <li class="tab">
-                                            <a class="active" href="#test5">Test 2</a>
+                                            <a class="white-text waves-light" href="#bus">
+                                                <i class="material-icons" style="font-size: 20px !important; vertical-align: sub; padding: 5px;">directions_bus</i> Buses / Shuttles</a>
                                         </li>
                                         <li class="tab">
-                                            <a href="#test6">Test 3</a>
+                                            <a class="white-text waves-light" href="#rail">
+                                                <i class="material-icons" style="font-size: 20px !important; vertical-align: sub; padding: 5px;">directions_railway</i> Mainline Rail</a>
                                         </li>
                                         <li class="tab">
-                                            <a href="#test7">Test 4</a>
+                                            <a class="white-text waves-light" href="#airport">
+                                                <i class="material-icons" style="font-size: 20px !important; vertical-align: sub; padding: 5px;">local_airport</i> Airports</a>
+                                        </li>
+                                        <li class="tab">
+                                            <a class="white-text waves-light" href="#ola">
+                                                <i class="material-icons" style="font-size: 20px !important; vertical-align: sub; padding: 5px;">
+                                                    <img src="assets/images/ola.png" height="20px" alt="">
+                                                </i> Ola Cabs</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="card-content grey lighten-4">
-                                    <div id="test4">Test 1</div>
-                                    <div id="test5">Test 2</div>
-                                    <div id="test6">Test 3</div>
-                                    <div id="test7">Test 4</div>
+                                    <div id="parking">
+                                        <p>There is parking available onsite at BML Munjal University and there will be an attendant
+                                            to guide and direct you upon arrival. </p>
+                                    </div>
+                                    <div id="bus">
+                                        <p>
+                                            Imformation will be updated soon.
+                                        </p>
+                                    </div>
+                                    <div id="rail">
+                                        <p> IfCO Metro station is a 40 minutes taxi ride from BML Munjal University.</p>
+                                    </div>
+                                    <div id="airport">
+                                        <p>
+                                            The Indira Gandhi International Airport airport is a 1.1 hour taxi journey to BML Munjal University.
+                                        </p>
+                                        <br>
+                                        <img src="assets/images/location-map.jpg" style="display: block;margin: 0 auto;" alt="location Map">
+                                    </div>
+                                    <div id="ola">
+                                        <p>
+                                            To help you commute to and from the Indira Gandhi International Airport, you can opt for Ola cab.
+                                            <ul class="collection">
+                                                <li class="collection-item avatar">
+                                                    <img src="assets/images/ola/ic_micro.png" style="vertical-align: sub;" alt="Ola Micro" class="circle">
+                                                    <span class="title"  style="vertical-align: sub;">
+                                                        <h5 style="text-align: initial; margin-top: 10px;">Micro</h5>
+                                                    </span>
+                                                    <span class="secondary-content">
+                                                        <p style="font-size:1.2em; margin-top:10px; text-align:center;">₹ 612 - ₹ 676 (Approx)</p>
+                                                    </span>
+                                                </li>
+                                                <li class="collection-item avatar">
+                                                <img src="assets/images/ola/ic_mini.png" style="vertical-align: sub;" alt="Ola Mini" class="circle">
+                                                    <h5 style="text-align: initial; margin-top: 10px;">Mini</h5>
+                                                    <a href="#!" class="secondary-content">
+                                                        <p style="font-size:1.2em; margin-top:10px; text-align:center;">₹ 650 - ₹ 718 (Approx)</p>
+                                                    </a>
+                                                </li>
+                                                <li class="collection-item avatar">
+                                                <img src="assets/images/ola/ic_prime.png" style="vertical-align: sub;" alt="Ola Prime" class="circle">
+                                                    <h5 style="text-align: initial; margin-top: 10px;">Prime Sedan</h5>
+                                                    <a href="#!" class="secondary-content">
+                                                        <p style="font-size:1.2em; margin-top:10px; text-align:center;">₹ 706 - ₹ 780 (Approx)</p>
+                                                    </a>
+                                                </li>
+                                                <li class="collection-item avatar">
+                                                <img src="assets/images/ola/ic_prime_play.png" style="vertical-align: sub;" alt="Ola Prime Play" class="circle">
+                                                    <h5 style="text-align: initial; margin-top: 10px;">Prime Play</h5>
+                                                    <a href="#!" class="secondary-content">
+                                                        <p style="font-size:1.2em; margin-top:10px; text-align:center;">₹ 706 - ₹ 780 (Approx)</p>
+                                                    </a>
+                                                </li>
+                                                <li class="collection-item avatar">
+                                                <img src="assets/images/ola/ic_suv.png" style="vertical-align: sub;" alt="Ola SUV" class="circle">
+                                                    <h5 style="text-align: initial; margin-top: 10px;">Prime SUV</h5>
+                                                    <a href="#!" class="secondary-content">
+                                                        <p style="font-size:1.2em; margin-top:10px; text-align:center;">₹ 991 - ₹ 1095 (Approx)</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </h5>
+                                    </div>
                                 </div>
-                            </div> -->
+                            </div>
+
+
+
+
                         </div>
                     </div>
                 </div>
