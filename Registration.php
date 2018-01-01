@@ -22,54 +22,57 @@
                     </tr>
                     <tr>
                       <th class="table-heading">Category</th>
-                      <th class="table-heading">Early Bird Registration</th>
+                      <th class="table-heading" style="text-decoration: line-through;">Early Bird Registration</th>
                       <th class="table-heading">Regular Registration</th>
-                      <th class="table-heading">Early Bird Registration</th>
+                      <th class="table-heading" style="text-decoration: line-through;">Early Bird Registration</th>
                       <th class="table-heading">Regular Registration</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>Full Time Student Author</td>
-                      <td>INR 3000</td>
+                      <td  style="text-decoration: line-through;">INR 3000</td>
                       <td>INR 4500</td>
-                      <td>USD 500</td>
+                      <td  style="text-decoration: line-through;">USD 500</td>
                       <td>USD 600</td>
                     </tr>
                     <tr>
                       <td>Regular Author</td>
-                      <td>INR 6000</td>
+                      <td  style="text-decoration: line-through;">INR 6000</td>
                       <td>INR 7500</td>
-                      <td>USD 600</td>
+                      <td style="text-decoration: line-through;">USD 600</td>
                       <td>USD 700</td>
                     </tr>
                     <tr>
                       <td>Only presenting a paper</td>
-                      <td>INR 2000</td>
+                      <td  style="text-decoration: line-through;">INR 2000</td>
                       <td>INR 3000</td>
-                      <td>USD 300</td>
+                      <td  style="text-decoration: line-through;">USD 300</td>
                       <td>USD 400</td>
                     </tr>
                     <tr>
                       <td>Only Attending</td>
-                      <td>INR 1500</td>
+                      <td  style="text-decoration: line-through;">INR 1500</td>
                       <td>INR 3000</td>
-                      <td>USD 100</td>
+                      <td  style="text-decoration: line-through;">USD 100</td>
                       <td>USD 200</td>
                     </tr>
                     <tr>
                       <td>Accompanying Person</td>
-                      <td>INR 1500</td>
+                      <td  style="text-decoration: line-through;">INR 1500</td>
                       <td>INR 3000</td>
-                      <td>USD 100</td>
+                      <td  style="text-decoration: line-through;">USD 100</td>
                       <td>USD 200</td>
                     </tr>
                   </tbody>
                 </table>
                 <div style="clear:both">
-                  <p style="color:red; margin: 2px 0 2px 0; padding:2px;">Early Bird Registration by 31<sup>st</sup> December 2017</p>
-                  <p class="note-text"> <strong>Note:</strong> * Registration Fee Includes Book of abstract, conference bag, breakfasts, lunches and a gala dinner. Atleast one author must register with full registration fee applicable as above for inclusion of paper in the proceedings. One registration will cover only a
-                    paper of 10 pages length.
+                  <p style="color:red; margin: 2px 0 2px 0; padding:2px;">Early Bird Registration by 31
+                    <sup>st</sup> December 2017</p>
+                  <p class="note-text">
+                    <strong>Note:</strong> * Registration Fee Includes Book of abstract, conference bag, breakfasts, lunches and
+                    a gala dinner. Atleast one author must register with full registration fee applicable as above for inclusion
+                    of paper in the proceedings. One registration will cover only a paper of 10 pages length.
                   </p>
                   <!-- <p class="note-text">* Limited shared accommodation shall be given on payment of Rs. 1000/- (in addition to the registration fee) on first cum first serve basis in student Hostel (boys/girls) for conference duration, subject to availability. (Preference will be given to Student Authors).
                   </p> -->
