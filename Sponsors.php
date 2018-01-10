@@ -20,7 +20,7 @@
       <div class="section">
         <div class="row">
           <div class="col s12">
-            <a href=" https://www.facebook.com/thebrainweave/"><img class="responsive-img image-center" style="height:110px; padding-top: 50px;" src="assets/images/Sponsors/brainweave.png" alt="BrainWeave"></a>
+            <a href=" https://www.facebook.com/thebrainweave/"><img class="responsive-img image-center" src="assets/images/Sponsors/brainweave.png" alt="BrainWeave"></a>
             <h4 style="text-align:center;">BrainWeave</h4>
           </div>
       </div>
