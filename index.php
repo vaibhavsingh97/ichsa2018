@@ -7,17 +7,17 @@
   <!-- <main> -->
   <marquee>
     <div class="chip">
-      <a href="ConferenceProceedings.php">All accepted papers will be published in proceedings of AISC seriers of Springer, SCOPUS Indexed (approval received)</a>
+      <a href="ConferenceProceedings.php">All accepted papers will be published Online in the proceedings of AISC seriers of Springer, SCOPUS Indexed</a>
     </div>
     <div class="chip">
-      <a href="http://www.tandfonline.com/toc/teta20/current">Selected papers will be published in Special Issue of Journal of Experimental and Theoretical Artificial Intelligence (Taylor & Francis), SCI Indexed, Impact Factor 1.384” (approval recieved)</a>
+      <a href="http://www.tandfonline.com/toc/teta20/current">Selected papers will be published in Special Issue of Journal of Experimental and Theoretical Artificial Intelligence (Taylor & Francis), SCI Indexed, Impact Factor 1.384”</a>
     </div>
     <div class="chip">
       <a href="SCRSRegistrationFees.php">SCRS Travel Grant and Registartion Fee Support</a>
     </div>
     <div class="chip">
       <a href="ImportantDates.php">
-        Abstract Submission Deadline (Extended): 30<sup>th</sup>&nbsp;December, 2017
+        Abstract and Full Paper Submission Deadline (Closed)
       </a>
     </div>
   </marquee>
@@ -198,7 +198,7 @@
     document.addEventListener('DOMContentLoaded',setTimeout(function() {
 
     setTimeout(function() {
-      Materialize.toast('<strong>Submission of full length paper (Date Extended): 30<sup>th</sup>&nbsp;December, 2017</strong>', 50000, 'red');
+      Materialize.toast('<strong>Submission of full length paper (Date Closed):</strong>', 50000, 'red');
     }, 1000);
 
     setTimeout(function() {
