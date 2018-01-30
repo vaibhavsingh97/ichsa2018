@@ -61,7 +61,7 @@
                                             on the Delhi Metro at Kashmere Gate Metro Station and move towards Huda City
                                             Centre (Yellow Line) and deboard at IFFCO Chowk Metro Station. <br><br>
                                             You can use Delhi Metro App for better info. <br>
-                                            <a href="https://play.google.com/store/apps/details?id=com.sraoss.dmrc" target="_blank" style="height: 40px;"><img src="assets/images/google_play.png" alt="Google Play Button"></a>
+                                            <a href="https://play.google.com/store/apps/details?id=com.sraoss.dmrc" target="_blank"><img src="assets/images/google_play.png" style="height: 40px;" alt="Google Play Button"></a>
                                         </p>
                                     </div>
                                     <div id="airport">
