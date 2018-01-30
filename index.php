@@ -7,6 +7,12 @@
   <!-- <main> -->
   <marquee>
     <div class="chip">
+      <a href="Downloads.php">Click here for program schedule</a>
+    </div>
+    <div class="chip">
+      <a href="Downloads.php">Click here for SCRS Grant Result</a>
+    </div>
+    <div class="chip">
       <a href="ConferenceProceedings.php">All accepted papers will be published Online in the proceedings of AISC seriers of Springer, SCOPUS Indexed</a>
     </div>
     <div class="chip">

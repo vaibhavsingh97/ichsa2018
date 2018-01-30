@@ -15,9 +15,21 @@
             <div class="col s12 m6 l4">
               <div class="card">
                 <div class="card-content green white-text">
-                  <h4 class="card-stats-number center">Conference <br> Brochure</h4>
+                  <h4 class="card-stats-number center">Program <br> Schedule</h4>
                 </div>
-                <a class="btn-success" href="Downloads/ichsa 2018 brochure.pdf" download="ICHSA2018_Broucher.pdf">
+                <a class="btn-success" href="Downloads/Program Schedule.pdf" download="Program Schedule PDF">
+                  <div class="card-action  center green darken-2">
+                    <div class="center-align">Download <i class="material-icons">file_download</i></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-content green white-text">
+                  <h4 class="card-stats-number center">SCRS Grant Result</h4>
+                </div>
+                <a class="btn-success" href="Downloads/SCRS Grants result_ICHSA 2018.pdf" download="SCRS Grant Result PDF">
                   <div class="card-action  center green darken-2">
                     <div class="center-align">Download <i class="material-icons">file_download</i></div>
                   </div>
