@@ -60,7 +60,7 @@
                                             <strong>From ISBT (Kashmere Gate) Bus Stop</strong>: Please board
                                             on the Delhi Metro at Kashmere Gate Metro Station and move towards Huda City
                                             Centre (Yellow Line) and deboard at IFFCO Chowk Metro Station. <br>
-                                            You can use Delhi Metro App for better info. 
+                                            You can use Delhi Metro App for better info. <br>
                                             <a href="https://play.google.com/store/apps/details?id=com.sraoss.dmrc" target="_blank"><img src="assets/images/google_play.png" alt="Google Play Button"></a>
                                         </p>
                                     </div>
@@ -117,17 +117,11 @@
                                     </div>
                                 </div>
                             </div>
-
-
-
-
+                            <h5> <a href="downloads.php">Click here to downlaod "How to reach Conference Venue"</a></h5>
                         </div>
                     </div>
                 </div>
             </div>
-            <br>
-            <br>
-           <h5> <a href="downloads.php">Click here to downlaod "How to reach Conference Venue"</a></h5>
         </div>
 
     </main>
