@@ -53,15 +53,15 @@
                                         <p> IFCO Metro station is a 40 minutes taxi ride from BML Munjal University.</p><br>
                                         <p>
                                             <strong>From New Delhi Railway Station (NDLS)</strong>: Please take Ajmeri Gate Exit and board on Metro from New Delhi Metro Station towards
-                                            Huda City Centre, and deboard the metro at IFFCO CHOWK Metro station.<br>
+                                            Huda City Centre, and deboard the metro at IFFCO CHOWK Metro station.<br><br>
                                             <strong>From Old Delhi Railway Station (DLI)</strong>: On the main exit you will find Chandani Chowk Metro
                                             station, please board on the train toward HUDA CITY CENTRE and deboard the metor
-                                            at IFFCO CHOWK Metro Station. <br>
+                                            at IFFCO CHOWK Metro Station. <br><br>
                                             <strong>From ISBT (Kashmere Gate) Bus Stop</strong>: Please board
                                             on the Delhi Metro at Kashmere Gate Metro Station and move towards Huda City
-                                            Centre (Yellow Line) and deboard at IFFCO Chowk Metro Station. <br>
+                                            Centre (Yellow Line) and deboard at IFFCO Chowk Metro Station. <br><br>
                                             You can use Delhi Metro App for better info. <br>
-                                            <a href="https://play.google.com/store/apps/details?id=com.sraoss.dmrc" target="_blank"><img src="assets/images/google_play.png" alt="Google Play Button"></a>
+                                            <a href="https://play.google.com/store/apps/details?id=com.sraoss.dmrc" target="_blank" style="height: 40px;"><img src="assets/images/google_play.png" alt="Google Play Button"></a>
                                         </p>
                                     </div>
                                     <div id="airport">
