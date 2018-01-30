@@ -117,7 +117,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <h5> <a href="downloads.php">Click here to downlaod "How to reach Conference Venue"</a></h5>
+                            <h5> <a href="Downloads.php">Click here to downlaod "How to reach Conference Venue"</a></h5>
                         </div>
                     </div>
                 </div>
