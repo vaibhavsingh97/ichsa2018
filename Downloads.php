@@ -38,6 +38,18 @@
             </div>
             <div class="col s12 m6 l4">
               <div class="card">
+                <div class="card-content green white-text">
+                  <h4 class="card-stats-number center">How to <br> reach BMU</h4>
+                </div>
+                <a class="btn-success" href="Downloads/How to reach BMU.pdf" download="How to reach BMU PDF">
+                  <div class="card-action  center green darken-2">
+                    <div class="center-align">Download <i class="material-icons">file_download</i></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
                 <div class="card-content pink lighten-1 white-text">
                   <h4 class="card-stats-number center">Template <br>(Latex)</h4>
                 </div>

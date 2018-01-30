@@ -50,7 +50,19 @@
                                         </p>
                                     </div>
                                     <div id="rail">
-                                        <p> IfCO Metro station is a 40 minutes taxi ride from BML Munjal University.</p>
+                                        <p> IFCO Metro station is a 40 minutes taxi ride from BML Munjal University.</p><br>
+                                        <p>
+                                            <strong>From New Delhi Railway Station (NDLS)</strong>: Please take Ajmeri Gate Exit and board on Metro from New Delhi Metro Station towards
+                                            Huda City Centre, and deboard the metro at IFFCO CHOWK Metro station.<br>
+                                            <strong>From Old Delhi Railway Station (DLI)</strong>: On the main exit you will find Chandani Chowk Metro
+                                            station, please board on the train toward HUDA CITY CENTRE and deboard the metor
+                                            at IFFCO CHOWK Metro Station. <br>
+                                            <strong>From ISBT (Kashmere Gate) Bus Stop</strong>: Please board
+                                            on the Delhi Metro at Kashmere Gate Metro Station and move towards Huda City
+                                            Centre (Yellow Line) and deboard at IFFCO Chowk Metro Station. <br>
+                                            You can use Delhi Metro App for better info. 
+                                            <a href="https://play.google.com/store/apps/details?id=com.sraoss.dmrc" target="_blank"><img src="assets/images/google_play.png" alt="Google Play Button"></a>
+                                        </p>
                                     </div>
                                     <div id="airport">
                                         <p>
@@ -65,7 +77,7 @@
                                             <ul class="collection">
                                                 <li class="collection-item avatar">
                                                     <img src="assets/images/ola/ic_micro.png" style="vertical-align: sub;" alt="Ola Micro" class="circle">
-                                                    <span class="title"  style="vertical-align: sub;">
+                                                    <span class="title" style="vertical-align: sub;">
                                                         <h5 style="text-align: initial; margin-top: 10px;">Micro</h5>
                                                     </span>
                                                     <span class="secondary-content">
@@ -73,35 +85,35 @@
                                                     </span>
                                                 </li>
                                                 <li class="collection-item avatar">
-                                                <img src="assets/images/ola/ic_mini.png" style="vertical-align: sub;" alt="Ola Mini" class="circle">
+                                                    <img src="assets/images/ola/ic_mini.png" style="vertical-align: sub;" alt="Ola Mini" class="circle">
                                                     <h5 style="text-align: initial; margin-top: 10px;">Mini</h5>
                                                     <a href="#!" class="secondary-content">
                                                         <p style="font-size:1.2em; margin-top:10px; text-align:center;">₹ 650 - ₹ 718 (Approx)</p>
                                                     </a>
                                                 </li>
                                                 <li class="collection-item avatar">
-                                                <img src="assets/images/ola/ic_prime.png" style="vertical-align: sub;" alt="Ola Prime" class="circle">
+                                                    <img src="assets/images/ola/ic_prime.png" style="vertical-align: sub;" alt="Ola Prime" class="circle">
                                                     <h5 style="text-align: initial; margin-top: 10px;">Prime Sedan</h5>
                                                     <a href="#!" class="secondary-content">
                                                         <p style="font-size:1.2em; margin-top:10px; text-align:center;">₹ 706 - ₹ 780 (Approx)</p>
                                                     </a>
                                                 </li>
                                                 <li class="collection-item avatar">
-                                                <img src="assets/images/ola/ic_prime_play.png" style="vertical-align: sub;" alt="Ola Prime Play" class="circle">
+                                                    <img src="assets/images/ola/ic_prime_play.png" style="vertical-align: sub;" alt="Ola Prime Play" class="circle">
                                                     <h5 style="text-align: initial; margin-top: 10px;">Prime Play</h5>
                                                     <a href="#!" class="secondary-content">
                                                         <p style="font-size:1.2em; margin-top:10px; text-align:center;">₹ 706 - ₹ 780 (Approx)</p>
                                                     </a>
                                                 </li>
                                                 <li class="collection-item avatar">
-                                                <img src="assets/images/ola/ic_suv.png" style="vertical-align: sub;" alt="Ola SUV" class="circle">
+                                                    <img src="assets/images/ola/ic_suv.png" style="vertical-align: sub;" alt="Ola SUV" class="circle">
                                                     <h5 style="text-align: initial; margin-top: 10px;">Prime SUV</h5>
                                                     <a href="#!" class="secondary-content">
                                                         <p style="font-size:1.2em; margin-top:10px; text-align:center;">₹ 991 - ₹ 1095 (Approx)</p>
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </h5>
+                                            </h5>
                                     </div>
                                 </div>
                             </div>
@@ -113,6 +125,9 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
+           <h5> <a href="downloads.php">Click here to downlaod "How to reach Conference Venue"</a></h5>
         </div>
 
     </main>
