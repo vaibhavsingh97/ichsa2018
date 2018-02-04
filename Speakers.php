@@ -70,7 +70,6 @@
             </div>
           </div>
         </div>
-        </div>
            <div class="col s12 m4">
           <div class="card darken-1 center hoverable">
             <div class="card-content black-text">
@@ -80,7 +79,7 @@
               <span class="grey-text school-name">State University of Novi Pazar, Serbia</span><br>
               <a href="https://scholar.google.com/citations?user=lQQCeKIAAAAJ&hl=en"><i class="material-icons circle teal" style="padding:10px; color:#ffffff;top:15px; margin-top:5px;">public</i></a>
             </div>
-
+        </div>
       </div>
     </div>
 
