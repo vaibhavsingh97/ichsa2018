@@ -28,7 +28,8 @@
               Patron
             </div>
           </div>
-            </div>
+        </div>
+      </div>
       <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
@@ -38,6 +39,7 @@
             <div class="chip">
               Patron
             </div>
+          </div>
         </div>
       </div>
       <div class="col s12 m4 l3">
@@ -52,8 +54,6 @@
           </div>
         </div>    
        </div>
-        </div>
-      </div>
       <div class="col s12 m4 l3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
