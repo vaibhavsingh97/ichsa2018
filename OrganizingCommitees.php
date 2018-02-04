@@ -28,6 +28,16 @@
               Patron
             </div>
           </div>
+            </div>
+      <div class="col s12 m4 l3">
+        <div class="card darken-1 center hoverable">
+          <div class="card-content black-text">
+            <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dean-MBS.jpg" alt="Prof. M.B. Srinivas">
+            <span class="card-title name"> Prof. M.B. Srinivas</span>
+            <span class="grey-text designation">Dean, SOET, BMU</span><br>
+            <div class="chip">
+              Patron
+            </div>
         </div>
       </div>
       <div class="col s12 m4 l3">
@@ -40,18 +50,8 @@
               Honorary chair
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col s12 m4 l3">
-        <div class="card darken-1 center hoverable">
-          <div class="card-content black-text">
-            <img class="circle img-responsive profile-picture" src="assets/images/Commitee/Dean-MBS.jpg" alt="Prof. M.B. Srinivas">
-            <span class="card-title name"> Prof. M.B. Srinivas</span>
-            <span class="grey-text designation">Dean, SOET, BMU</span><br>
-            <div class="chip">
-              Award &amp; Special Session Chair
-            </div>
-          </div>
+        </div>    
+       </div>
         </div>
       </div>
       <div class="col s12 m4 l3">
@@ -121,7 +121,7 @@
             <span class="card-title name"> Dr. Akhlaq Husain</span>
             <span class="grey-text designation">Associate Professor, Mathematics, BMU</span><br>
             <div class="chip">
-              Organizing Secretary
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -133,7 +133,7 @@
             <span class="card-title name"> Dr. Ziya Uddin</span>
             <span class="grey-text designation">Assistant Professor, Mathematics, BMU</span><br>
             <div class="chip">
-              Organizing Secretary
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@
             <span class="card-title name"> Dr. Rishi Asthana</span>
             <span class="grey-text designation">Assistant Professor, Mathematics, BMU</span><br>
             <div class="chip">
-              Organizing Secretary
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@
             <span class="card-title name"> Dr. Ranjib Banerjee</span>
             <span class="grey-text designation">Assistant Professor, Mathematics, BMU</span><br>
             <div class="chip">
-              Organizing Secretary
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -169,7 +169,7 @@
             <span class="card-title name"> Dr. Kalluri Vinayak</span>
             <span class="grey-text designation">Assistant Dean , Associate Professor, Mechanical BMU</span><br>
             <div class="chip">
-              Award chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -181,7 +181,7 @@
             <span class="card-title name"> Dr. Maheshwar Dwivedy</span>
             <span class="grey-text designation">Associate Professor, Mechanical, BMU</span><br>
             <div class="chip">
-              Special Session Chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -205,7 +205,7 @@
             <span class="card-title name"> Dr. Mukesh Mann</span>
             <span class="grey-text designation">Assistant Professor, CSE, BMU</span><br>
             <div class="chip">
-              Technical Chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -217,7 +217,7 @@
             <span class="card-title name"> Dr. Rakesh Prasad Badoni</span>
             <span class="grey-text designation">Assistant Professor, CSE, BMU</span><br>
             <div class="chip">
-              Technical Chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -229,7 +229,7 @@
             <span class="card-title name"> Prof. Goldie Gabrani</span>
             <span class="grey-text designation">Professor, CSE, BMU</span><br>
             <div class="chip">
-              Inaugural &amp; Valedictory Chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -241,7 +241,7 @@
             <span class="card-title name"> Dr. Sawti Jha</span>
             <span class="grey-text designation">Assistant Professor, ECE, BMU</span><br>
             <div class="chip">
-              Inaugural &amp; Valedictory Chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -253,7 +253,7 @@
             <span class="card-title name"> Dr. Ashok Kumar Suhag</span>
             <span class="grey-text designation">Assistant Professor, ECE, BMU</span><br>
             <div class="chip">
-              Cultural Program &amp; Hospitality Chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -265,7 +265,7 @@
             <span class="card-title name"> Dr. Sanjay Kashyap</span>
             <span class="grey-text designation">Assistant Professor, Physics, BMU</span><br>
             <div class="chip">
-              Publicity Chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -277,7 +277,7 @@
             <span class="card-title name"> Dr. Harish</span>
             <span class="grey-text designation">RTU Kota</span><br>
             <div class="chip">
-              Publicity Chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -301,7 +301,7 @@
             <span class="card-title name"> Mr. Nilaish</span>
             <span class="grey-text designation">Research associate, BMU</span><br>
             <div class="chip">
-              Publicity Chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -337,7 +337,7 @@
             <span class="card-title name"> Dr. Pradeep Kumar Arya</span>
             <span class="grey-text designation">Assistant Professor, CSE, BMU</span><br>
             <div class="chip">
-              Technical Chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
@@ -349,7 +349,7 @@
             <span class="card-title name"> Dr. Sumit Roy</span>
             <span class="grey-text designation">Assistant Professor,ME, BMU</span><br>
             <div class="chip">
-              Technical Chair
+              Local Organizing Commitee
             </div>
           </div>
         </div>
