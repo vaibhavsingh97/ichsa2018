@@ -1691,3 +1691,10 @@ marquee {
 .right-alert textarea.materialize-textarea + label:after{
     right:70px;
 }
+
+/*
+** Don't even ask.
+*/
+ul#Conference-dropdown-content {
+  overflow: visible !important;
+}
