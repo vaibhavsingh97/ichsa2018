@@ -4,7 +4,6 @@
   include 'include/php/head.php';
 ?>
 
-  <!-- <link rel="stylesheet" href="assets/css/typicons.min.css"> -->
   <main>
     <div class="container">
       <h4 class="heading">Student Volunteers</h4>
@@ -95,27 +94,6 @@
               </div>
             </div>
           </div>
-          <div class="col s12 m3">
-            <!-- <div class="card darken-1 center hoverable">
-              <div class="card-content black-text">
-                <img class="circle img-responsive profile-picture" src="assets/images/Commitee/default.png" alt="Vaibhav Singh">
-                <span class="card-title name">Nilamni Parth</span>
-                <span class="grey-text designation">Student</span>
-                <br>
-                <div class="chip">
-                  Deseigner
-                </div>
-                <div class="row" style="padding-top:10px;">
-                  <div class="container">
-                    <a class="col s4" href="https://github.com/akshatmittal" style="color: #24292E"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-                    <a class="col s4" href="https://www.facebook.com/itsreallyakshat" style="color:#4267B2"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                    <a class="col s4" href="https://twitter.com/iakshatmittal" style="color:#1DA1F2"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        </div>
       </div>
     </div>
   </main>

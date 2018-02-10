@@ -4,7 +4,6 @@
   include 'include/php/head.php';
 ?>
 
-
   <main>
     <div class="container">
       <h4 class="heading">Conference Proceedings</h4>

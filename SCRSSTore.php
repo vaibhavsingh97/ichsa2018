@@ -1,8 +1,5 @@
 <?php
 if(isset($_POST['issubmit'])) {
-    // print_r($_POST);
-    // print_r($_FILES);
-
     $target_path = "./store/".$_POST['paperID']."/";
     $dstore = $target_path."data.json";
     mkdir($target_path);

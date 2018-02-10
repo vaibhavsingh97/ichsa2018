@@ -26,7 +26,7 @@
             </div>
            </div>
           </div>
-          <div class="timeline-badge green white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_checked</i></div>
+          <div class="timeline-badge red white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_checked</i></div>
         </div>
         <div class="timeline-event">
           <div class="card timeline-content z-depth-2">
@@ -50,7 +50,7 @@
             </div>
            </div>
           </div>
-          <div class="timeline-badge grey white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
+          <div class="timeline-badge red white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
         </div>
         <div class="timeline-event">
           <div class="card timeline-content z-depth-2">
@@ -66,7 +66,7 @@
             </div>
             </div>
           </div>
-          <div class="timeline-badge grey white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
+          <div class="timeline-badge red white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
         </div>
         <div class="timeline-event">
           <div class="card timeline-content z-depth-2">
@@ -78,7 +78,7 @@
               </div>
             </div>
           </div>
-          <div class="timeline-badge grey white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
+          <div class="timeline-badge red white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
         </div>
         <div class="timeline-event">
           <div class="card timeline-content z-depth-2">
@@ -92,22 +92,6 @@
           </div>
           <div class="timeline-badge grey white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
         </div>
-        <!-- <div class="timeline-event">
-                    <div class="card timeline-content z-depth-2">
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Some text</span>
-                            <div class="chip teal" style="color:#fff;">
-                                15th August
-                                <i class="material-icons"></i>
-                            </div>
-                            <div class="chip teal" style="color:#fff;">
-                                15th August
-                                <i class="material-icons"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-badge grey white-text"><i class="material-icons" style="font-weight:300; font-size:40px;">radio_button_unchecked</i></div>
-                </div> -->
       </div>
     </div>
   </main>

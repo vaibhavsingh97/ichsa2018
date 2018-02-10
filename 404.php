@@ -13,7 +13,7 @@
 
           <div id='animation' style="margin-top:-10px;"></div>
           <div class="col s12 center">
-            <a class="waves-effect btn-large waves-light btn center-align hoverable" href="index.html">HOME</a>
+            <a class="waves-effect btn-large waves-light btn center-align hoverable" href="index.php">HOME</a>
           </div>
         </div>
       </div>

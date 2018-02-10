@@ -16,13 +16,7 @@
 
           <div id="contact-page" class="card">
             <div id="map"></div>
-            <!-- <div class="card-image waves-effect waves-block waves-light">
-            </div> -->
             <div class="card-content">
-              <!-- <a class="btn-floating activator btn-move-up waves-effect waves-light darken-2 right">
-                <i class="mdi-editor-mode-edit"></i>
-            </a> -->
-
               <div class="row">
                 <div class="col s12 m6">
                   <form class="contact-form">
@@ -59,10 +53,6 @@
                       <div class="collapsible-header active"><i class="mdi-communication-email"></i> Need Help?</div>
                       <div class="collapsible-body" style="display: none;">
                         <ul class="collection">
-                          <!-- <div style="vertical-align:middle; display:inline-flex; clear:both;">
-                            <span class="name">Dr. Neha Yadav</span>&nbsp;&nbsp;
-                            <div class="chip">Assitant Professor (Mathematics)</div>
-                          </div> -->
                           <div class="row">
                             <div class="col s12">
                               <span class="name">Dr. Neha Yadav</span>&nbsp;&nbsp;

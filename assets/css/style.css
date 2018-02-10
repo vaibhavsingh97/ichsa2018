@@ -642,46 +642,6 @@ nav.nav-center ul li a {
 }
 
 
-/*.buttons-wrapper a {
-  pointer-events: auto;
-}
-.mg-rg {
-  margin-right: 1rem;
-  margin-left: 1rem;
-  margin-top: 1rem;
-}*/
-
-
-/*.clockDiv-wrapper {
-  position: absolute;
-  margin-top: 544px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 100;
-  top: 0;
-  left: 35%;
-}
-
-.buttons-wrapper a {
-  pointer-events: auto;
-}*/
-
-
-/*@media screen and (min-width: 500px) {
-   body {
-      width:420px;
-   }
-}
-
-@media screen and (min-width: 800px) {
-   body {
-      width:720px;
-   }
-}*/
-
-
 /* TABLET LAYOUT
 ----------------------------------------------- */
 

@@ -74,25 +74,10 @@
                     a gala dinner. Atleast one author must register with full registration fee applicable as above for inclusion
                     of paper in the proceedings. One registration will cover only a paper of 10 pages length.
                   </p>
-                  <!-- <p class="note-text">* Limited shared accommodation shall be given on payment of Rs. 1000/- (in addition to the registration fee) on first cum first serve basis in student Hostel (boys/girls) for conference duration, subject to availability. (Preference will be given to Student Authors).
-                  </p> -->
                 </div>
-                <!-- <div class="row">
-                  <div class="col s12">
-                    <div class="card darken-1 z-depth:2">
-                      <div class="card-content black-text">
-                        <span class="card-title center">Registration Fee waiver scheme for students/ research scholars</span>
-                        <p style="text-align:justify;"> Select number of registration fee for students/research scholars (national/international) shall be waived off (partially/fully) by the organising committee. The application window for waive off scheme will be made available by
-                          August 31, 2017. Separate email request is required for the same to be send at <a href="mailto:secretariat@ichsa2018.com">secretariat@ichsa2018.com</a>.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
               </div>
             </div>
           </div>
-          <!-- <a class="button" href="#">Register Now</a> -->
-          <!-- TODO: Activate this later -->
         </div>
       </div>
     </div>

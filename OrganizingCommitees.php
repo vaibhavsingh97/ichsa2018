@@ -282,18 +282,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="col s12 m3">
-        <div class="card darken-1 center hoverable">
-          <div class="card-content black-text">
-            <img class="circle img-responsive profile-picture" src="assets/images/Commitee/arpit_img.png" alt="Dr. Arpit Bharadwaj">
-            <span class="card-title name"> Dr. Arpit Bharadwaj</span>
-            <span class="grey-text designation">Assistant Professor, CSE, Benett university,</span><br>
-            <div class="chip">
-              Publicity Chair
-            </div>
-          </div>
-        </div>
-      </div> -->
       <div class="col s12 m3">
         <div class="card darken-1 center hoverable">
           <div class="card-content black-text">
